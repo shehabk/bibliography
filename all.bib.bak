@@ -1,0 +1,306 @@
+% Encoding: ISO-8859-1
+
+@InProceedings{liu2014feature,
+  author       = {Liu, Ping and Zhou, Joey Tianyi and Tsang, Ivor Wai-Hung and Meng, Zibo and Han, Shizhong and Tong, Yan},
+  title        = {Feature disentangling machine-a novel approach of feature selection and disentangling in facial expression analysis},
+  booktitle    = {European Conference on Computer Vision},
+  year         = {2014},
+  pages        = {151--166},
+  organization = {Springer},
+  file         = {:liu2014feature - Feature Disentangling Machine a Novel Approach of Feature Selection and Disentangling in Facial Expression Analysis.pdf:PDF},
+  groups       = {MyGroup},
+}
+
+@Article{cai2017island,
+  author  = {Cai, Jie and Meng, Zibo and Khan, Ahmed Shehab and Li, Ziyuan and Tong, Yan},
+  title   = {{Island Loss for Learning Discriminative Features in Facial Expression Recognition}},
+  journal = {arXiv preprint arXiv:1710.03144},
+  year    = {2017},
+  file    = {:cai2017island - Island Loss for Learning Discriminative Features in Facial Expression Recognition.pdf:PDF},
+  groups  = {MyGroup},
+}
+
+@InProceedings{meng2017identity,
+  author       = {Meng, Zibo and Liu, Ping and Cai, Jie and Han, Shizhong and Tong, Yan},
+  title        = {Identity-aware convolutional neural network for facial expression recognition},
+  booktitle    = {Automatic Face \& Gesture Recognition (FG 2017), 2017 12th IEEE International Conference on},
+  year         = {2017},
+  pages        = {558--565},
+  organization = {IEEE},
+  file         = {:meng2017identity - Identity Aware Convolutional Neural Network for Facial Expression Recognition.pdf:PDF},
+  groups       = {MyGroup},
+}
+
+@InProceedings{han2016incremental,
+  author    = {Han, Shizhong and Meng, Zibo and Khan, Ahmed-Shehab and Tong, Yan},
+  title     = {Incremental boosting convolutional neural network for facial action unit recognition},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2016},
+  pages     = {109--117},
+  file      = {:han2016incremental - Incremental Boosting Convolutional Neural Network for Facial Action Unit Recognition.pdf:PDF},
+  groups    = {MyGroup},
+}
+
+@InProceedings{chen2016infogan,
+  author    = {Chen, Xi and Duan, Yan and Houthooft, Rein and Schulman, John and Sutskever, Ilya and Abbeel, Pieter},
+  title     = {Infogan: Interpretable representation learning by information maximizing generative adversarial nets},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2016},
+  pages     = {2172--2180},
+  file      = {:chen2016infogan_ - Infogan_ Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets.pdf:PDF},
+  groups    = {Gan Papers},
+}
+
+@Article{tran2017representation,
+  author  = {Tran, Luan and Yin, Xi and Liu, Xiaoming},
+  title   = {Representation learning by rotating your faces},
+  journal = {arXiv preprint arXiv:1705.11136},
+  year    = {2017},
+  file    = {:tran2017representation - Representation Learning by Rotating Your Faces.pdf:PDF},
+  groups  = {Gan Papers},
+}
+
+@Article{li2018globala,
+  author  = {Li, Peipei and Hu, Yibo and Li, Qi and He, Ran and Sun, Zhenan},
+  title   = {Global and Local Consistent Age Generative Adversarial Networks},
+  journal = {arXiv preprint arXiv:1801.08390},
+  year    = {2018},
+  file    = {:li2018global - Global and Local Consistent Age Generative Adversarial Networks.pdf:PDF},
+  groups  = {Gan Papers},
+}
+
+@Article{zhu2017unpaired,
+  author    = {Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A},
+  title     = {Unpaired image-to-image translation using cycle-consistent adversarial networks},
+  journal   = {arXiv preprint arXiv:1703.10593},
+  year      = {2017},
+  file      = {:zhu2017unpaired - Unpaired Image to Image Translation Using Cycle Consistent Adversarial Networks.pdf:PDF},
+  groups    = {Gan Papers},
+  publisher = {ICCV},
+}
+
+@InProceedings{saad2017dyadgan,
+  author    = {Saad Khan, Yuchi M and others},
+  title     = {DyadGAN: Generating Facial Expressions in Dyadic Interactions},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+  year      = {2017},
+  pages     = {11--18},
+  file      = {:saad2017dyadgan - DyadGAN_ Generating Facial Expressions in Dyadic Interactions.pdf:PDF},
+  groups    = {Gan Papers},
+}
+
+@InProceedings{kaneko2017generative,
+  author    = {Kaneko, Takuhiro and Hiramatsu, Kaoru and Kashino, Kunio},
+  title     = {Generative attribute controller with conditional filtered generative adversarial networks},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2017},
+  volume    = {2},
+  file      = {:kaneko2017generative - Generative Attribute Controller with Conditional Filtered Generative Adversarial Networks.pdf:PDF},
+  groups    = {Gan Papers},
+}
+
+@Article{isola2017image,
+  author  = {Isola, Phillip and Zhu, Jun-Yan and Zhou, Tinghui and Efros, Alexei A},
+  title   = {Image-to-image translation with conditional adversarial networks},
+  journal = {arXiv preprint},
+  year    = {2017},
+  file    = {:isola2017image - Image to Image Translation with Conditional Adversarial Networks.pdf:PDF},
+  groups  = {Gan Papers},
+}
+
+@Article{dolhansky2017eye,
+  author  = {Dolhansky, Brian and Ferrer, Cristian Canton},
+  title   = {Eye In-Painting with Exemplar Generative Adversarial Networks},
+  journal = {arXiv preprint arXiv:1712.03999},
+  year    = {2017},
+  file    = {:dolhansky2017eye - Eye in Painting with Exemplar Generative Adversarial Networks.pdf:PDF},
+  groups  = {Gan Papers},
+}
+
+@Article{radford2015unsuperviseda,
+  author  = {Radford, Alec and Metz, Luke and Chintala, Soumith},
+  title   = {Unsupervised representation learning with deep convolutional generative adversarial networks},
+  journal = {arXiv preprint arXiv:1511.06434},
+  year    = {2015},
+  file    = {:radford2015unsupervised - Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks.pdf:PDF},
+  groups  = {Gan Papers},
+}
+
+@Article{mirza2014conditional,
+  author  = {Mirza, Mehdi and Osindero, Simon},
+  title   = {Conditional generative adversarial nets},
+  journal = {arXiv preprint arXiv:1411.1784},
+  year    = {2014},
+  file    = {:mirza2014conditional - Conditional Generative Adversarial Nets.pdf:PDF},
+  groups  = {Gan Papers},
+}
+
+@InProceedings{goodfellow2014generative,
+  author    = {Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
+  title     = {Generative adversarial nets},
+  booktitle = {Advances in neural information processing systems},
+  year      = {2014},
+  pages     = {2672--2680},
+  file      = {:goodfellow2014generative - Generative Adversarial Nets.pdf:PDF},
+  groups    = {Gan Papers},
+}
+
+@InProceedings{zhao2015joint,
+  author       = {Zhao, Kaili and Chu, Wen-Sheng and De la Torre, Fernando and Cohn, Jeffrey F and Zhang, Honggang},
+  title        = {Joint patch and multi-label learning for facial action unit detection},
+  booktitle    = {Computer Vision and Pattern Recognition (CVPR), 2015 IEEE Conference on},
+  year         = {2015},
+  pages        = {2207--2216},
+  organization = {IEEE},
+  file         = {:zhao2015joint - Joint patch and multi-label learning for facial action unit detection.pdf:PDF},
+  groups       = {AU},
+}
+
+@InProceedings{li2017action,
+  author       = {Li, Wei and Abtahi, Farnaz and Zhu, Zhigang},
+  title        = {Action unit detection with region adaptation, multi-labeling learning and optimal temporal fusing},
+  booktitle    = {2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year         = {2017},
+  pages        = {6766--6775},
+  organization = {IEEE},
+  file         = {:li2017action - Action unit detection with region adaptation, multi-labeling learning and optimal temporal fusing.pdf:PDF},
+  groups       = {AU},
+  owner        = {shehabk},
+  timestamp    = {2018.02.10},
+}
+
+@InProceedings{zhao2016deep,
+  author    = {Zhao, Kaili and Chu, Wen-Sheng and Zhang, Honggang},
+  title     = {Deep region and multi-label learning for facial action unit detection},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year      = {2016},
+  pages     = {3391--3399},
+  file      = {:zhao2016deep - Deep region and multi-label learning for facial action unit detection.pdf:PDF},
+  groups    = {AU},
+  owner     = {shehabk},
+  timestamp = {2018.02.10},
+}
+
+@InProceedings{li2017eac,
+  author       = {Li, Wei and Abtahi, Farnaz and Zhu, Zhigang and Yin, Lijun},
+  title        = {Eac-net: A region-based deep enhancing and cropping approach for facial action unit detection},
+  booktitle    = {Automatic Face \& Gesture Recognition (FG 2017), 2017 12th IEEE International Conference on},
+  year         = {2017},
+  pages        = {103--110},
+  organization = {IEEE},
+  file         = {:li2017eac - Eac-net_ A region-based deep enhancing and cropping approach for facial action unit detection.pdf:PDF},
+  groups       = {AU},
+  owner        = {shehabk},
+  timestamp    = {2018.02.10},
+}
+
+@Article{zhong2015learning,
+  author    = {Zhong, Lin and Liu, Qingshan and Yang, Peng and Huang, Junzhou and Metaxas, Dimitris N},
+  title     = {Learning multiscale active facial patches for expression analysis},
+  journal   = {IEEE transactions on cybernetics},
+  year      = {2015},
+  volume    = {45},
+  number    = {8},
+  pages     = {1499--1510},
+  file      = {:zhong2015learning - Learning multiscale active facial patches for expression analysis.pdf:PDF},
+  groups    = {AU},
+  owner     = {shehabk},
+  publisher = {IEEE},
+  timestamp = {2018.02.10},
+}
+
+@InProceedings{chang2009learning,
+  author       = {Chang, Kai-Yueh and Liu, Tyng-Luh and Lai, Shang-Hong},
+  title        = {Learning partially-observed hidden conditional random fields for facial expression recognition},
+  booktitle    = {Computer Vision and Pattern Recognition, 2009. CVPR 2009. IEEE Conference on},
+  year         = {2009},
+  pages        = {533--540},
+  organization = {IEEE},
+  file         = {:chang2009learning - Learning partially-observed hidden conditional random fields for facial expression recognition.pdf:PDF},
+  groups       = {AU},
+  owner        = {shehabk},
+  timestamp    = {2018.02.10},
+}
+
+@InProceedings{chu2017learning,
+  author       = {Chu, Wen-Sheng and De la Torre, Fernando and Cohn, Jeffrey F},
+  title        = {Learning spatial and temporal cues for multi-label facial action unit detection},
+  booktitle    = {Automatic Face \& Gesture Recognition (FG 2017), 2017 12th IEEE International Conference on},
+  year         = {2017},
+  pages        = {25--32},
+  organization = {IEEE},
+  file         = {:chu2017learning - Learning spatial and temporal cues for multi-label facial action unit detection.pdf:PDF},
+  groups       = {AU},
+  owner        = {shehabk},
+  timestamp    = {2018.02.10},
+}
+
+@InProceedings{eleftheriadis2015multi,
+  author    = {Eleftheriadis, Stefanos and Rudovic, Ognjen and Pantic, Maja},
+  title     = {Multi-conditional latent variable model for joint facial action unit detection},
+  booktitle = {Proceedings of the IEEE International Conference on Computer Vision},
+  year      = {2015},
+  pages     = {3792--3800},
+  file      = {:eleftheriadis2015multi - Multi-conditional latent variable model for joint facial action unit detection.pdf:PDF},
+  groups    = {AU},
+  owner     = {shehabk},
+  timestamp = {2018.02.10},
+}
+
+@InProceedings{yang2014personalized,
+  author       = {Yang, Shuang and Rudovic, Ognjen and Pavlovic, Vladimir and Pantic, Maja},
+  title        = {Personalized modeling of facial action unit intensity},
+  booktitle    = {International Symposium on Visual Computing},
+  year         = {2014},
+  pages        = {269--281},
+  organization = {Springer},
+  groups       = {AU},
+  owner        = {shehabk},
+  timestamp    = {2018.02.10},
+}
+
+@InProceedings{chu2013selective,
+  author       = {Chu, Wen-Sheng and De la Torre, Fernando and Cohn, Jeffery F},
+  title        = {Selective transfer machine for personalized facial action unit detection},
+  booktitle    = {Computer Vision and Pattern Recognition (CVPR), 2013 IEEE Conference on},
+  year         = {2013},
+  pages        = {3515--3522},
+  organization = {IEEE},
+  file         = {:chu2013selective - Selective transfer machine for personalized facial action unit detection.pdf:PDF},
+  groups       = {AU},
+  owner        = {shehabk},
+  timestamp    = {2018.02.10},
+}
+
+@Article{pavlovicdeep,
+  author        = {Pavlovic, Vladimir and Schuller, Bj{\"o}ern and Pantic, Maja},
+  title         = {Deep Structured Learning for Facial Action Unit Intensity Estimation},
+  __markedentry = {[shehabk:]},
+  file          = {:pavlovicdeep - Deep Structured Learning for Facial Action Unit Intensity Estimation.pdf:PDF},
+  groups        = {AU},
+  owner         = {shehabk},
+  timestamp     = {2018.02.10},
+}
+
+@InProceedings{sangineto2014we,
+  author        = {Sangineto, Enver and Zen, Gloria and Ricci, Elisa and Sebe, Nicu},
+  title         = {We are not all equal: Personalizing models for facial expression analysis with transductive parameter transfer},
+  booktitle     = {Proceedings of the 22nd ACM international conference on Multimedia},
+  year          = {2014},
+  pages         = {357--366},
+  organization  = {ACM},
+  __markedentry = {[shehabk:6]},
+  file          = {:sangineto2014we - We are not all equal_ Personalizing models for facial expression analysis with transductive parameter transfer.pdf:PDF},
+  groups        = {AU},
+  owner         = {shehabk},
+  timestamp     = {2018.02.10},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: groupstree:
+0 AllEntriesGroup:;
+1 ExplicitGroup:AU\;0\;;
+1 ExplicitGroup:Gan Papers\;0\;;
+1 ExplicitGroup:MyGroup\;0\;;
+}
