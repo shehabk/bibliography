@@ -191,6 +191,7 @@
   file         = {:li2017eac - Eac-net_ A region-based deep enhancing and cropping approach for facial action unit detection.pdf:PDF},
   groups       = {AU},
   owner        = {shehabk},
+  review       = {This paper got recently got accepted in PAMI},
   timestamp    = {2018.02.10},
 }
 
