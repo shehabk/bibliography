@@ -524,13 +524,12 @@
 }
 
 @Article{ding2017exprgan,
-  author        = {Ding, Hui and Sricharan, Kumar and Chellappa, Rama},
-  title         = {Exprgan: Facial expression editing with controllable expression intensity},
-  journal       = {arXiv preprint arXiv:1709.03842},
-  year          = {2017},
-  __markedentry = {[shehabk:]},
-  file          = {:ding2017exprgan - Exprgan_ Facial expression editing with controllable expression intensity.pdf:PDF},
-  groups        = {Expression, Gan Papers},
+  author  = {Ding, Hui and Sricharan, Kumar and Chellappa, Rama},
+  title   = {Exprgan: Facial expression editing with controllable expression intensity},
+  journal = {arXiv preprint arXiv:1709.03842},
+  year    = {2017},
+  file    = {:ding2017exprgan - Exprgan_ Facial expression editing with controllable expression intensity.pdf:PDF},
+  groups  = {Expression, Gan Papers},
 }
 
 @Article{yeh2016semantic,
@@ -538,8 +537,20 @@
   title         = {Semantic facial expression editing using autoencoded flow},
   journal       = {arXiv preprint arXiv:1611.09961},
   year          = {2016},
-  __markedentry = {[shehabk:6]},
+  __markedentry = {[shehabk:]},
   groups        = {Expression, Expression_Transfer},
+}
+
+@Misc{ekamn1978facial,
+  author        = {Ekamn, P and Friesen, W},
+  title         = {Facial action coding system (FACS): manual},
+  year          = {1978},
+  __markedentry = {[shehabk:]},
+  file          = {:ekamn1978facial - Facial action coding system (FACS)_ manual.pdf:PDF},
+  groups        = {MyGroup, AU},
+  owner         = {shehabk},
+  publisher     = {Consulting Psychologists Press Palo Alto},
+  timestamp     = {2018.02.12},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
