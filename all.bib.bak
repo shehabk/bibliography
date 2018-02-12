@@ -107,6 +107,7 @@
   year    = {2017},
   file    = {:isola2017image - Image to Image Translation with Conditional Adversarial Networks.pdf:PDF},
   groups  = {Gan Papers},
+  review  = {Pix2Pix},
 }
 
 @Article{dolhansky2017eye,
@@ -532,4 +533,5 @@
 1 ExplicitGroup:Gan Papers\;0\;;
 1 ExplicitGroup:MyGroup\;0\;;
 1 ExplicitGroup:Expression\;0\;;
+2 ExplicitGroup:Expression_Transfer\;0\;;
 }
