@@ -279,7 +279,7 @@
   author    = {Pavlovic, Vladimir and Schuller, Bj{\"o}ern and Pantic, Maja},
   title     = {Deep Structured Learning for Facial Action Unit Intensity Estimation},
   file      = {:pavlovicdeep - Deep Structured Learning for Facial Action Unit Intensity Estimation.pdf:PDF},
-  groups    = {AU},
+  groups    = {AU, AU_Intesity},
   owner     = {shehabk},
   timestamp = {2018.02.10},
 }
@@ -533,23 +533,67 @@
 }
 
 @Article{yeh2016semantic,
-  author        = {Yeh, Raymond and Liu, Ziwei and Goldman, Dan B and Agarwala, Aseem},
-  title         = {Semantic facial expression editing using autoencoded flow},
-  journal       = {arXiv preprint arXiv:1611.09961},
-  year          = {2016},
-  __markedentry = {[shehabk:]},
-  groups        = {Expression, Expression_Transfer},
+  author  = {Yeh, Raymond and Liu, Ziwei and Goldman, Dan B and Agarwala, Aseem},
+  title   = {Semantic facial expression editing using autoencoded flow},
+  journal = {arXiv preprint arXiv:1611.09961},
+  year    = {2016},
+  groups  = {Expression, Expression_Transfer},
 }
 
 @Misc{ekamn1978facial,
-  author        = {Ekamn, P and Friesen, W},
-  title         = {Facial action coding system (FACS): manual},
-  year          = {1978},
+  author    = {Ekamn, P and Friesen, W},
+  title     = {Facial action coding system (FACS): manual},
+  year      = {1978},
+  file      = {:ekamn1978facial - Facial action coding system (FACS)_ manual.pdf:PDF},
+  groups    = {MyGroup, AU},
+  owner     = {shehabk},
+  publisher = {Consulting Psychologists Press Palo Alto},
+  timestamp = {2018.02.12},
+}
+
+@Article{tong2010unified,
+  author    = {Tong, Yan and Chen, Jixu and Ji, Qiang},
+  title     = {A unified probabilistic framework for spontaneous facial action modeling and understanding},
+  journal   = {IEEE transactions on pattern analysis and machine intelligence},
+  year      = {2010},
+  volume    = {32},
+  number    = {2},
+  pages     = {258--273},
+  file      = {:tong2010unified - A unified probabilistic framework for spontaneous facial action modeling and understanding.pdf:PDF},
+  groups    = {MyGroup},
+  owner     = {shehabk},
+  publisher = {IEEE},
+  timestamp = {2018.02.12},
+}
+
+@Article{tong2007facial,
+  author        = {Tong, Yan and Liao, Wenhui and Ji, Qiang},
+  title         = {Facial action unit recognition by exploiting their dynamic and semantic relationships},
+  journal       = {IEEE transactions on pattern analysis and machine intelligence},
+  year          = {2007},
+  volume        = {29},
+  number        = {10},
   __markedentry = {[shehabk:]},
-  file          = {:ekamn1978facial - Facial action coding system (FACS)_ manual.pdf:PDF},
-  groups        = {MyGroup, AU},
+  file          = {:tong2007facial - Facial action unit recognition by exploiting their dynamic and semantic relationships.pdf:PDF},
+  groups        = {MyGroup},
   owner         = {shehabk},
-  publisher     = {Consulting Psychologists Press Palo Alto},
+  publisher     = {IEEE},
+  timestamp     = {2018.02.12},
+}
+
+@Article{sariyanidi2015automatic,
+  author        = {Sariyanidi, Evangelos and Gunes, Hatice and Cavallaro, Andrea},
+  title         = {Automatic analysis of facial affect: A survey of registration, representation, and recognition},
+  journal       = {IEEE transactions on pattern analysis and machine intelligence},
+  year          = {2015},
+  volume        = {37},
+  number        = {6},
+  pages         = {1113--1133},
+  __markedentry = {[shehabk:6]},
+  file          = {:sariyanidi2015automatic - Automatic analysis of facial affect_ A survey of registration, representation, and recognition.pdf:PDF},
+  groups        = {Expression},
+  owner         = {shehabk},
+  publisher     = {IEEE},
   timestamp     = {2018.02.12},
 }
 
@@ -558,6 +602,7 @@
 @Comment{jabref-meta: groupstree:
 0 AllEntriesGroup:;
 1 ExplicitGroup:AU\;0\;;
+2 ExplicitGroup:AU_Intesity\;0\;;
 1 ExplicitGroup:Gan Papers\;0\;;
 1 ExplicitGroup:MyGroup\;0\;;
 1 ExplicitGroup:Expression\;0\;;
