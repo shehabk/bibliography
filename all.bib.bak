@@ -279,7 +279,7 @@
   author    = {Pavlovic, Vladimir and Schuller, Bj{\"o}ern and Pantic, Maja},
   title     = {Deep Structured Learning for Facial Action Unit Intensity Estimation},
   file      = {:pavlovicdeep - Deep Structured Learning for Facial Action Unit Intensity Estimation.pdf:PDF},
-  groups    = {AU, AU_Intesity},
+  groups    = {AU},
   owner     = {shehabk},
   timestamp = {2018.02.10},
 }
@@ -524,12 +524,13 @@
 }
 
 @Article{ding2017exprgan,
-  author  = {Ding, Hui and Sricharan, Kumar and Chellappa, Rama},
-  title   = {Exprgan: Facial expression editing with controllable expression intensity},
-  journal = {arXiv preprint arXiv:1709.03842},
-  year    = {2017},
-  file    = {:ding2017exprgan - Exprgan_ Facial expression editing with controllable expression intensity.pdf:PDF},
-  groups  = {Expression, Gan Papers},
+  author   = {Ding, Hui and Sricharan, Kumar and Chellappa, Rama},
+  title    = {Exprgan: Facial expression editing with controllable expression intensity},
+  journal  = {arXiv preprint arXiv:1709.03842},
+  year     = {2017},
+  file     = {:ding2017exprgan - Exprgan_ Facial expression editing with controllable expression intensity.pdf:PDF},
+  groups   = {Expression, Gan Papers},
+  keywords = {face synthesis},
 }
 
 @Article{yeh2016semantic,
@@ -567,34 +568,203 @@
 }
 
 @Article{tong2007facial,
-  author        = {Tong, Yan and Liao, Wenhui and Ji, Qiang},
-  title         = {Facial action unit recognition by exploiting their dynamic and semantic relationships},
-  journal       = {IEEE transactions on pattern analysis and machine intelligence},
-  year          = {2007},
-  volume        = {29},
-  number        = {10},
-  __markedentry = {[shehabk:]},
-  file          = {:tong2007facial - Facial action unit recognition by exploiting their dynamic and semantic relationships.pdf:PDF},
-  groups        = {MyGroup},
-  owner         = {shehabk},
-  publisher     = {IEEE},
-  timestamp     = {2018.02.12},
+  author    = {Tong, Yan and Liao, Wenhui and Ji, Qiang},
+  title     = {Facial action unit recognition by exploiting their dynamic and semantic relationships},
+  journal   = {IEEE transactions on pattern analysis and machine intelligence},
+  year      = {2007},
+  volume    = {29},
+  number    = {10},
+  file      = {:tong2007facial - Facial action unit recognition by exploiting their dynamic and semantic relationships.pdf:PDF},
+  groups    = {MyGroup},
+  owner     = {shehabk},
+  publisher = {IEEE},
+  timestamp = {2018.02.12},
 }
 
 @Article{sariyanidi2015automatic,
-  author        = {Sariyanidi, Evangelos and Gunes, Hatice and Cavallaro, Andrea},
-  title         = {Automatic analysis of facial affect: A survey of registration, representation, and recognition},
-  journal       = {IEEE transactions on pattern analysis and machine intelligence},
-  year          = {2015},
-  volume        = {37},
-  number        = {6},
-  pages         = {1113--1133},
-  __markedentry = {[shehabk:6]},
-  file          = {:sariyanidi2015automatic - Automatic analysis of facial affect_ A survey of registration, representation, and recognition.pdf:PDF},
-  groups        = {Expression},
+  author    = {Sariyanidi, Evangelos and Gunes, Hatice and Cavallaro, Andrea},
+  title     = {Automatic analysis of facial affect: A survey of registration, representation, and recognition},
+  journal   = {IEEE transactions on pattern analysis and machine intelligence},
+  year      = {2015},
+  volume    = {37},
+  number    = {6},
+  pages     = {1113--1133},
+  file      = {:sariyanidi2015automatic - Automatic analysis of facial affect_ A survey of registration, representation, and recognition.pdf:PDF},
+  groups    = {Expression},
+  owner     = {shehabk},
+  publisher = {IEEE},
+  timestamp = {2018.02.12},
+}
+
+@Article{song2017geometry,
+  author    = {Song, Lingxiao and Lu, Zhihe and He, Ran and Sun, Zhenan and Tan, Tieniu},
+  title     = {Geometry Guided Adversarial Facial Expression Synthesis},
+  journal   = {arXiv preprint arXiv:1712.03474},
+  year      = {2017},
+  file      = {:song2017geometry - Geometry Guided Adversarial Facial Expression Synthesis.pdf:PDF},
+  groups    = {Gan Papers},
+  owner     = {shehabk},
+  timestamp = {2018.02.19},
+}
+
+@Article{antipov2017face,
+  author    = {Antipov, Grigory and Baccouche, Moez and Dugelay, Jean-Luc},
+  title     = {Face aging with conditional generative adversarial networks},
+  journal   = {arXiv preprint arXiv:1702.01983},
+  year      = {2017},
+  file      = {:antipov2017face - Face aging with conditional generative adversarial networks.pdf:PDF},
+  groups    = {Gan Papers},
+  owner     = {shehabk},
+  timestamp = {2018.02.19},
+}
+
+@Article{di2017gp,
+  author    = {Di, Xing and Sindagi, Vishwanath A and Patel, Vishal M},
+  title     = {GP-GAN: Gender Preserving GAN for Synthesizing Faces from Landmarks},
+  journal   = {arXiv preprint arXiv:1710.00962},
+  year      = {2017},
+  file      = {:di2017gp - GP-GAN_ Gender Preserving GAN for Synthesizing Faces from Landmarks.pdf:PDF},
+  groups    = {Gan Papers},
+  owner     = {shehabk},
+  timestamp = {2018.02.19},
+}
+
+@Article{chang2017chinese,
+  author    = {Chang, Jie and Gu, Yujun and Zhang, Ya},
+  title     = {Chinese Typeface Transformation with Hierarchical Adversarial Network},
+  journal   = {arXiv preprint arXiv:1711.06448},
+  year      = {2017},
+  file      = {:chang2017chinese - Chinese Typeface Transformation with Hierarchical Adversarial Network.pdf:PDF},
+  groups    = {Gan Papers},
+  owner     = {shehabk},
+  timestamp = {2018.02.19},
+}
+
+@Article{huang2017face,
+  author    = {Huang, Zhiwu and Kratzwald, Bernhard and Paudel, Danda Pani and Wu, Jiqing and Van Gool, Luc},
+  title     = {Face Translation between Images and Videos using Identity-aware CycleGAN},
+  journal   = {arXiv preprint arXiv:1712.00971},
+  year      = {2017},
+  file      = {:huang2017face - Face Translation between Images and Videos using Identity-aware CycleGAN.pdf:PDF},
+  groups    = {Gan Papers},
+  owner     = {shehabk},
+  timestamp = {2018.02.19},
+}
+
+@Article{zhou2017label,
+  author    = {Zhou, Hao and Sun, Jin and Yacoob, Yaser and Jacobs, David W},
+  title     = {Label Denoising Adversarial Network (LDAN) for Inverse Lighting of Face Images},
+  journal   = {arXiv preprint arXiv:1709.01993},
+  year      = {2017},
+  file      = {:zhou2017label - Label Denoising Adversarial Network (LDAN) for Inverse Lighting of Face Images.pdf:PDF},
+  groups    = {Gan Papers},
+  owner     = {shehabk},
+  timestamp = {2018.02.19},
+}
+
+@Article{huang2017facea,
+  author        = {Huang, Rui and Zhang, Shu and Li, Tianyu and He, Ran and others},
+  title         = {Beyond face rotation: Global and local perception gan for photorealistic and identity preserving frontal view synthesis},
+  journal       = {arXiv preprint arXiv:1704.04086},
+  year          = {2017},
+  __markedentry = {[shehabk:]},
+  file          = {:huang2017facea - Beyond face rotation_ Global and local perception gan for photorealistic and identity preserving frontal view synthesis.pdf:PDF},
+  groups        = {Gan Papers},
   owner         = {shehabk},
-  publisher     = {IEEE},
-  timestamp     = {2018.02.12},
+  timestamp     = {2018.02.19},
+}
+
+@Book{bishop2006pattern,
+  title           = {Pattern Recognition and Machine Learning},
+  publisher       = {Springer},
+  year            = {2006},
+  author          = {Bishop, Christopher M.},
+  isbn            = {978-0387-31073-2},
+  bib2html_rescat = {General ML},
+  file            = {:bishop2006pattern - Pattern Recognition and Machine Learning.pdf:PDF},
+  groups          = {Books},
+  keywords        = {pr},
+  url             = {http://research.microsoft.com/en-us/um/people/cmbishop/prml/},
+}
+
+@Book{Duda01a,
+  title     = {Pattern Classification (2nd Ed)},
+  publisher = {Wiley},
+  year      = {2001},
+  author    = {Richard O. Duda and Peter E. Hart and David G. Stork},
+  annote    = {SIGNATUR = 785.172},
+  file      = {:Duda01a - Pattern Classification (2nd Ed).pdf:PDF},
+  groups    = {Books},
+  keywords  = {pr},
+  place     = {Favoritenstrasse 9/4th Floor/1863},
+}
+
+@Book{Goodfellow-et-al-2016,
+  title     = {Deep Learning},
+  publisher = {MIT Press},
+  year      = {2016},
+  author    = {Ian Goodfellow and Yoshua Bengio and Aaron Courville},
+  note      = {\url{http://www.deeplearningbook.org}},
+  file      = {:Goodfellow-et-al-2016 - Deep Learning.pdf:PDF},
+  groups    = {Books},
+  keywords  = {pr},
+}
+
+@Book{murphy2012machine,
+  title    = {Machine learning: a probabilistic perspective},
+  year     = {2012},
+  author   = {Kevin P Murphy},
+  address  = {Cambridge, MA},
+  file     = {:murphy2012machine - Machine learning_ a probabilistic perspective.pdf:PDF},
+  groups   = {Books},
+  keywords = {pr},
+}
+
+@InProceedings{patternsolution,
+  title    = {Solution Duda Book},
+  file     = {:PCDudaHartStorkSlotions.pdf:PDF},
+  groups   = {Books},
+  keywords = {pr_sol},
+}
+
+@Manual{solution,
+  title     = {Solution Bishop Book},
+  file      = {:PRML_solution_full.pdf:PDF},
+  groups    = {Books},
+  keywords  = {pr_sol},
+  owner     = {shehabk},
+  timestamp = {2018.02.19},
+}
+
+@Book{computer,
+  title     = {Computer vision_ A modern approach-Prentice Hall (2011)},
+  file      = {:David A. Forsyth, Jean Ponce-Computer vision_ A modern approach-Prentice Hall (2011).pdf:PDF},
+  groups    = {Books},
+  keywords  = {cv},
+  owner     = {shehabk},
+  timestamp = {2018.02.19},
+}
+
+@Book{probabilistic,
+  title     = {Probabilistic graphical models _ principles and techniques-MIT Press (2009.pdf:PDF},
+  file      = {:(Adaptive computation and machine learning) Daphne Koller_ Nir Friedman -Probabilistic graphical models _ principles and techniques-MIT Press (2009.pdf:PDF},
+  groups    = {Books},
+  keywords  = {pgr},
+  owner     = {shehabk},
+  timestamp = {2018.02.19},
+}
+
+@Article{goodfellow2016nips,
+  author        = {Goodfellow, Ian},
+  title         = {NIPS 2016 tutorial: Generative adversarial networks},
+  journal       = {arXiv preprint arXiv:1701.00160},
+  year          = {2016},
+  __markedentry = {[shehabk:6]},
+  file          = {:goodfellow2016nips - NIPS 2016 tutorial_ Generative adversarial networks.pdf:PDF},
+  groups        = {Gan Papers},
+  keywords      = {tutorial},
+  owner         = {shehabk},
+  timestamp     = {2018.02.19},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -607,4 +777,5 @@
 1 ExplicitGroup:MyGroup\;0\;;
 1 ExplicitGroup:Expression\;0\;;
 2 ExplicitGroup:Expression_Transfer\;0\;;
+1 ExplicitGroup:Books\;0\;;
 }
