@@ -538,7 +538,7 @@
   title   = {Semantic facial expression editing using autoencoded flow},
   journal = {arXiv preprint arXiv:1611.09961},
   year    = {2016},
-  groups  = {Expression, Expression_Transfer},
+  groups  = {Expression},
 }
 
 @Misc{ekamn1978facial,
@@ -663,15 +663,14 @@
 }
 
 @Article{huang2017facea,
-  author        = {Huang, Rui and Zhang, Shu and Li, Tianyu and He, Ran and others},
-  title         = {Beyond face rotation: Global and local perception gan for photorealistic and identity preserving frontal view synthesis},
-  journal       = {arXiv preprint arXiv:1704.04086},
-  year          = {2017},
-  __markedentry = {[shehabk:]},
-  file          = {:huang2017facea - Beyond face rotation_ Global and local perception gan for photorealistic and identity preserving frontal view synthesis.pdf:PDF},
-  groups        = {Gan Papers},
-  owner         = {shehabk},
-  timestamp     = {2018.02.19},
+  author    = {Huang, Rui and Zhang, Shu and Li, Tianyu and He, Ran and others},
+  title     = {Beyond face rotation: Global and local perception gan for photorealistic and identity preserving frontal view synthesis},
+  journal   = {arXiv preprint arXiv:1704.04086},
+  year      = {2017},
+  file      = {:huang2017facea - Beyond face rotation_ Global and local perception gan for photorealistic and identity preserving frontal view synthesis.pdf:PDF},
+  groups    = {Gan Papers},
+  owner     = {shehabk},
+  timestamp = {2018.02.19},
 }
 
 @Book{bishop2006pattern,
@@ -759,10 +758,22 @@
   title         = {NIPS 2016 tutorial: Generative adversarial networks},
   journal       = {arXiv preprint arXiv:1701.00160},
   year          = {2016},
-  __markedentry = {[shehabk:6]},
-  file          = {:goodfellow2016nips - NIPS 2016 tutorial_ Generative adversarial networks.pdf:PDF},
+  __markedentry = {[shehabk:]},
+  file          = {:goodfellow2016nips - NIPS 2016 tutorial_ Generative adversarial networks.pdf:PDF;:goodfellow2016nips - NIPS 2016 tutorial_ Generative adversarial networks_slides.pdf:PDF},
   groups        = {Gan Papers},
   keywords      = {tutorial},
+  owner         = {shehabk},
+  timestamp     = {2018.02.19},
+}
+
+@Article{goodfellow2014distinguishability,
+  author        = {Goodfellow, Ian J},
+  title         = {On distinguishability criteria for estimating generative models},
+  journal       = {arXiv preprint arXiv:1412.6515},
+  year          = {2014},
+  __markedentry = {[shehabk:6]},
+  file          = {:goodfellow2014distinguishability - On distinguishability criteria for estimating generative models.pdf:PDF},
+  groups        = {Gan Papers},
   owner         = {shehabk},
   timestamp     = {2018.02.19},
 }
@@ -772,10 +783,9 @@
 @Comment{jabref-meta: groupstree:
 0 AllEntriesGroup:;
 1 ExplicitGroup:AU\;0\;;
-2 ExplicitGroup:AU_Intesity\;0\;;
-1 ExplicitGroup:Gan Papers\;0\;;
 1 ExplicitGroup:MyGroup\;0\;;
 1 ExplicitGroup:Expression\;0\;;
-2 ExplicitGroup:Expression_Transfer\;0\;;
+1 ExplicitGroup:Generative Models\;0\;;
+2 ExplicitGroup:Gan Papers\;0\;;
 1 ExplicitGroup:Books\;0\;;
 }
