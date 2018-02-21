@@ -53,12 +53,13 @@
 }
 
 @Article{tran2017representation,
-  author  = {Tran, Luan and Yin, Xi and Liu, Xiaoming},
-  title   = {Representation learning by rotating your faces},
-  journal = {arXiv preprint arXiv:1705.11136},
-  year    = {2017},
-  file    = {:tran2017representation - Representation Learning by Rotating Your Faces.pdf:PDF},
-  groups  = {Gan Papers},
+  author   = {Tran, Luan and Yin, Xi and Liu, Xiaoming},
+  title    = {Representation learning by rotating your faces},
+  journal  = {arXiv preprint arXiv:1705.11136},
+  year     = {2017},
+  file     = {:tran2017representation - Representation Learning by Rotating Your Faces.pdf:PDF},
+  groups   = {Gan Papers, Image Translation GAN},
+  keywords = {image translation,nips17},
 }
 
 @Article{li2018globala,
@@ -76,8 +77,8 @@
   journal   = {arXiv preprint arXiv:1703.10593},
   year      = {2017},
   file      = {:zhu2017unpaired - Unpaired Image to Image Translation Using Cycle Consistent Adversarial Networks.pdf:PDF},
-  groups    = {Gan Papers},
-  keywords  = {image translation},
+  groups    = {Gan Papers, Image Translation GAN},
+  keywords  = {image translation,nips17},
   publisher = {ICCV},
 }
 
@@ -107,7 +108,7 @@
   journal  = {arXiv preprint},
   year     = {2017},
   file     = {:isola2017image - Image to Image Translation with Conditional Adversarial Networks.pdf:PDF},
-  groups   = {Gan Papers},
+  groups   = {Gan Papers, Image Translation GAN},
   keywords = {image translation,pix2pix,rank5},
   review   = {Pix2Pix},
 }
@@ -933,31 +934,109 @@
 }
 
 @Article{boesenlindbolarsen2015autoencoding,
-  author        = {Boesen Lindbo Larsen, Anders and Kaae S{\o}nderby, S{\o}ren and Larochelle, Hugo and Winther, Ole},
-  title         = {Autoencoding beyond pixels using a learned similarity metric},
-  journal       = {arXiv preprint arXiv:1512.09300},
-  year          = {2015},
-  __markedentry = {[shehabk:]},
-  file          = {:boesenlindbolarsen2015autoencoding - Autoencoding beyond pixels using a learned similarity metric.pdf:PDF},
-  groups        = {Gan Papers},
-  keywords      = {face synthesis},
-  owner         = {shehabk},
-  timestamp     = {2018-02-20},
-  url           = {https://github.com/zhangqianhui/vae-gan-tensorflow},
+  author    = {Boesen Lindbo Larsen, Anders and Kaae S{\o}nderby, S{\o}ren and Larochelle, Hugo and Winther, Ole},
+  title     = {Autoencoding beyond pixels using a learned similarity metric},
+  journal   = {arXiv preprint arXiv:1512.09300},
+  year      = {2015},
+  file      = {:boesenlindbolarsen2015autoencoding - Autoencoding beyond pixels using a learned similarity metric.pdf:PDF},
+  groups    = {Gan Papers},
+  keywords  = {face synthesis},
+  owner     = {shehabk},
+  timestamp = {2018-02-20},
+  url       = {https://github.com/zhangqianhui/vae-gan-tensorflow},
 }
 
 @Article{kim2017learning,
-  author        = {Kim, Taeksoo and Cha, Moonsu and Kim, Hyunsoo and Lee, Jungkwon and Kim, Jiwon},
-  title         = {Learning to discover cross-domain relations with generative adversarial networks},
-  journal       = {arXiv preprint arXiv:1703.05192},
+  author    = {Kim, Taeksoo and Cha, Moonsu and Kim, Hyunsoo and Lee, Jungkwon and Kim, Jiwon},
+  title     = {Learning to discover cross-domain relations with generative adversarial networks},
+  journal   = {arXiv preprint arXiv:1703.05192},
+  year      = {2017},
+  file      = {:kim2017learning - Learning to discover cross-domain relations with generative adversarial networks.pdf:PDF},
+  groups    = {Gan Papers, Image Translation GAN},
+  keywords  = {image translation},
+  owner     = {shehabk},
+  timestamp = {2018-02-20},
+  url       = {https://github.com/carpedm20/DiscoGAN-pytorch},
+}
+
+@InProceedings{liu2017unsupervised,
+  author    = {Liu, Ming-Yu and Breuel, Thomas and Kautz, Jan},
+  title     = {Unsupervised image-to-image translation networks},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2017},
+  pages     = {700--708},
+  file      = {:liu2017unsupervised - Unsupervised image-to-image translation networks.pdf:PDF},
+  groups    = {Gan Papers, Image Translation GAN},
+  keywords  = {image translation,nips17},
+  owner     = {shehabk},
+  timestamp = {2018-02-20},
+  url       = {https://github.com/mingyuliutw/UNIT},
+}
+
+@InProceedings{gan2017triangle,
+  author    = {Gan, Zhe and Chen, Liqun and Wang, Weiyao and Pu, Yuchen and Zhang, Yizhe and Liu, Hao and Li, Chunyuan and Carin, Lawrence},
+  title     = {Triangle generative adversarial networks},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2017},
+  pages     = {5253--5262},
+  file      = {:gan2017triangle - Triangle generative adversarial networks.pdf:PDF},
+  groups    = {Gan Papers, Image Translation GAN},
+  keywords  = {image translation,nips17},
+  owner     = {shehabk},
+  timestamp = {2018-02-20},
+}
+
+@InProceedings{zhang2017st,
+  author    = {Zhang, Jichao and Zhong, Fan and Cao, Gongze and Qin, Xueying},
+  title     = {ST-GAN: Unsupervised Facial Image Semantic Transformation Using Generative Adversarial Networks},
+  booktitle = {Asian Conference on Machine Learning},
+  year      = {2017},
+  pages     = {248--263},
+  file      = {:zhang2017st - ST-GAN_ Unsupervised Facial Image Semantic Transformation Using Generative Adversarial Networks.pdf:PDF},
+  groups    = {Gan Papers, Image Translation GAN},
+  keywords  = {image translation,acml17},
+  owner     = {shehabk},
+  timestamp = {2018-02-20},
+}
+
+@Article{wang2017high,
+  author    = {Wang, Ting-Chun and Liu, Ming-Yu and Zhu, Jun-Yan and Tao, Andrew and Kautz, Jan and Catanzaro, Bryan},
+  title     = {High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs},
+  journal   = {arXiv preprint arXiv:1711.11585},
+  year      = {2017},
+  file      = {:wang2017high - High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs.pdf:PDF},
+  groups    = {Gan Papers, Image Translation GAN},
+  keywords  = {image translation,pix2pixHD,nvidia},
+  owner     = {shehabk},
+  timestamp = {2018-02-20},
+  url       = {https://github.com/NVIDIA/pix2pixHD},
+}
+
+@Article{royer2017xgan,
+  author        = {Royer, Am{\'e}lie and Bousmalis, Konstantinos and Gouws, Stephan and Bertsch, Fred and Moressi, Inbar and Cole, Forrester and Murphy, Kevin},
+  title         = {XGAN: Unsupervised Image-to-Image Translation for many-to-many Mappings},
+  journal       = {arXiv preprint arXiv:1711.05139},
   year          = {2017},
-  __markedentry = {[shehabk:6]},
-  file          = {:kim2017learning - Learning to discover cross-domain relations with generative adversarial networks.pdf:PDF},
-  groups        = {Gan Papers},
+  __markedentry = {[shehabk:]},
+  file          = {:royer2017xgan - XGAN_ Unsupervised Image-to-Image Translation for many-to-many Mappings.pdf:PDF},
+  groups        = {Gan Papers, Image Translation GAN},
   keywords      = {image translation},
   owner         = {shehabk},
   timestamp     = {2018-02-20},
-  url           = {https://github.com/carpedm20/DiscoGAN-pytorch},
+}
+
+@InProceedings{zhu2017multimodal,
+  author        = {Zhu, Jun-Yan and Zhang, Richard and Pathak, Deepak and Darrell, Trevor and Efros, Alexei A and Wang, Oliver and Shechtman, Eli},
+  title         = {Toward multimodal image-to-image translation},
+  booktitle     = {Advances in Neural Information Processing Systems},
+  year          = {2017},
+  pages         = {465--476},
+  __markedentry = {[shehabk:6]},
+  file          = {:zhu2017multimodal - Toward multimodal image-to-image translation.pdf:PDF},
+  groups        = {Gan Papers, Image Translation GAN},
+  keywords      = {image translation,nips17,berkeley},
+  owner         = {shehabk},
+  timestamp     = {2018-02-20},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -969,6 +1048,7 @@
 1 ExplicitGroup:Expression\;0\;;
 1 ExplicitGroup:Generative Models\;0\;;
 2 ExplicitGroup:Gan Papers\;0\;;
+2 ExplicitGroup:Image Translation GAN\;0\;;
 1 ExplicitGroup:Books\;0\;;
 1 ExplicitGroup:paper review\;0\;;
 }
