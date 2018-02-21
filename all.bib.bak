@@ -49,7 +49,7 @@
   year      = {2016},
   pages     = {2172--2180},
   file      = {:chen2016infogan_ - Infogan_ Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Conditional Adversarial},
 }
 
 @Article{tran2017representation,
@@ -63,12 +63,13 @@
 }
 
 @Article{li2018globala,
-  author  = {Li, Peipei and Hu, Yibo and Li, Qi and He, Ran and Sun, Zhenan},
-  title   = {Global and Local Consistent Age Generative Adversarial Networks},
-  journal = {arXiv preprint arXiv:1801.08390},
-  year    = {2018},
-  file    = {:li2018global - Global and Local Consistent Age Generative Adversarial Networks.pdf:PDF},
-  groups  = {Gan Papers},
+  author   = {Li, Peipei and Hu, Yibo and Li, Qi and He, Ran and Sun, Zhenan},
+  title    = {Global and Local Consistent Age Generative Adversarial Networks},
+  journal  = {arXiv preprint arXiv:1801.08390},
+  year     = {2018},
+  file     = {:li2018global - Global and Local Consistent Age Generative Adversarial Networks.pdf:PDF},
+  groups   = {Gan Papers, Face Synthesis GAN},
+  keywords = {face synthesis},
 }
 
 @Article{zhu2017unpaired,
@@ -89,7 +90,8 @@
   year      = {2017},
   pages     = {11--18},
   file      = {:saad2017dyadgan - DyadGAN_ Generating Facial Expressions in Dyadic Interactions.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Face Synthesis GAN},
+  keywords  = {face synthesis},
 }
 
 @InProceedings{kaneko2017generative,
@@ -99,7 +101,8 @@
   year      = {2017},
   volume    = {2},
   file      = {:kaneko2017generative - Generative Attribute Controller with Conditional Filtered Generative Adversarial Networks.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Face Synthesis GAN},
+  keywords  = {face synthesis},
 }
 
 @Article{isola2017image,
@@ -114,12 +117,13 @@
 }
 
 @Article{dolhansky2017eye,
-  author  = {Dolhansky, Brian and Ferrer, Cristian Canton},
-  title   = {Eye In-Painting with Exemplar Generative Adversarial Networks},
-  journal = {arXiv preprint arXiv:1712.03999},
-  year    = {2017},
-  file    = {:dolhansky2017eye - Eye in Painting with Exemplar Generative Adversarial Networks.pdf:PDF},
-  groups  = {Gan Papers},
+  author   = {Dolhansky, Brian and Ferrer, Cristian Canton},
+  title    = {Eye In-Painting with Exemplar Generative Adversarial Networks},
+  journal  = {arXiv preprint arXiv:1712.03999},
+  year     = {2017},
+  file     = {:dolhansky2017eye - Eye in Painting with Exemplar Generative Adversarial Networks.pdf:PDF},
+  groups   = {Gan Papers, Inpainting},
+  keywords = {inpainting},
 }
 
 @Article{radford2015unsuperviseda,
@@ -128,8 +132,8 @@
   journal  = {arXiv preprint arXiv:1511.06434},
   year     = {2015},
   file     = {:radford2015unsupervised - Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks.pdf:PDF},
-  groups   = {Gan Papers},
-  keywords = {DC-GAN, rank5},
+  groups   = {Gan Papers, High Quality Image Generation},
+  keywords = {DC-GAN,iclr, rank5},
 }
 
 @Article{mirza2014conditional,
@@ -138,7 +142,7 @@
   journal  = {arXiv preprint arXiv:1411.1784},
   year     = {2014},
   file     = {:mirza2014conditional - Conditional Generative Adversarial Nets.pdf:PDF},
-  groups   = {Gan Papers},
+  groups   = {Gan Papers, Theory GAN, Conditional Adversarial},
   keywords = {rank5},
 }
 
@@ -149,7 +153,7 @@
   year      = {2014},
   pages     = {2672--2680},
   file      = {:goodfellow2014generative - Generative adversarial nets.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Theory GAN},
   keywords  = {rank5},
 }
 
@@ -535,7 +539,7 @@
   journal  = {arXiv preprint arXiv:1709.03842},
   year     = {2017},
   file     = {:ding2017exprgan - Exprgan_ Facial expression editing with controllable expression intensity.pdf:PDF},
-  groups   = {Expression, Gan Papers},
+  groups   = {Expression, Gan Papers, Face Synthesis GAN},
   keywords = {face synthesis},
 }
 
@@ -608,7 +612,8 @@
   journal   = {arXiv preprint arXiv:1712.03474},
   year      = {2017},
   file      = {:song2017geometry - Geometry Guided Adversarial Facial Expression Synthesis.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Face Synthesis GAN},
+  keywords  = {face synthesis},
   owner     = {shehabk},
   timestamp = {2018.02.19},
 }
@@ -619,7 +624,8 @@
   journal   = {arXiv preprint arXiv:1702.01983},
   year      = {2017},
   file      = {:antipov2017face - Face aging with conditional generative adversarial networks.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Face Synthesis GAN},
+  keywords  = {face synthesis},
   owner     = {shehabk},
   timestamp = {2018.02.19},
 }
@@ -630,7 +636,8 @@
   journal   = {arXiv preprint arXiv:1710.00962},
   year      = {2017},
   file      = {:di2017gp - GP-GAN_ Gender Preserving GAN for Synthesizing Faces from Landmarks.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Face Synthesis GAN},
+  keywords  = {face synthesis},
   owner     = {shehabk},
   timestamp = {2018.02.19},
 }
@@ -652,7 +659,8 @@
   journal   = {arXiv preprint arXiv:1712.00971},
   year      = {2017},
   file      = {:huang2017face - Face Translation between Images and Videos using Identity-aware CycleGAN.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Face Synthesis GAN},
+  keywords  = {face synthesis},
   owner     = {shehabk},
   timestamp = {2018.02.19},
 }
@@ -663,7 +671,7 @@
   journal   = {arXiv preprint arXiv:1709.01993},
   year      = {2017},
   file      = {:zhou2017label - Label Denoising Adversarial Network (LDAN) for Inverse Lighting of Face Images.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Face Synthesis GAN},
   owner     = {shehabk},
   timestamp = {2018.02.19},
 }
@@ -674,7 +682,7 @@
   journal   = {arXiv preprint arXiv:1704.04086},
   year      = {2017},
   file      = {:huang2017facea - Beyond face rotation_ Global and local perception gan for photorealistic and identity preserving frontal view synthesis.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Face Synthesis GAN},
   keywords  = {face synthesis,iccv17},
   owner     = {shehabk},
   timestamp = {2018.02.19},
@@ -766,7 +774,7 @@
   journal   = {arXiv preprint arXiv:1701.00160},
   year      = {2016},
   file      = {:goodfellow2016nips - NIPS 2016 tutorial_ Generative adversarial networks.pdf:PDF;:goodfellow2016nips - NIPS 2016 tutorial_ Generative adversarial networks_slides.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Tutorials GAN},
   keywords  = {tutorial},
   owner     = {shehabk},
   timestamp = {2018.02.19},
@@ -778,7 +786,7 @@
   journal   = {arXiv preprint arXiv:1412.6515},
   year      = {2014},
   file      = {:goodfellow2014distinguishability - On distinguishability criteria for estimating generative models.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Theory GAN},
   owner     = {shehabk},
   timestamp = {2018.02.19},
 }
@@ -790,7 +798,8 @@
   year      = {2017},
   pages     = {65--75},
   file      = {:zhao2017dual - Dual-agent gans for photorealistic and identity preserving profile face synthesis.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Face Synthesis GAN},
+  keywords  = {face synthesis,nips17},
   owner     = {shehabk},
   timestamp = {2018-02-20},
 }
@@ -799,7 +808,7 @@
   author   = {Y LeCun},
   title    = {Energy-Based GANs \& other Adversarial things},
   file     = {:gansy - Y LeCun.pdf:PDF},
-  groups   = {Gan Papers},
+  groups   = {Gan Papers, Tutorials GAN},
   keywords = {tutorial},
 }
 
@@ -807,7 +816,7 @@
   title     = {How to Train a GAN},
   author    = {Soumith},
   url       = {https://github.com/soumith/ganhacks},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Tutorials GAN},
   keywords  = {tutorial},
   owner     = {shehabk},
   review    = {12) If you have labels, use them (Say For example, Expression Classification.)},
@@ -821,7 +830,7 @@
   year      = {2016},
   pages     = {2234--2242},
   file      = {:salimans2016improved - Improved techniques for training gans.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Tutorials GAN},
   url       = {https://github.com/openai/improved-gan},
 }
 
@@ -849,7 +858,7 @@
   pages        = {1225--1233},
   organization = {IEEE},
   file         = {:shen2017learning - Learning residual images for face attribute manipulation.pdf:PDF},
-  groups       = {Gan Papers},
+  groups       = {Gan Papers, Face Synthesis GAN},
   keywords     = {face synthesis,cvpr17},
   owner        = {shehabk},
   timestamp    = {2018-02-20},
@@ -862,7 +871,7 @@
   journal   = {arXiv preprint arXiv:1609.07093},
   year      = {2016},
   file      = {:brock2016neural - Neural photo editing with introspective adversarial networks.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Face Synthesis GAN},
   keywords  = {face synthesis,iclr17},
   owner     = {shehabk},
   timestamp = {2018-02-20},
@@ -874,7 +883,7 @@
   journal   = {arXiv preprint arXiv:1704.04131},
   year      = {2017},
   file      = {:shu2017neural - Neural face editing with intrinsic image disentangling.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Face Synthesis GAN},
   keywords  = {face synthesis,cvpr17},
   owner     = {shehabk},
   timestamp = {2018-02-20},
@@ -886,7 +895,7 @@
   journal   = {arXiv preprint arXiv:1705.04932},
   year      = {2017},
   file      = {:zhou2017genegan - Genegan_ Learning object transfiguration and attribute subspace from unpaired data.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Face Synthesis GAN},
   keywords  = {face synthesis,bmvc17},
   owner     = {shehabk},
   timestamp = {2018-02-20},
@@ -899,7 +908,7 @@
   journal   = {arXiv preprint arXiv:1711.09020},
   year      = {2017},
   file      = {:choi2017stargan - StarGAN_ Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Face Synthesis GAN},
   keywords  = {face synthesis},
   owner     = {shehabk},
   timestamp = {2018-02-20},
@@ -912,7 +921,7 @@
   journal   = {arXiv preprint arXiv:1611.06355},
   year      = {2016},
   file      = {:perarnau2016invertible - Invertible Conditional GANs for image editing.(2016).pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Face Synthesis GAN},
   keywords  = {face synthesis},
   owner     = {shehabk},
   timestamp = {2018-02-20},
@@ -926,7 +935,7 @@
   year      = {2016},
   pages     = {469--477},
   file      = {:liu2016coupled - Coupled generative adversarial networks.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Face Synthesis GAN},
   keywords  = {face synthesis,image translation,nips17},
   owner     = {shehabk},
   timestamp = {2018-02-20},
@@ -939,7 +948,7 @@
   journal   = {arXiv preprint arXiv:1512.09300},
   year      = {2015},
   file      = {:boesenlindbolarsen2015autoencoding - Autoencoding beyond pixels using a learned similarity metric.pdf:PDF},
-  groups    = {Gan Papers},
+  groups    = {Gan Papers, Face Synthesis GAN},
   keywords  = {face synthesis},
   owner     = {shehabk},
   timestamp = {2018-02-20},
@@ -1048,7 +1057,14 @@
 1 ExplicitGroup:Expression\;0\;;
 1 ExplicitGroup:Generative Models\;0\;;
 2 ExplicitGroup:Gan Papers\;0\;;
-2 ExplicitGroup:Image Translation GAN\;0\;;
+3 ExplicitGroup:Image Translation GAN\;0\;;
+3 ExplicitGroup:Face Synthesis GAN\;0\;;
+3 ExplicitGroup:Tutorials GAN\;0\;;
+3 ExplicitGroup:Theory GAN\;0\;;
+3 ExplicitGroup:Conditional Adversarial\;0\;;
+3 ExplicitGroup:Inpainting\;0\;;
+3 ExplicitGroup:High Quality Image Generation\;0\;;
+3 ExplicitGroup:Unlclassified\;0\;;
 1 ExplicitGroup:Books\;0\;;
 1 ExplicitGroup:paper review\;0\;;
 }
