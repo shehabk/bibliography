@@ -101,13 +101,14 @@
 }
 
 @Article{isola2017image,
-  author  = {Isola, Phillip and Zhu, Jun-Yan and Zhou, Tinghui and Efros, Alexei A},
-  title   = {Image-to-image translation with conditional adversarial networks},
-  journal = {arXiv preprint},
-  year    = {2017},
-  file    = {:isola2017image - Image to Image Translation with Conditional Adversarial Networks.pdf:PDF},
-  groups  = {Gan Papers},
-  review  = {Pix2Pix},
+  author   = {Isola, Phillip and Zhu, Jun-Yan and Zhou, Tinghui and Efros, Alexei A},
+  title    = {Image-to-image translation with conditional adversarial networks},
+  journal  = {arXiv preprint},
+  year     = {2017},
+  file     = {:isola2017image - Image to Image Translation with Conditional Adversarial Networks.pdf:PDF},
+  groups   = {Gan Papers},
+  keywords = {rank5},
+  review   = {Pix2Pix},
 }
 
 @Article{dolhansky2017eye,
@@ -120,21 +121,23 @@
 }
 
 @Article{radford2015unsuperviseda,
-  author  = {Radford, Alec and Metz, Luke and Chintala, Soumith},
-  title   = {Unsupervised representation learning with deep convolutional generative adversarial networks},
-  journal = {arXiv preprint arXiv:1511.06434},
-  year    = {2015},
-  file    = {:radford2015unsupervised - Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks.pdf:PDF},
-  groups  = {Gan Papers},
+  author   = {Radford, Alec and Metz, Luke and Chintala, Soumith},
+  title    = {Unsupervised representation learning with deep convolutional generative adversarial networks},
+  journal  = {arXiv preprint arXiv:1511.06434},
+  year     = {2015},
+  file     = {:radford2015unsupervised - Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks.pdf:PDF},
+  groups   = {Gan Papers},
+  keywords = {DC-GAN, rank5},
 }
 
 @Article{mirza2014conditional,
-  author  = {Mirza, Mehdi and Osindero, Simon},
-  title   = {Conditional generative adversarial nets},
-  journal = {arXiv preprint arXiv:1411.1784},
-  year    = {2014},
-  file    = {:mirza2014conditional - Conditional Generative Adversarial Nets.pdf:PDF},
-  groups  = {Gan Papers},
+  author   = {Mirza, Mehdi and Osindero, Simon},
+  title    = {Conditional generative adversarial nets},
+  journal  = {arXiv preprint arXiv:1411.1784},
+  year     = {2014},
+  file     = {:mirza2014conditional - Conditional Generative Adversarial Nets.pdf:PDF},
+  groups   = {Gan Papers},
+  keywords = {rank5},
 }
 
 @InProceedings{goodfellow2014generative,
@@ -145,6 +148,7 @@
   pages     = {2672--2680},
   file      = {:goodfellow2014generative - Generative adversarial nets.pdf:PDF},
   groups    = {Gan Papers},
+  keywords  = {rank5},
 }
 
 @InProceedings{zhao2015joint,
@@ -790,14 +794,50 @@
   timestamp     = {2018-02-20},
 }
 
-@Standard{energy,
-  title     = {Energy-Based GANs \& other Adversarial things},
-  author    = {Yann Le Cun},
-  file      = {:energy - Energy-Based GANs_& other_Adversarial things.pdf:PDF},
+@InProceedings{gansy,
+  author   = {Y LeCun},
+  title    = {Energy-Based GANs \& other Adversarial things},
+  file     = {:gansy - Y LeCun.pdf:PDF},
+  groups   = {Gan Papers},
+  keywords = {tutorial},
+}
+
+@Standard{soumithhow,
+  title     = {How to Train a GAN},
+  author    = {Soumith},
+  url       = {https://github.com/soumith/ganhacks},
   groups    = {Gan Papers},
   keywords  = {tutorial},
   owner     = {shehabk},
-  timestamp = {2018-02-20},
+  review    = {12) If you have labels, use them (Say For example, Expression Classification.)},
+  timestamp = {2018.02.20},
+}
+
+@InProceedings{salimans2016improved,
+  author    = {Salimans, Tim and Goodfellow, Ian and Zaremba, Wojciech and Cheung, Vicki and Radford, Alec and Chen, Xi},
+  title     = {Improved techniques for training gans},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2016},
+  pages     = {2234--2242},
+  file      = {:salimans2016improved - Improved techniques for training gans.pdf:PDF},
+  groups    = {Gan Papers},
+  url       = {https://github.com/openai/improved-gan},
+}
+
+@InProceedings{boosting2017for,
+  title    = {Deep Boosting and of Complementary and Networks for Large-Scale},
+  year     = {2017},
+  file     = {:boosting2017for - _____For Peer Review Only.pdf:PDF},
+  groups   = {paper review},
+  keywords = {deep boosting, large-scale visual recognition, learning complexities},
+}
+
+@InProceedings{expression2018for,
+  title    = {Facial Expression and Recognition with Active and Local Shape},
+  year     = {2018},
+  file     = {:expression2018for - _____For Peer Review Only.pdf:PDF},
+  groups   = {paper review},
+  keywords = {Feature representation < I.4.7 Feature Measurement < I.4 Image Processing and Computer Vision < I Computing Methodologie},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -810,4 +850,5 @@
 1 ExplicitGroup:Generative Models\;0\;;
 2 ExplicitGroup:Gan Papers\;0\;;
 1 ExplicitGroup:Books\;0\;;
+1 ExplicitGroup:paper review\;0\;;
 }
