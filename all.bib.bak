@@ -1072,6 +1072,74 @@
   timestamp = {2018-02-20},
 }
 
+@Article{yeh2016semantic,
+  author    = {Yeh, Raymond and Chen, Chen and Lim, Teck Yian and Hasegawa-Johnson, Mark and Do, Minh N},
+  title     = {Semantic image inpainting with perceptual and contextual losses},
+  journal   = {arXiv preprint arXiv:1607.07539},
+  year      = {2016},
+  file      = {:yeh2016semantic - Semantic image inpainting with perceptual and contextual losses.pdf:PDF},
+  groups    = {Inpainting},
+  keywords  = {inpainting,cvpr17},
+  owner     = {shehabk},
+  timestamp = {2018-02-20},
+}
+
+@InProceedings{pathak2016context,
+  author    = {Pathak, Deepak and Krahenbuhl, Philipp and Donahue, Jeff and Darrell, Trevor and Efros, Alexei A},
+  title     = {Context encoders: Feature learning by inpainting},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year      = {2016},
+  pages     = {2536--2544},
+  file      = {:pathak2016context - Context encoders_ Feature learning by inpainting.pdf:PDF},
+  groups    = {Inpainting},
+  keywords  = {inpainting,iccv17},
+  owner     = {shehabk},
+  timestamp = {2018-02-20},
+}
+
+@Article{denton2016semi,
+  author    = {Denton, Emily and Gross, Sam and Fergus, Rob},
+  title     = {Semi-supervised learning with context-conditional generative adversarial networks},
+  journal   = {arXiv preprint arXiv:1611.06430},
+  year      = {2016},
+  file      = {:denton2016semi - Semi-supervised learning with context-conditional generative adversarial networks.pdf:PDF},
+  groups    = {Inpainting},
+  keywords  = {inpainting},
+  owner     = {shehabk},
+  timestamp = {2018-02-20},
+}
+
+@InProceedings{li2017generative,
+  author    = {Li, Yijun and Liu, Sifei and Yang, Jimei and Yang, Ming-Hsuan},
+  title     = {Generative face completion},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year      = {2017},
+  volume    = {1},
+  number    = {3},
+  pages     = {6},
+  file      = {:li2017generative - Generative face completion.pdf:PDF},
+  groups    = {Inpainting},
+  keywords  = {inpainting},
+  owner     = {shehabk},
+  timestamp = {2018-02-20},
+}
+
+@Article{iizuka2017globally,
+  author    = {Iizuka, Satoshi and Simo-Serra, Edgar and Ishikawa, Hiroshi},
+  title     = {Globally and locally consistent image completion},
+  journal   = {ACM Transactions on Graphics (TOG)},
+  year      = {2017},
+  volume    = {36},
+  number    = {4},
+  pages     = {107},
+  file      = {:iizuka2017globally - Globally and locally consistent image completion.pdf:PDF},
+  groups    = {Inpainting},
+  keywords  = {inpainting},
+  owner     = {shehabk},
+  publisher = {ACM},
+  timestamp = {2018-02-20},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: groupstree:

@@ -1072,7 +1072,7 @@
   timestamp = {2018-02-20},
 }
 
-@Article{yeh2016semantic,
+@Article{yeh2016semantica,
   author    = {Yeh, Raymond and Chen, Chen and Lim, Teck Yian and Hasegawa-Johnson, Mark and Do, Minh N},
   title     = {Semantic image inpainting with perceptual and contextual losses},
   journal   = {arXiv preprint arXiv:1607.07539},
