@@ -166,6 +166,7 @@
   organization = {IEEE},
   file         = {:zhao2015joint - Joint patch and multi-label learning for facial action unit detection.pdf:PDF},
   groups       = {AU},
+  keywords     = {JPML},
 }
 
 @InProceedings{li2017action,
@@ -189,6 +190,7 @@
   pages     = {3391--3399},
   file      = {:zhao2016deep - Deep region and multi-label learning for facial action unit detection.pdf:PDF},
   groups    = {AU},
+  keywords  = {DRML},
   owner     = {shehabk},
   timestamp = {2018.02.10},
 }
@@ -1205,6 +1207,21 @@
   title  = {CSCE 763: Digital Image Processing},
   year   = {2016},
   file   = {:tong2016csce - CSCE 763_ Digital Image Processing.pdf:PDF},
+  groups = {Course Slides},
+}
+
+@InProceedings{kollercourserapgm,
+  author   = {Daphne Koller},
+  title    = {Coursera:PGM Slides},
+  file     = {:kollercourserapgm - Coursera_PGM Slides.pdf:PDF},
+  groups   = {Course Slides},
+  keywords = {manual},
+}
+
+@InProceedings{larochelleneural,
+  author = {Hugo Larochelle},
+  title  = {Neural Networks: Hugo Larochelle},
+  file   = {:larochelleneural - Neural Networks_ Hugo Larochelle.pdf:PDF},
   groups = {Course Slides},
 }
 
