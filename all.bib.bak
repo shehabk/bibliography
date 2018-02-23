@@ -696,7 +696,7 @@
   bib2html_rescat = {General ML},
   file            = {:bishop2006pattern - Pattern Recognition and Machine Learning.pdf:PDF},
   groups          = {Books},
-  keywords        = {pr},
+  keywords        = {pr,bishop},
   url             = {http://research.microsoft.com/en-us/um/people/cmbishop/prml/},
 }
 
@@ -708,7 +708,7 @@
   annote    = {SIGNATUR = 785.172},
   file      = {:Duda01a - Pattern Classification (2nd Ed).pdf:PDF},
   groups    = {Books},
-  keywords  = {pr},
+  keywords  = {pr,duda},
   place     = {Favoritenstrasse 9/4th Floor/1863},
 }
 
@@ -720,7 +720,7 @@
   note      = {\url{http://www.deeplearningbook.org}},
   file      = {:Goodfellow-et-al-2016 - Deep Learning.pdf:PDF},
   groups    = {Books},
-  keywords  = {pr},
+  keywords  = {pr,goodfellow},
 }
 
 @Book{murphy2012machine,
@@ -730,21 +730,21 @@
   address  = {Cambridge, MA},
   file     = {:murphy2012machine - Machine learning_ a probabilistic perspective.pdf:PDF},
   groups   = {Books},
-  keywords = {pr},
+  keywords = {pr,murphy},
 }
 
 @InProceedings{patternsolution,
   title    = {Solution Duda Book},
   file     = {:PCDudaHartStorkSlotions.pdf:PDF},
   groups   = {Books},
-  keywords = {pr_sol},
+  keywords = {pr_sol,duda},
 }
 
 @Manual{solution,
   title     = {Solution Bishop Book},
   file      = {:PRML_solution_full.pdf:PDF},
   groups    = {Books},
-  keywords  = {pr_sol},
+  keywords  = {pr_sol,bishop},
   owner     = {shehabk},
   timestamp = {2018.02.19},
 }
@@ -762,7 +762,7 @@
   title     = {Probabilistic graphical models _ principles and techniques-MIT Press (2009.pdf:PDF},
   file      = {:(Adaptive computation and machine learning) Daphne Koller_ Nir Friedman -Probabilistic graphical models _ principles and techniques-MIT Press (2009.pdf:PDF},
   groups    = {Books},
-  keywords  = {pgr},
+  keywords  = {pgm},
   owner     = {shehabk},
   timestamp = {2018.02.19},
 }
@@ -1021,16 +1021,15 @@
 }
 
 @Article{royer2017xgan,
-  author        = {Royer, Am{\'e}lie and Bousmalis, Konstantinos and Gouws, Stephan and Bertsch, Fred and Moressi, Inbar and Cole, Forrester and Murphy, Kevin},
-  title         = {XGAN: Unsupervised Image-to-Image Translation for many-to-many Mappings},
-  journal       = {arXiv preprint arXiv:1711.05139},
-  year          = {2017},
-  __markedentry = {[shehabk:]},
-  file          = {:royer2017xgan - XGAN_ Unsupervised Image-to-Image Translation for many-to-many Mappings.pdf:PDF},
-  groups        = {Image Translation GAN},
-  keywords      = {image translation},
-  owner         = {shehabk},
-  timestamp     = {2018-02-20},
+  author    = {Royer, Am{\'e}lie and Bousmalis, Konstantinos and Gouws, Stephan and Bertsch, Fred and Moressi, Inbar and Cole, Forrester and Murphy, Kevin},
+  title     = {XGAN: Unsupervised Image-to-Image Translation for many-to-many Mappings},
+  journal   = {arXiv preprint arXiv:1711.05139},
+  year      = {2017},
+  file      = {:royer2017xgan - XGAN_ Unsupervised Image-to-Image Translation for many-to-many Mappings.pdf:PDF},
+  groups    = {Image Translation GAN},
+  keywords  = {image translation},
+  owner     = {shehabk},
+  timestamp = {2018-02-20},
 }
 
 @InProceedings{zhu2017multimodal,
@@ -1039,7 +1038,7 @@
   booktitle     = {Advances in Neural Information Processing Systems},
   year          = {2017},
   pages         = {465--476},
-  __markedentry = {[shehabk:6]},
+  __markedentry = {[shehabk:]},
   file          = {:zhu2017multimodal - Toward multimodal image-to-image translation.pdf:PDF},
   groups        = {Image Translation GAN},
   keywords      = {image translation,nips17,berkeley},
@@ -1072,7 +1071,7 @@
   timestamp = {2018-02-20},
 }
 
-@Article{yeh2016semantic,
+@Article{yeh2016semantica,
   author    = {Yeh, Raymond and Chen, Chen and Lim, Teck Yian and Hasegawa-Johnson, Mark and Do, Minh N},
   title     = {Semantic image inpainting with perceptual and contextual losses},
   journal   = {arXiv preprint arXiv:1607.07539},
@@ -1140,6 +1139,75 @@
   timestamp = {2018-02-20},
 }
 
+@InProceedings{sabour2017dynamic,
+  author    = {Sabour, Sara and Frosst, Nicholas and Hinton, Geoffrey E},
+  title     = {Dynamic routing between capsules},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2017},
+  pages     = {3859--3869},
+  file      = {:sabour2017dynamic - Dynamic routing between capsules.pdf:PDF},
+  groups    = {DL Advancement},
+  keywords  = {CapsNet,nips17},
+  owner     = {shehabk},
+  review    = {Here are some good reads:
+1) https://medium.com/ai%C2%B3-theory-practice-business/understanding-hintons-capsule-networks-part-i-intuition-b4b559d1159b
+2) https://jhui.github.io/2017/11/03/Dynamic-Routing-Between-Capsules/},
+  timestamp = {2018.02.22},
+}
+
+@Article{hinton2018matrix,
+  author    = {Hinton, Geoffrey and Frosst, Nicholas and Sabour, Sara},
+  title     = {Matrix capsules with EM routing},
+  year      = {2018},
+  file      = {:hinton2018matrix - Matrix capsules with EM routing.pdf:PDF},
+  groups    = {DL Advancement},
+  owner     = {shehabk},
+  review    = {Good Reading:
+1) https://jhui.github.io/2017/11/14/Matrix-Capsules-with-EM-routing-Capsule-Network/},
+  timestamp = {2018.02.22},
+}
+
+@InProceedings{strangintroduction,
+  author   = {Gilbert Strang},
+  title    = {Introduction to Linear Algebra Fourth Edition},
+  file     = {:strangintroduction - Introduction to Linear Algebra Fourth Edition.pdf:PDF},
+  groups   = {Books},
+  keywords = {linear algebra},
+}
+
+@InProceedings{brandt2012matrix,
+  author   = {Kaare Brandt and Petersen and Michael Syskind and Pedersen},
+  title    = {The Matrix Cookbook [ http://matrixcookbook.com},
+  year     = {2012},
+  file     = {:brandt2012matrix - The Matrix Cookbook [ http___matrixcookbook.com.pdf:PDF},
+  groups   = {Books},
+  keywords = {matrix,cookbook},
+}
+
+@InProceedings{terejanu2015csce883,
+  author = {Gabriel Terejanu},
+  title  = {CSCE883: Machine Learning},
+  year   = {2015},
+  file   = {:terejanu2015csce883 - CSCE883_ Machine Learning.pdf:PDF},
+  groups = {Course Slides},
+}
+
+@InProceedings{tong2015csce,
+  author = {Yan Tong},
+  title  = {CSCE 867: Computer Vision},
+  year   = {2015},
+  file   = {:tong2015csce - CSCE 867_ Computer Vision.pdf:PDF},
+  groups = {Course Slides},
+}
+
+@InProceedings{tong2016csce,
+  author = {Yan Tong},
+  title  = {CSCE 763: Digital Image Processing},
+  year   = {2016},
+  file   = {:tong2016csce - CSCE 763_ Digital Image Processing.pdf:PDF},
+  groups = {Course Slides},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: groupstree:
@@ -1159,4 +1227,7 @@
 3 ExplicitGroup:Unlclassified\;0\;;
 1 ExplicitGroup:Books\;0\;;
 1 ExplicitGroup:paper review\;0\;;
+1 ExplicitGroup:DL Advancement\;0\;;
+1 ExplicitGroup:CNN Classic\;0\;;
+1 ExplicitGroup:Course Slides\;0\;;
 }
