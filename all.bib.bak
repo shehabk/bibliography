@@ -1179,7 +1179,7 @@
 
 @InProceedings{brandt2012matrix,
   author   = {Kaare Brandt and Petersen and Michael Syskind and Pedersen},
-  title    = {The Matrix Cookbook [ http://matrixcookbook.com},
+  title    = {The Matrix Cookbook},
   year     = {2012},
   file     = {:brandt2012matrix - The Matrix Cookbook [ http___matrixcookbook.com.pdf:PDF},
   groups   = {Books},
@@ -1223,6 +1223,30 @@
   title  = {Neural Networks: Hugo Larochelle},
   file   = {:larochelleneural - Neural Networks_ Hugo Larochelle.pdf:PDF},
   groups = {Course Slides},
+}
+
+@InProceedings{li2017cs231,
+  author = {Fei-Fei Li and \& Justin and Johnson and Serena Yeung},
+  title  = {CS231: Spring17},
+  year   = {2017},
+  file   = {:li2017cs231 - CS231_ Spring17.pdf:PDF},
+  groups = {Course Slides},
+}
+
+@InProceedings{rekleitisrobotics,
+  author = {Ioannis Rekleitis},
+  title  = {Robotics 574},
+  file   = {:rekleitisrobotics - Robotics 574.pdf:PDF},
+  groups = {Course Slides},
+}
+
+@Standard{theory,
+  title     = {Theory 551},
+  file      = {:default.pdf:PDF},
+  groups    = {Course Slides},
+  keywords  = {class note},
+  owner     = {shehabk},
+  timestamp = {2018.02.23},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
