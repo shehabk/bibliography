@@ -1249,6 +1249,30 @@
   timestamp = {2018.02.23},
 }
 
+@InCollection{rasmussen2004gaussian,
+  author    = {Rasmussen, Carl Edward},
+  title     = {Gaussian processes in machine learning},
+  booktitle = {Advanced lectures on machine learning},
+  publisher = {Springer},
+  year      = {2004},
+  pages     = {63--71},
+  file      = {:rasmussen2004gaussian - Gaussian processes in machine learning.pdf:PDF},
+  groups    = {Books},
+  keywords  = {gaussian processes},
+  owner     = {shehabk},
+  timestamp = {2018-02-26},
+}
+
+@Standard{explaining,
+  title     = {Explaining AdaBoost},
+  file      = {:explaining - Explaining AdaBoost.pdf:PDF},
+  groups    = {Tutorials},
+  owner     = {shehabk},
+  review    = {Others:
+http://www.cs.man.ac.uk/~stapenr5/boosting.pdf},
+  timestamp = {2018-02-26},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: groupstree:
@@ -1271,4 +1295,5 @@
 1 ExplicitGroup:DL Advancement\;0\;;
 1 ExplicitGroup:CNN Classic\;0\;;
 1 ExplicitGroup:Course Slides\;0\;;
+1 ExplicitGroup:Tutorials\;0\;;
 }
