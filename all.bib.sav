@@ -1252,6 +1252,7 @@ https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-cours
   timestamp = {2018.02.23},
 }
 
+<<<<<<< HEAD
 @Book{schapireboosting,
   title  = {Boosting: Foundations and Algorithms},
   author = {Robert E. Schapire, Yoav Freund},
@@ -1569,6 +1570,30 @@ https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-cours
   owner     = {shehabk},
   timestamp = {2018.03.19},
   url       = {http://doi.acm.org/10.1145/2993148.2997630},
+=======
+@InCollection{rasmussen2004gaussian,
+  author    = {Rasmussen, Carl Edward},
+  title     = {Gaussian processes in machine learning},
+  booktitle = {Advanced lectures on machine learning},
+  publisher = {Springer},
+  year      = {2004},
+  pages     = {63--71},
+  file      = {:rasmussen2004gaussian - Gaussian processes in machine learning.pdf:PDF},
+  groups    = {Books},
+  keywords  = {gaussian processes},
+  owner     = {shehabk},
+  timestamp = {2018-02-26},
+}
+
+@Standard{explaining,
+  title     = {Explaining AdaBoost},
+  file      = {:explaining - Explaining AdaBoost.pdf:PDF},
+  groups    = {Tutorials},
+  owner     = {shehabk},
+  review    = {Others:
+http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
+  timestamp = {2018-02-26},
+>>>>>>> f9833907672660e4797e7f605b920b2c2363129c
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -1593,5 +1618,9 @@ https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-cours
 1 ExplicitGroup:DL Advancement\;0\;;
 1 ExplicitGroup:CNN Classic\;0\;;
 1 ExplicitGroup:Course Slides\;0\;;
+<<<<<<< HEAD
 1 ExplicitGroup:EmotiW\;0\;;
+=======
+1 ExplicitGroup:Tutorials\;0\;;
+>>>>>>> f9833907672660e4797e7f605b920b2c2363129c
 }
