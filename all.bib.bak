@@ -79,7 +79,7 @@
   year      = {2017},
   file      = {:zhu2017unpaired - Unpaired Image to Image Translation Using Cycle Consistent Adversarial Networks.pdf:PDF},
   groups    = {Image Translation GAN},
-  keywords  = {image translation,nips17},
+  keywords  = {image translation,nips17,cyclegan},
   publisher = {ICCV},
 }
 
@@ -559,6 +559,7 @@
   year      = {1978},
   file      = {:ekamn1978facial - Facial action coding system (FACS)_ manual.pdf:PDF},
   groups    = {MyGroup, AU},
+  keywords  = {Manual},
   owner     = {shehabk},
   publisher = {Consulting Psychologists Press Palo Alto},
   timestamp = {2018.02.12},
@@ -963,7 +964,7 @@
   year      = {2017},
   file      = {:kim2017learning - Learning to discover cross-domain relations with generative adversarial networks.pdf:PDF},
   groups    = {Image Translation GAN},
-  keywords  = {image translation},
+  keywords  = {image translation,DISCO-GAN},
   owner     = {shehabk},
   timestamp = {2018-02-20},
   url       = {https://github.com/carpedm20/DiscoGAN-pytorch},
@@ -1179,7 +1180,7 @@
 
 @InProceedings{brandt2012matrix,
   author   = {Kaare Brandt and Petersen and Michael Syskind and Pedersen},
-  title    = {The Matrix Cookbook [ http://matrixcookbook.com},
+  title    = {The Matrix Cookbook},
   year     = {2012},
   file     = {:brandt2012matrix - The Matrix Cookbook [ http___matrixcookbook.com.pdf:PDF},
   groups   = {Books},
@@ -1225,6 +1226,79 @@
   groups = {Course Slides},
 }
 
+@InProceedings{li2017cs231,
+  author = {Fei-Fei Li and \& Justin and Johnson and Serena Yeung},
+  title  = {CS231: Spring17},
+  year   = {2017},
+  file   = {:li2017cs231 - CS231_ Spring17.pdf:PDF},
+  groups = {Course Slides},
+  review = {Good Reads:
+https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng},
+}
+
+@InProceedings{rekleitisrobotics,
+  author = {Ioannis Rekleitis},
+  title  = {Robotics 574},
+  file   = {:rekleitisrobotics - Robotics 574.pdf:PDF},
+  groups = {Course Slides},
+}
+
+@Standard{theory,
+  title     = {Theory 551},
+  file      = {:default.pdf:PDF},
+  groups    = {Course Slides},
+  keywords  = {class note},
+  owner     = {shehabk},
+  timestamp = {2018.02.23},
+}
+
+@Book{schapireboosting,
+  title  = {Boosting: Foundations and Algorithms},
+  author = {Robert E. Schapire, Yoav Freund},
+  file   = {:schapireboosting - Boosting_ Foundations and Algorithms.pdf:PDF},
+  md5    = {99d47ba2992cf52e799d6fb412f02d1d},
+  resid  = {919910},
+  size   = {5522793},
+  status = {OK},
+  type   = {pdf},
+}
+
+@InProceedings{systemfacial,
+  author   = {System},
+  title    = {Facial Action Coding},
+  file     = {:systemfacial - Facial Action Coding.pdf:PDF},
+  groups   = {AU},
+  keywords = {InvGuide},
+}
+
+@InProceedings{dhall2016emotiw,
+  author       = {Dhall, Abhinav and Goecke, Roland and Joshi, Jyoti and Hoey, Jesse and Gedeon, Tom},
+  title        = {Emotiw 2016: Video and group-level emotion recognition challenges},
+  booktitle    = {Proceedings of the 18th ACM International Conference on Multimodal Interaction},
+  year         = {2016},
+  pages        = {427--432},
+  organization = {ACM},
+  file         = {:dhall2016emotiw - Emotiw 2016_ Video and group-level emotion recognition challenges.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {baseline},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@InProceedings{dhall2015video,
+  author       = {Dhall, Abhinav and Ramana Murthy, OV and Goecke, Roland and Joshi, Jyoti and Gedeon, Tom},
+  title        = {Video and image based emotion recognition challenges in the wild: Emotiw 2015},
+  booktitle    = {Proceedings of the 2015 ACM on International Conference on Multimodal Interaction},
+  year         = {2015},
+  pages        = {423--426},
+  organization = {ACM},
+  file         = {:dhall2015video - Video and image based emotion recognition challenges in the wild_ Emotiw 2015.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {baseline},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: groupstree:
@@ -1247,4 +1321,5 @@
 1 ExplicitGroup:DL Advancement\;0\;;
 1 ExplicitGroup:CNN Classic\;0\;;
 1 ExplicitGroup:Course Slides\;0\;;
+1 ExplicitGroup:EmotiW\;0\;;
 }
