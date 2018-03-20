@@ -1232,11 +1232,8 @@
   year   = {2017},
   file   = {:li2017cs231 - CS231_ Spring17.pdf:PDF},
   groups = {Course Slides},
-<<<<<<< HEAD
   review = {Good Reads:
 https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng},
-=======
->>>>>>> f9833907672660e4797e7f605b920b2c2363129c
 }
 
 @InProceedings{rekleitisrobotics,
@@ -1255,7 +1252,6 @@ https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-cours
   timestamp = {2018.02.23},
 }
 
-<<<<<<< HEAD
 @Book{schapireboosting,
   title  = {Boosting: Foundations and Algorithms},
   author = {Robert E. Schapire, Yoav Freund},
@@ -1301,7 +1297,280 @@ https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-cours
   keywords     = {baseline},
   owner        = {shehabk},
   timestamp    = {2018.03.19},
-=======
+}
+
+@InProceedings{dhall2014emotion,
+  author       = {Dhall, Abhinav and Goecke, Roland and Joshi, Jyoti and Sikka, Karan and Gedeon, Tom},
+  title        = {Emotion recognition in the wild challenge 2014: Baseline, data and protocol},
+  booktitle    = {Proceedings of the 16th International Conference on Multimodal Interaction},
+  year         = {2014},
+  pages        = {461--466},
+  organization = {ACM},
+  file         = {:dhall2014emotion - Emotion recognition in the wild challenge 2014_ Baseline, data and protocol.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {baseline},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@InProceedings{dhall2013emotion,
+  author       = {Dhall, Abhinav and Goecke, Roland and Joshi, Jyoti and Wagner, Michael and Gedeon, Tom},
+  title        = {Emotion recognition in the wild challenge 2013},
+  booktitle    = {Proceedings of the 15th ACM on International conference on multimodal interaction},
+  year         = {2013},
+  pages        = {509--516},
+  organization = {ACM},
+  file         = {:dhall2013emotion - Emotion recognition in the wild challenge 2013.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {baseline},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@InProceedings{yao2015capturing,
+  author       = {Yao, Anbang and Shao, Junchao and Ma, Ningning and Chen, Yurong},
+  title        = {Capturing au-aware facial features and their latent relations for emotion recognition in the wild},
+  booktitle    = {Proceedings of the 2015 ACM on International Conference on Multimodal Interaction},
+  year         = {2015},
+  pages        = {451--458},
+  organization = {ACM},
+  file         = {:yao2015capturing - Capturing au-aware facial features and their latent relations for emotion recognition in the wild.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {winner,video based},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@InProceedings{kim2015hierarchical,
+  author       = {Kim, Bo-Kyeong and Lee, Hwaran and Roh, Jihyeon and Lee, Soo-Young},
+  title        = {Hierarchical committee of deep cnns with exponentially-weighted decision fusion for static facial expression recognition},
+  booktitle    = {Proceedings of the 2015 ACM on International Conference on Multimodal Interaction},
+  year         = {2015},
+  pages        = {427--434},
+  organization = {ACM},
+  file         = {:kim2015hierarchical - Hierarchical committee of deep cnns with exponentially-weighted decision fusion for static facial expression recognition.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {winner,image based},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@InProceedings{liu2014combining,
+  author       = {Liu, Mengyi and Wang, Ruiping and Li, Shaoxin and Shan, Shiguang and Huang, Zhiwu and Chen, Xilin},
+  title        = {Combining multiple kernel methods on riemannian manifold for emotion recognition in the wild},
+  booktitle    = {Proceedings of the 16th International Conference on Multimodal Interaction},
+  year         = {2014},
+  pages        = {494--501},
+  organization = {ACM},
+  file         = {:liu2014combining - Combining multiple kernel methods on riemannian manifold for emotion recognition in the wild.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {winner},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@InProceedings{dhall2017individual,
+  author       = {Dhall, Abhinav and Goecke, Roland and Ghosh, Shreya and Joshi, Jyoti and Hoey, Jesse and Gedeon, Tom},
+  title        = {From individual to group-level emotion recognition: EmotiW 5.0},
+  booktitle    = {Proceedings of the 19th ACM International Conference on Multimodal Interaction},
+  year         = {2017},
+  pages        = {524--528},
+  organization = {ACM},
+  file         = {:/home/shehabk/Downloads/ICMI2017.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {baseline},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@InProceedings{hu2017learning,
+  author       = {Hu, Ping and Cai, Dongqi and Wang, Shandong and Yao, Anbang and Chen, Yurong},
+  title        = {Learning supervised scoring ensemble for emotion recognition in the wild},
+  booktitle    = {Proceedings of the 19th ACM International Conference on Multimodal Interaction},
+  year         = {2017},
+  pages        = {553--560},
+  organization = {ACM},
+  file         = {:hu2017learning - Learning supervised scoring ensemble for emotion recognition in the wild.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {winner, audio-video},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@Article{knyazev2017convolutional,
+  author    = {Knyazev, Boris and Shvetsov, Roman and Efremova, Natalia and Kuharenko, Artem},
+  title     = {Convolutional neural networks pretrained on large face recognition datasets for emotion classification from video},
+  journal   = {arXiv preprint arXiv:1711.04598},
+  year      = {2017},
+  file      = {:knyazev2017convolutional - Convolutional neural networks pretrained on large face recognition datasets for emotion classification from video.pdf:PDF},
+  groups    = {EmotiW},
+  keywords  = {runner-up, audio-video},
+  owner     = {shehabk},
+  timestamp = {2018.03.19},
+}
+
+@InProceedings{vielzeuf2017temporal,
+  author       = {Vielzeuf, Valentin and Pateux, St{\'e}phane and Jurie, Fr{\'e}d{\'e}ric},
+  title        = {Temporal multimodal fusion for video emotion classification in the wild},
+  booktitle    = {Proceedings of the 19th ACM International Conference on Multimodal Interaction},
+  year         = {2017},
+  pages        = {569--576},
+  organization = {ACM},
+  file         = {:vielzeuf2017temporal - Temporal multimodal fusion for video emotion classification in the wild.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {3rd, audio-video},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@InProceedings{tan2017group,
+  author       = {Tan, Lianzhi and Zhang, Kaipeng and Wang, Kai and Zeng, Xiaoxing and Peng, Xiaojiang and Qiao, Yu},
+  title        = {Group emotion recognition with individual facial emotion CNNs and global image based CNNs},
+  booktitle    = {Proceedings of the 19th ACM International Conference on Multimodal Interaction},
+  year         = {2017},
+  pages        = {549--552},
+  organization = {ACM},
+  file         = {:tan2017group - Group emotion recognition with individual facial emotion CNNs and global image based CNNs.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {winner, group-based},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@InProceedings{guo2017group,
+  author       = {Guo, Xin and Polan{\'\i}a, Luisa F and Barner, Kenneth E},
+  title        = {Group-level emotion recognition using deep models on image scene, faces, and skeletons},
+  booktitle    = {Proceedings of the 19th ACM International Conference on Multimodal Interaction},
+  year         = {2017},
+  pages        = {603--608},
+  organization = {ACM},
+  file         = {:guo2017group - Group-level emotion recognition using deep models on image scene, faces, and skeletons.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {runner-up,group-based},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@InProceedings{wei2017new,
+  author       = {Wei, Qinglan and Zhao, Yijia and Xu, Qihua and Li, Liandong and He, Jun and Yu, Lejun and Sun, Bo},
+  title        = {A new deep-learning framework for group emotion recognition},
+  booktitle    = {Proceedings of the 19th ACM International Conference on Multimodal Interaction},
+  year         = {2017},
+  pages        = {587--592},
+  organization = {ACM},
+  file         = {:wei2017new - A new deep-learning framework for group emotion recognition.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {3rd,group-based},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@InProceedings{li2016happiness,
+  author       = {Li, Jianshu and Roy, Sujoy and Feng, Jiashi and Sim, Terence},
+  title        = {Happiness level prediction with sequential inputs via multiple regressions},
+  booktitle    = {Proceedings of the 18th ACM International Conference on Multimodal Interaction},
+  year         = {2016},
+  pages        = {487--493},
+  organization = {ACM},
+  file         = {:li2016happiness - Happiness level prediction with sequential inputs via multiple regressions.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {winner,group-based},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@InProceedings{vonikakis2016group,
+  author       = {Vonikakis, Vassilios and Yazici, Yasin and Nguyen, Viet Dung and Winkler, Stefan},
+  title        = {Group happiness assessment using geometric features and dataset balancing},
+  booktitle    = {Proceedings of the 18th ACM International Conference on Multimodal Interaction},
+  year         = {2016},
+  pages        = {479--486},
+  organization = {ACM},
+  file         = {:vonikakis2016group - Group happiness assessment using geometric features and dataset balancing.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {runner-up,grpup-based},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@InProceedings{sun2016lstm,
+  author       = {Sun, Bo and Wei, Qinglan and Li, Liandong and Xu, Qihua and He, Jun and Yu, Lejun},
+  title        = {LSTM for dynamic emotion and group emotion recognition in the wild},
+  booktitle    = {Proceedings of the 18th ACM International Conference on Multimodal Interaction},
+  year         = {2016},
+  pages        = {451--457},
+  organization = {ACM},
+  file         = {:sun2016lstm - LSTM for dynamic emotion and group emotion recognition in the wild.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {3rd,group-based},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@InProceedings{fan2016video,
+  author       = {Fan, Yin and Lu, Xiangju and Li, Dian and Liu, Yuanliu},
+  title        = {Video-based emotion recognition using CNN-RNN and C3D hybrid networks},
+  booktitle    = {Proceedings of the 18th ACM International Conference on Multimodal Interaction},
+  year         = {2016},
+  pages        = {445--450},
+  organization = {ACM},
+  file         = {:fan2016video - Video-based emotion recognition using CNN-RNN and C3D hybrid networks.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {winner,video-based},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@InProceedings{yao2016holonet,
+  author       = {Yao, Anbang and Cai, Dongqi and Hu, Ping and Wang, Shandong and Sha, Liang and Chen, Yurong},
+  title        = {HoloNet: towards robust emotion recognition in the wild},
+  booktitle    = {Proceedings of the 18th ACM International Conference on Multimodal Interaction},
+  year         = {2016},
+  pages        = {472--478},
+  organization = {ACM},
+  file         = {:yao2016holonet - HoloNet_ towards robust emotion recognition in the wild.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {runner-up,video-based},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@InProceedings{bargal2016emotion,
+  author       = {Bargal, Sarah Adel and Barsoum, Emad and Ferrer, Cristian Canton and Zhang, Cha},
+  title        = {Emotion recognition in the wild from videos using images},
+  booktitle    = {Proceedings of the 18th ACM International Conference on Multimodal Interaction},
+  year         = {2016},
+  pages        = {433--436},
+  organization = {ACM},
+  file         = {:bargal2016emotion - Emotion recognition in the wild from videos using images.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {3rd,video-based},
+  owner        = {shehabk},
+  timestamp    = {2018.03.19},
+}
+
+@InProceedings{Yan:2016:MFE:2993148.2997630,
+  author    = {Yan, Jingwei and Zheng, Wenming and Cui, Zhen and Tang, Chuangao and Zhang, Tong and Zong, Yuan and Sun, Ning},
+  title     = {Multi-clue Fusion for Emotion Recognition in the Wild},
+  booktitle = {Proceedings of the 18th ACM International Conference on Multimodal Interaction},
+  year      = {2016},
+  series    = {ICMI 2016},
+  pages     = {458--463},
+  address   = {New York, NY, USA},
+  publisher = {ACM},
+  acmid     = {2997630},
+  doi       = {10.1145/2993148.2997630},
+  file      = {:Yan_2016_MFE_2993148.2997630 - Multi-clue Fusion for Emotion Recognition in the Wild.pdf:PDF},
+  groups    = {EmotiW},
+  isbn      = {978-1-4503-4556-9},
+  keywords  = {3rd,video-based},
+  location  = {Tokyo, Japan},
+  numpages  = {6},
+  owner     = {shehabk},
+  timestamp = {2018.03.19},
+  url       = {http://doi.acm.org/10.1145/2993148.2997630},
+}
+
 @InCollection{rasmussen2004gaussian,
   author    = {Rasmussen, Carl Edward},
   title     = {Gaussian processes in machine learning},
@@ -1322,9 +1591,36 @@ https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-cours
   groups    = {Tutorials},
   owner     = {shehabk},
   review    = {Others:
-http://www.cs.man.ac.uk/~stapenr5/boosting.pdf},
+http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   timestamp = {2018-02-26},
->>>>>>> f9833907672660e4797e7f605b920b2c2363129c
+}
+
+@InProceedings{dhall2015more,
+  author       = {Dhall, Abhinav and Joshi, Jyoti and Sikka, Karan and Goecke, Roland and Sebe, Nicu},
+  title        = {The more the merrier: Analysing the affect of a group of people in images},
+  booktitle    = {Automatic Face and Gesture Recognition (FG), 2015 11th IEEE International Conference and Workshops on},
+  year         = {2015},
+  volume       = {1},
+  pages        = {1--8},
+  organization = {IEEE},
+  file         = {:dhall2015more - The more the merrier_ Analysing the affect of a group of people in images.pdf:PDF},
+  groups       = {EmotiW},
+  keywords     = {reference,group-based},
+  owner        = {shehabk},
+  timestamp    = {2018.03.20},
+}
+
+@InProceedings{dhall2017individual,
+  author       = {Dhall, Abhinav and Goecke, Roland and Ghosh, Shreya and Joshi, Jyoti and Hoey, Jesse and Gedeon, Tom},
+  title        = {From individual to group-level emotion recognition: EmotiW 5.0},
+  booktitle    = {Proceedings of the 19th ACM International Conference on Multimodal Interaction},
+  year         = {2017},
+  pages        = {524--528},
+  organization = {ACM},
+  file         = {:dhall2017individual - From individual to group-level emotion recognition_ EmotiW 5.0.pdf:PDF},
+  groups       = {EmotiW},
+  owner        = {shehabk},
+  timestamp    = {2018.03.20},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -1349,9 +1645,5 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf},
 1 ExplicitGroup:DL Advancement\;0\;;
 1 ExplicitGroup:CNN Classic\;0\;;
 1 ExplicitGroup:Course Slides\;0\;;
-<<<<<<< HEAD
 1 ExplicitGroup:EmotiW\;0\;;
-=======
-1 ExplicitGroup:Tutorials\;0\;;
->>>>>>> f9833907672660e4797e7f605b920b2c2363129c
 }
