@@ -1376,7 +1376,7 @@ https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-cours
   year         = {2017},
   pages        = {524--528},
   organization = {ACM},
-  file         = {:/home/shehabk/Downloads/ICMI2017.pdf:PDF},
+  file         = {:dhall2017individual - From individual to group-level emotion recognition_ EmotiW 5.0.pdf:PDF},
   groups       = {EmotiW},
   keywords     = {baseline},
   owner        = {shehabk},
@@ -1624,6 +1624,40 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   timestamp    = {2018.03.20},
 }
 
+@InProceedings{dhall2015morea,
+  author   = {Abhinav Dhall and Jyoti Joshi and Karan Sikka and Roland Goecke and Nicu Sebe},
+  title    = {The More the Merrier: Analysing the Affect of a Group of People in Images},
+  year     = {2015},
+  file     = {:dhall2015morea - The More the Merrier_ Analysing the Affect of a Group of People in Images.pdf:PDF},
+  groups   = {EmotiW},
+  keywords = {reference,group-based,lecture},
+}
+
+@InProceedings{rosecsce587,
+  author = {rose},
+  title  = {CSCE:587 Big Data},
+  file   = {:rosecsce587 - CSCE_587 Big Data.pdf:PDF},
+  groups = {Course Slides},
+}
+
+@InProceedings{by2015propagated,
+  author   = {Youjie Zhou},
+  title    = {Propagated Image Segmentation Using Edge-Weighted Centroidal Voronoi Tessellation Based Methods},
+  year     = {2015},
+  file     = {:by2015propagated - Propagated Image Segmentation Using Edge-Weighted Centroidal Voronoi Tessellation Based Methods.pdf:PDF},
+  groups   = {segmentation},
+  keywords = {thesis},
+}
+
+@InProceedings{by20133d,
+  author   = {Yu Cao},
+  title    = {3D GRAIN SEGMENTATION IN SUPERALLOY IMAGES USING MULTICHANNEL EDGE-WEIGHTED CENTROIDAL VORONOI TESSELLATION BASED METHODS},
+  year     = {2013},
+  file     = {:by20133d - 3D GRAIN SEGMENTATION IN SUPERALLOY IMAGES USING MULTICHANNEL EDGE-WEIGHTED CENTROIDAL VORONOI TESSELLATION BASED METHODS.pdf:PDF},
+  groups   = {segmentation},
+  keywords = {thesis},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: groupstree:
@@ -1647,4 +1681,5 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 1 ExplicitGroup:CNN Classic\;0\;;
 1 ExplicitGroup:Course Slides\;0\;;
 1 ExplicitGroup:EmotiW\;0\;;
+1 ExplicitGroup:segmentation\;0\;;
 }
