@@ -1658,6 +1658,69 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   keywords = {thesis},
 }
 
+@Article{garcia2017review,
+  author    = {Garcia-Garcia, Alberto and Orts-Escolano, Sergio and Oprea, Sergiu and Villena-Martinez, Victor and Garcia-Rodriguez, Jose},
+  title     = {A review on deep learning techniques applied to semantic segmentation},
+  journal   = {arXiv preprint arXiv:1704.06857},
+  year      = {2017},
+  file      = {:garcia2017review - A review on deep learning techniques applied to semantic segmentation.pdf:PDF},
+  groups    = {segmentation},
+  owner     = {shehabk},
+  timestamp = {2018.03.28},
+}
+
+@InProceedings{bhole2013graphical,
+  author   = {Chetan P. Bhole},
+  title    = {Graphical Models for Segmenting Images, Volumes and Videos},
+  year     = {2013},
+  file     = {:bhole2013graphical - Graphical Models for Segmenting Images, Volumes and Videos.pdf:PDF},
+  groups   = {segmentation},
+  keywords = {thesis,graphical-models},
+}
+
+@Article{wang2009edge,
+  author    = {Wang, Jie and Ju, Lili and Wang, Xiaoqiang},
+  title     = {An edge-weighted centroidal Voronoi tessellation model for image segmentation},
+  journal   = {IEEE Transactions on Image Processing},
+  year      = {2009},
+  volume    = {18},
+  number    = {8},
+  pages     = {1844--1858},
+  file      = {:wang2009edge - An edge-weighted centroidal Voronoi tessellation model for image segmentation.pdf:PDF},
+  groups    = {segmentation},
+  owner     = {shehabk},
+  publisher = {IEEE},
+  timestamp = {2018.03.28},
+}
+
+@Article{arnab2018conditional,
+  author    = {Arnab, Anurag and Zheng, Shuai and Jayasumana, Sadeep and Romera-Paredes, Bernardino and Larsson, Mans and Kirillov, Alexander and Savchynskyy, Bogdan and Rother, Carsten and Kahl, Fredrik and Torr, Philip HS},
+  title     = {Conditional Random Fields Meet Deep Neural Networks for Semantic Segmentation: Combining Probabilistic Graphical Models with Deep Learning for Structured Prediction},
+  journal   = {IEEE Signal Processing Magazine},
+  year      = {2018},
+  volume    = {35},
+  number    = {1},
+  pages     = {37--52},
+  file      = {:arnab2018conditional - Conditional Random Fields Meet Deep Neural Networks for Semantic Segmentation_ Combining Probabilistic Graphical Models with Deep Learning for Structured Prediction.pdf:PDF},
+  groups    = {segmentation},
+  owner     = {shehabk},
+  publisher = {IEEE},
+  timestamp = {2018.03.30},
+}
+
+@InProceedings{he2017mask,
+  author       = {He, Kaiming and Gkioxari, Georgia and Doll{\'a}r, Piotr and Girshick, Ross},
+  title        = {Mask r-cnn},
+  booktitle    = {Computer Vision (ICCV), 2017 IEEE International Conference on},
+  year         = {2017},
+  pages        = {2980--2988},
+  organization = {IEEE},
+  file         = {:he2017mask - Mask r-cnn.pdf:PDF},
+  groups       = {segmentation},
+  owner        = {shehabk},
+  timestamp    = {2018.04.06},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: groupstree:

@@ -1641,11 +1641,12 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 }
 
 @InProceedings{by2015propagated,
-  author = {Youjie Zhou},
-  title  = {Propagated Image Segmentation Using Edge-Weighted Centroidal Voronoi Tessellation Based Methods},
-  year   = {2015},
-  file   = {:by2015propagated - Propagated Image Segmentation Using Edge-Weighted Centroidal Voronoi Tessellation Based Methods.pdf:PDF},
-  groups = {segmentation},
+  author   = {Youjie Zhou},
+  title    = {Propagated Image Segmentation Using Edge-Weighted Centroidal Voronoi Tessellation Based Methods},
+  year     = {2015},
+  file     = {:by2015propagated - Propagated Image Segmentation Using Edge-Weighted Centroidal Voronoi Tessellation Based Methods.pdf:PDF},
+  groups   = {segmentation},
+  keywords = {thesis},
 }
 
 @InProceedings{by20133d,
