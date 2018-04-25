@@ -1669,56 +1669,54 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   timestamp = {2018.03.28},
 }
 
-@InProceedings{bhole2013graphical,
-  author   = {Chetan P. Bhole},
-  title    = {Graphical Models for Segmenting Images, Volumes and Videos},
-  year     = {2013},
-  file     = {:bhole2013graphical - Graphical Models for Segmenting Images, Volumes and Videos.pdf:PDF},
-  groups   = {segmentation},
-  keywords = {thesis,graphical-models},
+@Book{halimcompetative,
+  title     = {Competative Programiing 3},
+  author    = {Steven Halim},
+  file      = {:halimcompetative - Competative Programiing 3.pdf:PDF},
+  groups    = {Books},
+  owner     = {shehabk},
+  timestamp = {2018.04.17},
 }
 
-@Article{wang2009edge,
-  author    = {Wang, Jie and Ju, Lili and Wang, Xiaoqiang},
-  title     = {An edge-weighted centroidal Voronoi tessellation model for image segmentation},
-  journal   = {IEEE Transactions on Image Processing},
-  year      = {2009},
-  volume    = {18},
-  number    = {8},
-  pages     = {1844--1858},
-  file      = {:wang2009edge - An edge-weighted centroidal Voronoi tessellation model for image segmentation.pdf:PDF},
-  groups    = {segmentation},
+@InProceedings{vondrick2016generating,
+  author    = {Vondrick, Carl and Pirsiavash, Hamed and Torralba, Antonio},
+  title     = {Generating videos with scene dynamics},
+  booktitle = {Advances In Neural Information Processing Systems},
+  year      = {2016},
+  pages     = {613--621},
+  file      = {:vondrick2016generating - Generating videos with scene dynamics.pdf:PDF},
+  groups    = {Scene},
+  owner     = {shehabk},
+  timestamp = {2018.04.19},
+}
+
+@InProceedings{tran2017disentangled,
+  author    = {Tran, Luan and Yin, Xi and Liu, Xiaoming},
+  title     = {Disentangled representation learning gan for pose-invariant face recognition},
+  booktitle = {CVPR},
+  year      = {2017},
+  volume    = {3},
+  number    = {6},
+  pages     = {7},
+  file      = {:tran2017disentangled - Disentangled representation learning gan for pose-invariant face recognition.pdf:PDF},
+  groups    = {Image Translation GAN},
+  owner     = {shehabk},
+  timestamp = {2018.04.24},
+}
+
+@Article{zhang2000flexible,
+  author    = {Zhang, Zhengyou},
+  title     = {A flexible new technique for camera calibration},
+  journal   = {IEEE Transactions on pattern analysis and machine intelligence},
+  year      = {2000},
+  volume    = {22},
+  number    = {11},
+  pages     = {1330--1334},
+  file      = {:zhang2000flexible - A flexible new technique for camera calibration.pdf:PDF},
+  groups    = {Camera Calibration},
   owner     = {shehabk},
   publisher = {IEEE},
-  timestamp = {2018.03.28},
-}
-
-@Article{arnab2018conditional,
-  author    = {Arnab, Anurag and Zheng, Shuai and Jayasumana, Sadeep and Romera-Paredes, Bernardino and Larsson, Mans and Kirillov, Alexander and Savchynskyy, Bogdan and Rother, Carsten and Kahl, Fredrik and Torr, Philip HS},
-  title     = {Conditional Random Fields Meet Deep Neural Networks for Semantic Segmentation: Combining Probabilistic Graphical Models with Deep Learning for Structured Prediction},
-  journal   = {IEEE Signal Processing Magazine},
-  year      = {2018},
-  volume    = {35},
-  number    = {1},
-  pages     = {37--52},
-  file      = {:arnab2018conditional - Conditional Random Fields Meet Deep Neural Networks for Semantic Segmentation_ Combining Probabilistic Graphical Models with Deep Learning for Structured Prediction.pdf:PDF},
-  groups    = {segmentation},
-  owner     = {shehabk},
-  publisher = {IEEE},
-  timestamp = {2018.03.30},
-}
-
-@InProceedings{he2017mask,
-  author       = {He, Kaiming and Gkioxari, Georgia and Doll{\'a}r, Piotr and Girshick, Ross},
-  title        = {Mask r-cnn},
-  booktitle    = {Computer Vision (ICCV), 2017 IEEE International Conference on},
-  year         = {2017},
-  pages        = {2980--2988},
-  organization = {IEEE},
-  file         = {:he2017mask - Mask r-cnn.pdf:PDF},
-  groups       = {segmentation},
-  owner        = {shehabk},
-  timestamp    = {2018.04.06},
+  timestamp = {2018.04.24},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -1745,4 +1743,6 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 1 ExplicitGroup:Course Slides\;0\;;
 1 ExplicitGroup:EmotiW\;0\;;
 1 ExplicitGroup:segmentation\;0\;;
+1 ExplicitGroup:Scene\;0\;;
+1 ExplicitGroup:Camera Calibration\;0\;;
 }
