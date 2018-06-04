@@ -1669,6 +1669,75 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   timestamp = {2018.03.28},
 }
 
+@Book{halimcompetative,
+  title     = {Competative Programiing 3},
+  author    = {Steven Halim},
+  file      = {:halimcompetative - Competative Programiing 3.pdf:PDF},
+  groups    = {Books},
+  owner     = {shehabk},
+  timestamp = {2018.04.17},
+}
+
+@Article{shao2018deep,
+  author    = {Shao, Zhiwen and Liu, Zhilei and Cai, Jianfei and Ma, Lizhuang},
+  title     = {Deep Adaptive Attention for Joint Facial Action Unit Detection and Face Alignment},
+  journal   = {arXiv preprint arXiv:1803.05588},
+  year      = {2018},
+  file      = {:shao2018deep - Deep Adaptive Attention for Joint Facial Action Unit Detection and Face Alignment.pdf:PDF},
+  groups    = {AU},
+  owner     = {shehabk},
+  review    = {This paper uses attention.},
+  timestamp = {2018.05.08},
+}
+
+@InProceedings{rossum2012python,
+  author = {Guido van Rossum and Fred L. Drake and Jr and editor},
+  title  = {The Python Language Reference Release},
+  year   = {2012},
+  file   = {:rossum2012python - The Python Language Reference Release.pdf:PDF},
+  groups = {Python},
+}
+
+@InProceedings{rossum2012pythona,
+  author = {Guido van Rossum and Fred L. Drake and Jr and editor},
+  title  = {The Python Library Reference Release},
+  year   = {2012},
+  file   = {:rossum2012pythona - The Python Library Reference Release.pdf:PDF},
+  groups = {Python},
+}
+
+@InProceedings{course,
+  title  = {Service Oriented Architecture Course Notes},
+  file   = {:Service-Oriented-Architecture-Courese-Notes.pdf:PDF},
+  groups = {Design Patterns and Software Arhitecture},
+}
+
+@InProceedings{coursea,
+  title  = {Object Oriented Design Course Notes},
+  file   = {:Object-Oriented-Design-Course-Notes.pdf:PDF},
+  groups = {Design Patterns and Software Arhitecture},
+}
+
+@InProceedings{courseb,
+  title  = {Design Pattern Course Notes},
+  file   = {:Desigh-Patterns-Course-Notes.pdf:PDF},
+  groups = {Design Patterns and Software Arhitecture},
+}
+
+@InProceedings{???in??object-oriented??designcourse,
+  author = {abstract?? -? ? ?in ? ?object-oriented? ?design and ? ?a? ?class? ?that? ?cannot? b? e? ?instantiated? ?directly and ? ?but? ?must? b? e and subclassed.? ?It and ?can? ?also and ?apply? ?to and ?a? ?method and ? ?or and a? ttribute ?of and ?a? ?class. and abstract? ?data and ?types?? and ?data? ?types and ?that? ?are and d? efined ?by and ?the? ?their and b? ehaviour ?as and ?opposed? ?to and ?their and structure.? ?Defined and ? ?by and t? he ?developer and ?rather? ?than and ?the? ?programming and ?language and access? m odifiers and ? ?keywords and ?that? ?control and ?which? ?other and ? ?classes and ?can? ?access and ?a and ?variable? ?or and ?method and in? ?a? ?class.? ?These? ?include ? ??public and ? ?protected and ? ?private and ? a?? nd? ?no? ?keyword and ? ?sometimes? ?called and default?. and abstraction? ??-? ?the? ?act? ?of? ?simplifying? ?a? ?concept? i? n? ?context.? ?In? ?object-oriented? ?design and ? ?it? ?is? ?the and simplification? ?of and ?the? ?real and ?world? ?entity and ?into? ?its and ?most? ?important and ?attributes? ?and and ?behaviours? ?for and ? ?the and purpose? ?of and ?the? ?software. and attribute?? -? ? ?a? ?property? ?that? ?object? ?of? ?a? ?class? ?must? ?have and ? ?even? ?though ? ?their? ?values? ?may? ?be and different.? ?For? ?example and ? ?two? ?student? ?objects? ?each? ?have? ?a? ?grade? ?attribute and ? ?even? ?though? ?one? ?has and an? '?A and ?and? ?the and ?other? ?has and ?a? '?B.' and behaviours? and ?the? a ctions ?that and ? ?an and o? bject and ?can? ?take and boundary? ?object? ??-? ?an? o? bject ? ?whose? ?role? ?is? t? o? ?interface ? ?with? ?an? ?external? ?component and ? ?such? ?as? ?a and user? ?or and ?an? ?adjacent and s? ystem},
+  title  = {C1 Glossary},
+  file   = {:C1-Glossary.pdf:PDF},
+  groups = {Design Patterns and Software Arhitecture},
+}
+
+@InProceedings{abstract?superclasscourse,
+  author = {abstract? s uperclass and ?-? a and ?class? w hich and ?must and ?have? s ubclasses ?in and o? rder and ?to? ?be and ?instantiated. and Adapter? p attern and ?-? a and ?design? p attern ?that and ? ?connects and ?two? ?incompatible and i? nterfaces ?by and f? itting ?between and them? ?and and p? roviding a and ?compatible and ?interface and ?to? ?both. and Agile? d evelopment and ?-? and ?a and ?family and ?of? s oftware and ?development? ?methodologies and ? ?that and ?encourage and adaptivity and ? ?cross-functional? c? ollaboration and ? ?evolutionary? ?development and ? ?early? ?delivery and ? ?and and continuous? ?improvement. and Anti-Pattern?? and ? ?a and ? ?commonly-encountered and ?attempted? s olution and ?to? ?a and ? ?problem and w? hich and ?is and counterproductive? o r and ?ineffective. and behavioural? ?patterns and ? and d? esign p atterns and ?that? f ocus ?on and h? ow o bjects ?distribute and ? ?work. and boundary? ?object and ?? and a? n and ?object and ?which? ?interfaces and ?with and ?objects? o utside ?the and ?current? ?system and ?or? w ith and users. and Chain? o f and ?Responsibility? p attern and ? ?a and ? ?behavioural and p? attern f or a llowing and ?multiple? ?entities and t? o and ?handle and requests. and code and ?reuse? and u? sing and ?existing? c ode ?to and b? uild and ?new and ?software. and code and ?smell? and a? and ?symptom and ?of? ?bad and ?code.},
+  title  = {C2-Glossary},
+  file   = {:C2-Glossary.pdf:PDF},
+  groups = {Design Patterns and Software Arhitecture},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: groupstree:
@@ -1693,4 +1762,7 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 1 ExplicitGroup:Course Slides\;0\;;
 1 ExplicitGroup:EmotiW\;0\;;
 1 ExplicitGroup:segmentation\;0\;;
+1 ExplicitGroup:Scene\;0\;;
+1 ExplicitGroup:Python\;0\;;
+1 ExplicitGroup:Design Patterns and Software Arhitecture\;0\;;
 }
