@@ -1745,6 +1745,487 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   groups = {Design Patterns and Software Arhitecture},
 }
 
+@Article{tulyakov2017mocogan,
+  author    = {Tulyakov, Sergey and Liu, Ming-Yu and Yang, Xiaodong and Kautz, Jan},
+  title     = {Mocogan: Decomposing motion and content for video generation},
+  journal   = {arXiv preprint arXiv:1707.04993},
+  year      = {2017},
+  file      = {:tulyakov2017mocogan - Mocogan_ Decomposing motion and content for video generation.pdf:PDF},
+  groups    = {Dynamic Gan},
+  owner     = {shehabk},
+  timestamp = {2018.06.18},
+}
+
+@InProceedings{oh2015action,
+  author    = {Oh, Junhyuk and Guo, Xiaoxiao and Lee, Honglak and Lewis, Richard L and Singh, Satinder},
+  title     = {Action-conditional video prediction using deep networks in atari games},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2015},
+  pages     = {2863--2871},
+  file      = {:oh2015action - Action-conditional video prediction using deep networks in atari games.pdf:PDF},
+  groups    = {Dynamic Gan},
+  owner     = {shehabk},
+  review    = {This one is not using Gan for generating images. Using Reinforcement Learning. But very similar in lstm modelling.},
+  timestamp = {2018.06.18},
+}
+
+@InProceedings{srivastava2015unsupervised,
+  author    = {Srivastava, Nitish and Mansimov, Elman and Salakhudinov, Ruslan},
+  title     = {Unsupervised learning of video representations using lstms},
+  booktitle = {International conference on machine learning},
+  year      = {2015},
+  pages     = {843--852},
+  file      = {:srivastava2015unsupervised - Unsupervised learning of video representations using lstms.pdf:PDF},
+  groups    = {Dynamic Gan},
+  owner     = {shehabk},
+  timestamp = {2018.06.18},
+}
+
+@Article{mathieu2015deep,
+  author    = {Mathieu, Michael and Couprie, Camille and LeCun, Yann},
+  title     = {Deep multi-scale video prediction beyond mean square error},
+  journal   = {arXiv preprint arXiv:1511.05440},
+  year      = {2015},
+  file      = {:mathieu2015deep - Deep multi-scale video prediction beyond mean square error.pdf:PDF},
+  groups    = {Dynamic Gan},
+  owner     = {shehabk},
+  review    = {This paper do utilizes gan and a multiscale cnn. They introduces the gradient difference loss},
+  timestamp = {2018.06.18},
+}
+
+@Article{kalchbrenner2016video,
+  author    = {Kalchbrenner, Nal and Oord, Aaron van den and Simonyan, Karen and Danihelka, Ivo and Vinyals, Oriol and Graves, Alex and Kavukcuoglu, Koray},
+  title     = {Video pixel networks},
+  journal   = {arXiv preprint arXiv:1610.00527},
+  year      = {2016},
+  file      = {:kalchbrenner2016video - Video pixel networks.pdf:PDF},
+  groups    = {Dynamic Gan},
+  owner     = {shehabk},
+  review    = {Looks hard. Based on Pixel CNN},
+  timestamp = {2018.06.18},
+}
+
+@InProceedings{finn2016unsupervised,
+  author    = {Finn, Chelsea and Goodfellow, Ian and Levine, Sergey},
+  title     = {Unsupervised learning for physical interaction through video prediction},
+  booktitle = {Advances in neural information processing systems},
+  year      = {2016},
+  pages     = {64--72},
+  file      = {:finn2016unsupervised - Unsupervised learning for physical interaction through video prediction.pdf:PDF},
+  groups    = {Dynamic Gan},
+  owner     = {shehabk},
+  review    = {Has Good Fellow in it. It kind of uses convolutional lstm to model the dynamics in every layer.},
+  timestamp = {2018.06.18},
+}
+
+@Article{van2017transformation,
+  author    = {Van Amersfoort, Joost and Kannan, Anitha and Ranzato, Marc'Aurelio and Szlam, Arthur and Tran, Du and Chintala, Soumith},
+  title     = {Transformation-based models of video sequences},
+  journal   = {arXiv preprint arXiv:1701.08435},
+  year      = {2017},
+  file      = {:van2017transformation - Transformation-based models of video sequences.pdf:PDF},
+  groups    = {Dynamic Gan},
+  owner     = {shehabk},
+  review    = {This paper tries to find affine transformation for overlapping patches and then somehow combines them to form the frame.},
+  timestamp = {2018.06.18},
+}
+
+@InProceedings{xue2016probabilistic,
+  author    = {Xue, T and Wu, J and Bouman, K and Freeman, B},
+  title     = {Probabilistic modeling of future frames from a single image},
+  booktitle = {NIPS},
+  year      = {2016},
+  file      = {:xue2016probabilistic - Probabilistic modeling of future frames from a single image.pdf:PDF},
+  groups    = {Dynamic Gan},
+  owner     = {shehabk},
+  review    = {This kind of models the distriibution of possible next frames in some probabilistic way.},
+  timestamp = {2018.06.18},
+}
+
+@InProceedings{denton2017unsupervised,
+  author    = {Denton, Emily L and others},
+  title     = {Unsupervised learning of disentangled representations from video},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2017},
+  pages     = {4417--4426},
+  file      = {:denton2017unsupervised - Unsupervised learning of disentangled representations from video.pdf:PDF},
+  groups    = {Dynamic Gan},
+  owner     = {shehabk},
+  timestamp = {2018.06.18},
+}
+
+@Article{villegas2017decomposing,
+  author    = {Villegas, Ruben and Yang, Jimei and Hong, Seunghoon and Lin, Xunyu and Lee, Honglak},
+  title     = {Decomposing motion and content for natural video sequence prediction},
+  journal   = {arXiv preprint arXiv:1706.08033},
+  year      = {2017},
+  file      = {:villegas2017decomposing - Decomposing motion and content for natural video sequence prediction.pdf:PDF},
+  groups    = {Dynamic Gan},
+  owner     = {shehabk},
+  timestamp = {2018.06.18},
+}
+
+@Article{lideep,
+  author    = {Shan Li, Weihong Deng?},
+  title     = {Deep Facial Expression Recognition: A Survey},
+  file      = {:lideep - Deep Facial Expression Recognition_ A Survey.pdf:PDF},
+  groups    = {paper review},
+  owner     = {shehabk},
+  timestamp = {2018.06.19},
+}
+
+@InProceedings{bmvc2018joint,
+  author   = {BMVC 005},
+  title    = {JOINT AU LOCALISATION AND INTENSITY ESTIMATION},
+  year     = {2018},
+  abstract = {010
+011 This paper proposes a supervised learning approach to jointly perform facial Action Unit
+012 (AU) localisation and intensity estimation. Contrary to previous works that try to learn},
+  file     = {:bmvc2018joint - JOINT AU LOCALISATION AND INTENSITY ESTIMATION.pdf:PDF},
+  groups   = {paper review},
+}
+
+@InProceedings{bradski4886learning,
+  author = {Gary Bradski and Adrian Kaehler},
+  title  = {Learning OpenCV},
+  year   = {4886},
+  file   = {:bradski4886learning - Learning OpenCV.pdf:PDF},
+  groups = {opencv},
+}
+
+@Article{kaehlerpractical,
+  author    = {Adrian Kaehler},
+  title     = {Practical Python and OpenCV},
+  file      = {:kaehlerpractical - Practical Python and OpenCV.pdf:PDF},
+  groups    = {opencv},
+  owner     = {shehabk},
+  timestamp = {2018.07.09},
+}
+
+@Article{kaehlercase,
+  author    = {Adrian Kaehler},
+  title     = {Case Studies},
+  file      = {:kaehlercase - Case Studies.pdf:PDF},
+  groups    = {opencv},
+  owner     = {shehabk},
+  timestamp = {2018.07.09},
+}
+
+@Misc{minichino2015learning,
+  author    = {Minichino, Joe and Howse, Joseph},
+  title     = {Learning OpenCV 3 Computer Vision with Python Second Edition},
+  month     = sep,
+  year      = {2015},
+  file      = {Joe Minichino, Joseph Howse - Learning OpenCV 3 Computer Vision with Python (2015, Packt Publishing).pdf:minichino2015learning - Learning OpenCV 3 Computer Vision with Python Second Edition.pdf:PDF},
+  groups    = {opencv},
+  publisher = {Packt Publishing},
+}
+
+@Misc{smithcython,
+  author = {Kurt W. Smith},
+  title  = {Cython: A Guide for Python Programmers},
+  file   = {Cython-A-Guide-for-Python-Programmers.pdf:smithcython - Cython_ A Guide for Python Programmers.pdf:PDF},
+  groups = {Python},
+}
+
+@InProceedings{Bai_2018_CVPR,
+  author    = {Bai, Yancheng and Zhang, Yongqiang and Ding, Mingli and Ghanem, Bernard},
+  title     = {Finding Tiny Faces in the Wild With Generative Adversarial Network},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {June},
+  file      = {:Bai_2018_CVPR - Finding Tiny Faces in the Wild With Generative Adversarial Network.pdf:PDF},
+  groups    = {cvpr18},
+  owner     = {shehabk},
+  timestamp = {2018.07.13},
+}
+
+@InProceedings{Yang_2018_CVPR,
+  author    = {Yang, Hongyu and Huang, Di and Wang, Yunhong and Jain, Anil K.},
+  title     = {Learning Face Age Progression: A Pyramid Architecture of GANs},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {June},
+  file      = {:Yang_2018_CVPR - Learning Face Age Progression_ A Pyramid Architecture of GANs.pdf:PDF},
+  groups    = {cvpr18},
+  owner     = {shehabk},
+  timestamp = {2018.07.13},
+}
+
+@InProceedings{Chang_2018_CVPR,
+  author    = {Chang, Huiwen and Lu, Jingwan and Yu, Fisher and Finkelstein, Adam},
+  title     = {PairedCycleGAN: Asymmetric Style Transfer for Applying and Removing Makeup},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {June},
+  file      = {:Chang_2018_CVPR - PairedCycleGAN_ Asymmetric Style Transfer for Applying and Removing Makeup.pdf:PDF},
+  groups    = {cvpr18},
+  owner     = {shehabk},
+  timestamp = {2018.07.13},
+}
+
+@InProceedings{Mueller_2018_CVPR,
+  author    = {Mueller, Franziska and Bernard, Florian and Sotnychenko, Oleksandr and Mehta, Dushyant and Sridhar, Srinath and Casas, Dan and Theobalt, Christian},
+  title     = {GANerated Hands for Real-Time 3D Hand Tracking From Monocular RGB},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {June},
+  file      = {:Mueller_2018_CVPR - GANerated Hands for Real-Time 3D Hand Tracking From Monocular RGB.pdf:PDF},
+  groups    = {cvpr18},
+  owner     = {shehabk},
+  timestamp = {2018.07.13},
+}
+
+@InProceedings{Ma_2018_CVPR,
+  author    = {Ma, Liqian and Sun, Qianru and Georgoulis, Stamatios and Van Gool, Luc and Schiele, Bernt and Fritz, Mario},
+  title     = {Disentangled Person Image Generation},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {June},
+  file      = {:Ma_2018_CVPR - Disentangled Person Image Generation.pdf:PDF},
+  groups    = {cvpr18},
+  owner     = {shehabk},
+  timestamp = {2018.07.13},
+}
+
+@InProceedings{Bulat_2018_CVPR,
+  author    = {Bulat, Adrian and Tzimiropoulos, Georgios},
+  title     = {Super-FAN: Integrated Facial Landmark Localization and Super-Resolution of Real-World Low Resolution Faces in Arbitrary Poses With GANs},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {June},
+  file      = {:Bulat_2018_CVPR - Super-FAN_ Integrated Facial Landmark Localization and Super-Resolution of Real-World Low Resolution Faces in Arbitrary Poses With GANs.pdf:PDF},
+  groups    = {cvpr18},
+  owner     = {shehabk},
+  timestamp = {2018.07.13},
+}
+
+@InProceedings{Si_2018_CVPR,
+  author    = {Si, Chenyang and Wang, Wei and Wang, Liang and Tan, Tieniu},
+  title     = {Multistage Adversarial Losses for Pose-Based Human Image Synthesis},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {June},
+  file      = {:Si_2018_CVPR - Multistage Adversarial Losses for Pose-Based Human Image Synthesis.pdf:PDF},
+  groups    = {cvpr18},
+  owner     = {shehabk},
+  timestamp = {2018.07.13},
+}
+
+@InProceedings{Dong_2018_CVPR,
+  author    = {Dong, Xuanyi and Yu, Shoou-I and Weng, Xinshuo and Wei, Shih-En and Yang, Yi and Sheikh, Yaser},
+  title     = {Supervision-by-Registration: An Unsupervised Approach to Improve the Precision of Facial Landmark Detectors},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {June},
+  file      = {:Dong_2018_CVPR - Supervision-by-Registration_ An Unsupervised Approach to Improve the Precision of Facial Landmark Detectors.pdf:PDF},
+  groups    = {cvpr18},
+  owner     = {shehabk},
+  timestamp = {2018.07.13},
+}
+
+@InProceedings{Li_2018_CVPR,
+  author    = {Li, Shuang and Bak, Slawomir and Carr, Peter and Wang, Xiaogang},
+  title     = {Diversity Regularized Spatiotemporal Attention for Video-Based Person Re-Identification},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {June},
+  file      = {:Li_2018_CVPR - Diversity Regularized Spatiotemporal Attention for Video-Based Person Re-Identification.pdf:PDF},
+  groups    = {cvpr18},
+  owner     = {shehabk},
+  timestamp = {2018.07.13},
+}
+
+@InProceedings{Dong_2018_CVPR,
+  author    = {Dong, Xuanyi and Yan, Yan and Ouyang, Wanli and Yang, Yi},
+  title     = {Style Aggregated Network for Facial Landmark Detection},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {June},
+  file      = {:Dong_2018_CVPR - Style Aggregated Network for Facial Landmark Detection.pdf:PDF},
+  groups    = {cvpr18},
+  owner     = {shehabk},
+  timestamp = {2018.07.13},
+}
+
+@InProceedings{Wang_2018_CVPR,
+  author    = {Wang, Kang and Zhao, Rui and Ji, Qiang},
+  title     = {A Hierarchical Generative Model for Eye Image Synthesis and Eye Gaze Estimation},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {June},
+  file      = {:Wang_2018_CVPR - A Hierarchical Generative Model for Eye Image Synthesis and Eye Gaze Estimation.pdf:PDF},
+  groups    = {cvpr18},
+  owner     = {shehabk},
+  timestamp = {2018.07.13},
+}
+
+@InProceedings{Baradel_2018_CVPR,
+  author    = {Baradel, Fabien and Wolf, Christian and Mille, Julien and Taylor, Graham W.},
+  title     = {Glimpse Clouds: Human Activity Recognition From Unstructured Feature Points},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {June},
+  file      = {:Baradel_2018_CVPR - Glimpse Clouds_ Human Activity Recognition From Unstructured Feature Points.pdf:PDF},
+  groups    = {cvpr18},
+  owner     = {shehabk},
+  timestamp = {2018.07.13},
+}
+
+@InProceedings{Zhang_2018_CVPR,
+  author    = {Zhang, Xiaoning and Wang, Tiantian and Qi, Jinqing and Lu, Huchuan and Wang, Gang},
+  title     = {Progressive Attention Guided Recurrent Network for Salient Object Detection},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {June},
+  file      = {:Zhang_2018_CVPR - Progressive Attention Guided Recurrent Network for Salient Object Detection.pdf:PDF},
+  groups    = {cvpr18},
+  owner     = {shehabk},
+  timestamp = {2018.07.13},
+}
+
+@InProceedings{Mopuri_2018_CVPR,
+  author    = {Reddy Mopuri, Konda and Ojha, Utkarsh and Garg, Utsav and Venkatesh Babu, R.},
+  title     = {NAG: Network for Adversary Generation},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {June},
+  file      = {:Mopuri_2018_CVPR - NAG_ Network for Adversary Generation.pdf:PDF},
+  groups    = {cvpr18},
+  owner     = {shehabk},
+  timestamp = {2018.07.13},
+}
+
+@InProceedings{Shen_2018_CVPR,
+  author    = {Shen, Yujun and Luo, Ping and Yan, Junjie and Wang, Xiaogang and Tang, Xiaoou},
+  title     = {FaceID-GAN: Learning a Symmetry Three-Player GAN for Identity-Preserving Face Synthesis},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {June},
+  file      = {:Shen_2018_CVPR - FaceID-GAN_ Learning a Symmetry Three-Player GAN for Identity-Preserving Face Synthesis.pdf:PDF},
+  groups    = {cvpr18},
+  owner     = {shehabk},
+  timestamp = {2018.07.13},
+}
+
+@InProceedings{Kossaifi_2018_CVPR,
+  author    = {Kossaifi, Jean and Tran, Linh and Panagakis, Yannis and Pantic, Maja},
+  title     = {GAGAN: Geometry-Aware Generative Adversarial Networks},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {June},
+  file      = {:Kossaifi_2018_CVPR - GAGAN_ Geometry-Aware Generative Adversarial Networks.pdf:PDF},
+  groups    = {cvpr18},
+  owner     = {shehabk},
+  timestamp = {2018.07.13},
+}
+
+@InProceedings{Xu_2018_CVPR,
+  author    = {Xu, Tao and Zhang, Pengchuan and Huang, Qiuyuan and Zhang, Han and Gan, Zhe and Huang, Xiaolei and He, Xiaodong},
+  title     = {AttnGAN: Fine-Grained Text to Image Generation With Attentional Generative Adversarial Networks},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {June},
+  file      = {:Xu_2018_CVPR - AttnGAN_ Fine-Grained Text to Image Generation With Attentional Generative Adversarial Networks.pdf:PDF},
+  groups    = {cvpr18},
+  owner     = {shehabk},
+  timestamp = {2018.07.13},
+}
+
+@Article{cai2017deep,
+  author    = {Cai, Haoye and Bai, Chunyan and Tai, Yu-Wing and Tang, Chi-Keung},
+  title     = {Deep Video Generation, Prediction and Completion of Human Action Sequences},
+  journal   = {arXiv preprint arXiv:1711.08682},
+  year      = {2017},
+  file      = {:cai2017deep - Deep Video Generation, Prediction and Completion of Human Action Sequences.pdf:PDF},
+  groups    = {Dynamic Gan},
+  owner     = {shehabk},
+  review    = {Used LSTM as discriminator. Very good paper to read.},
+  timestamp = {2018.07.16},
+}
+
+@Misc{szeliskicomputer,
+  author   = {Richard Szeliski},
+  title    = {Computer Vision: Algorithms and Applications},
+  abstract = {Computer vision},
+  file     = {Computer_Vision_SzeliskiBook_20100903_draft.pdf:szeliskicomputer - Computer Vision_ Algorithms and Applications.pdf:PDF},
+  groups   = {Books},
+  keywords = {cv},
+}
+
+@Misc{kollerprobabilistic,
+  author   = {Daphne Koller and Nir Friedman},
+  title    = {Probabilistic Graphical Models: Principles and Techniques},
+  file     = {(Adaptive computation and machine learning) Daphne Koller_ Nir Friedman -Probabilistic graphical models _ principles and techniques-MIT Press (2009).pdf:kollerprobabilistic - Probabilistic Graphical Models_ Principles and Techniques.pdf:PDF},
+  groups   = {Books},
+  keywords = {pgm},
+}
+
+@Misc{gonzalezdigital,
+  author = {Gonzalez},
+  title  = {Digital Image Processing},
+  file   = {Digital_Image_Processing_GONZALEZ.pdf:gonzalezdigital - Digital Image Processing.pdf:PDF},
+  groups = {Books},
+}
+
+@Misc{dip3emanualmasterfiledvi,
+  title  = {DIP_3E_Manual_Master_File.dvi},
+  file   = {DIP3E_Complete_Manual.pdf:/media/shehabk/D_DRIVE/study_at_usc/usc_materials/Books/DIP3E_Complete_Manual.pdf:PDF},
+  groups = {Books},
+}
+
+@TechReport{laakmann2005fourth,
+  author = {Gayle Laakmann},
+  title  = {FOURTH CRACKING THE EDITION},
+  year   = {2005},
+  number = {Questions},
+  doi    = {ng},
+  file   = {:laakmann2005fourth - FOURTH CRACKING THE EDITION.pdf:PDF},
+  groups = {Books},
+}
+
+@Misc{xiangschaums,
+  author = {By Zhigang Xiang, Roy A. Plastock},
+  title  = {Schaum's outline of theory and problems of computer graphics},
+  file   = {Computer_Graphics.pdf:xiangschaums - Schaum's outline of theory and problems of computer graphics.pdf:PDF},
+  groups = {Books},
+}
+
+@InProceedings{learningpython,
+  author = {Machine Learning and Deep Learning and with Python and scikit-learn and TensorFlow},
+  title  = {Python Machine Learning Second Edition},
+  file   = {:learningpython - Python Machine Learning Second Edition.pdf:PDF},
+  groups = {Python},
+  review = {code: https://github.com/rasbt/python-machine-learning-book-2nd-edition},
+}
+
+@InProceedings{vondrick2016generating,
+  author    = {Vondrick, Carl and Pirsiavash, Hamed and Torralba, Antonio},
+  title     = {Generating videos with scene dynamics},
+  booktitle = {Advances In Neural Information Processing Systems},
+  year      = {2016},
+  pages     = {613--621},
+  file      = {:vondrick2016generating - Generating videos with scene dynamics.pdf:PDF},
+  groups    = {Dynamic Gan},
+  owner     = {shehabk},
+  timestamp = {2018.07.26},
+}
+
+@Article{pumarola2018ganimation,
+  author      = {Albert Pumarola and Antonio Agudo and Aleix M. Martinez and Alberto Sanfeliu and Francesc Moreno-Noguer},
+  title       = {GANimation: Anatomically-aware Facial Animation from a Single Image},
+  abstract    = {Recent advances in Generative Adversarial Networks (GANs) have shown impressive results for task of facial expression synthesis. The most successful architecture is StarGAN, that conditions GANs generation process with images of a specific domain, namely a set of images of persons sharing the same expression. While effective, this approach can only generate a discrete number of expressions, determined by the content of the dataset. To address this limitation, in this paper, we introduce a novel GAN conditioning scheme based on Action Units (AU) annotations, which describes in a continuous manifold the anatomical facial movements defining a human expression. Our approach allows controlling the magnitude of activation of each AU and combine several of them. Additionally, we propose a fully unsupervised strategy to train the model, that only requires images annotated with their activated AUs, and exploit attention mechanisms that make our network robust to changing backgrounds and lighting conditions. Extensive evaluation show that our approach goes beyond competing conditional generators both in the capability to synthesize a much wider range of expressions ruled by anatomically feasible muscle movements, as in the capacity of dealing with images in the wild.},
+  date        = {2018-07-24},
+  eprint      = {1807.09251v1},
+  eprintclass = {cs.CV},
+  eprinttype  = {arXiv},
+  file        = {:pumarola2018ganimation - GANimation_ Anatomically-aware Facial Animation from a Single Image.pdf:PDF},
+  groups      = {Dynamic Gan},
+  keywords    = {cs.CV},
+  owner       = {shehabk},
+  timestamp   = {2018.07.26},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: groupstree:
@@ -1772,4 +2253,8 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 1 ExplicitGroup:Scene\;0\;;
 1 ExplicitGroup:Python\;0\;;
 1 ExplicitGroup:Design Patterns and Software Arhitecture\;0\;;
+1 ExplicitGroup:Dynamic Gan\;0\;;
+1 ExplicitGroup:opencv\;0\;;
+1 ExplicitGroup:conferences\;0\;;
+2 ExplicitGroup:cvpr18\;0\;;
 }
