@@ -1,4 +1,4 @@
-% Encoding: ISO-8859-1
+% Encoding: ISO-8859-9
 
 @InProceedings{liu2014feature,
   author       = {Liu, Ping and Zhou, Joey Tianyi and Tsang, Ivor Wai-Hung and Meng, Zibo and Han, Shizhong and Tong, Yan},
@@ -707,7 +707,7 @@
   title     = {Pattern Classification (2nd Ed)},
   publisher = {Wiley},
   year      = {2001},
-  author    = {Richard O. Duda and Peter E. Hart and David G. Stork},
+  author    = {Duda},
   annote    = {SIGNATUR = 785.172},
   file      = {:Duda01a - Pattern Classification (2nd Ed).pdf:PDF},
   groups    = {Books},
@@ -737,6 +737,7 @@
 }
 
 @InProceedings{patternsolution,
+  author   = {Duda},
   title    = {Solution Duda Book},
   file     = {:PCDudaHartStorkSlotions.pdf:PDF},
   groups   = {Books},
@@ -745,6 +746,7 @@
 
 @Manual{solution,
   title     = {Solution Bishop Book},
+  author    = {Bishop},
   file      = {:PRML_solution_full.pdf:PDF},
   groups    = {Books},
   keywords  = {pr_sol,bishop},
@@ -754,6 +756,7 @@
 
 @Book{computer,
   title     = {Computer vision_ A modern approach-Prentice Hall (2011)},
+  author    = {David A Forsyth},
   file      = {:David A. Forsyth, Jean Ponce-Computer vision_ A modern approach-Prentice Hall (2011).pdf:PDF},
   groups    = {Books},
   keywords  = {cv},
@@ -763,6 +766,7 @@
 
 @Book{probabilistic,
   title     = {Probabilistic graphical models _ principles and techniques-MIT Press (2009.pdf:PDF},
+  author    = {Daphne Koller},
   file      = {:(Adaptive computation and machine learning) Daphne Koller_ Nir Friedman -Probabilistic graphical models _ principles and techniques-MIT Press (2009.pdf:PDF},
   groups    = {Books},
   keywords  = {pgm},
@@ -1610,7 +1614,7 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   timestamp    = {2018.03.20},
 }
 
-@InProceedings{dhall2017individual,
+@InProceedings{dhall2017individuala,
   author       = {Dhall, Abhinav and Goecke, Roland and Ghosh, Shreya and Joshi, Jyoti and Hoey, Jesse and Gedeon, Tom},
   title        = {From individual to group-level emotion recognition: EmotiW 5.0},
   booktitle    = {Proceedings of the 19th ACM International Conference on Multimodal Interaction},
@@ -1725,21 +1729,21 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 }
 
 @InProceedings{???in??object-oriented??designcourse,
-  author = {abstract?? -? ? ?in ? ?object-oriented? ?design and ? ?a? ?class? ?that? ?cannot? b? e? ?instantiated? ?directly and ? ?but? ?must? b? e and subclassed.? ?It and ?can? ?also and ?apply? ?to and ?a? ?method and ? ?or and a? ttribute ?of and ?a? ?class. and abstract? ?data and ?types?? and ?data? ?types and ?that? ?are and d? efined ?by and ?the? ?their and b? ehaviour ?as and ?opposed? ?to and ?their and structure.? ?Defined and ? ?by and t? he ?developer and ?rather? ?than and ?the? ?programming and ?language and access? m odifiers and ? ?keywords and ?that? ?control and ?which? ?other and ? ?classes and ?can? ?access and ?a and ?variable? ?or and ?method and in? ?a? ?class.? ?These? ?include ? ??public and ? ?protected and ? ?private and ? a?? nd? ?no? ?keyword and ? ?sometimes? ?called and default?. and abstraction? ??-? ?the? ?act? ?of? ?simplifying? ?a? ?concept? i? n? ?context.? ?In? ?object-oriented? ?design and ? ?it? ?is? ?the and simplification? ?of and ?the? ?real and ?world? ?entity and ?into? ?its and ?most? ?important and ?attributes? ?and and ?behaviours? ?for and ? ?the and purpose? ?of and ?the? ?software. and attribute?? -? ? ?a? ?property? ?that? ?object? ?of? ?a? ?class? ?must? ?have and ? ?even? ?though ? ?their? ?values? ?may? ?be and different.? ?For? ?example and ? ?two? ?student? ?objects? ?each? ?have? ?a? ?grade? ?attribute and ? ?even? ?though? ?one? ?has and an? '?A and ?and? ?the and ?other? ?has and ?a? '?B.' and behaviours? and ?the? a ctions ?that and ? ?an and o? bject and ?can? ?take and boundary? ?object? ??-? ?an? o? bject ? ?whose? ?role? ?is? t? o? ?interface ? ?with? ?an? ?external? ?component and ? ?such? ?as? ?a and user? ?or and ?an? ?adjacent and s? ystem},
+  author = {c1},
   title  = {C1 Glossary},
   file   = {:C1-Glossary.pdf:PDF},
   groups = {Design Patterns and Software Arhitecture},
 }
 
 @InProceedings{abstract?superclasscourse,
-  author = {abstract? s uperclass and ?-? a and ?class? w hich and ?must and ?have? s ubclasses ?in and o? rder and ?to? ?be and ?instantiated. and Adapter? p attern and ?-? a and ?design? p attern ?that and ? ?connects and ?two? ?incompatible and i? nterfaces ?by and f? itting ?between and them? ?and and p? roviding a and ?compatible and ?interface and ?to? ?both. and Agile? d evelopment and ?-? and ?a and ?family and ?of? s oftware and ?development? ?methodologies and ? ?that and ?encourage and adaptivity and ? ?cross-functional? c? ollaboration and ? ?evolutionary? ?development and ? ?early? ?delivery and ? ?and and continuous? ?improvement. and Anti-Pattern?? and ? ?a and ? ?commonly-encountered and ?attempted? s olution and ?to? ?a and ? ?problem and w? hich and ?is and counterproductive? o r and ?ineffective. and behavioural? ?patterns and ? and d? esign p atterns and ?that? f ocus ?on and h? ow o bjects ?distribute and ? ?work. and boundary? ?object and ?? and a? n and ?object and ?which? ?interfaces and ?with and ?objects? o utside ?the and ?current? ?system and ?or? w ith and users. and Chain? o f and ?Responsibility? p attern and ? ?a and ? ?behavioural and p? attern f or a llowing and ?multiple? ?entities and t? o and ?handle and requests. and code and ?reuse? and u? sing and ?existing? c ode ?to and b? uild and ?new and ?software. and code and ?smell? and a? and ?symptom and ?of? ?bad and ?code.},
+  author = {c2},
   title  = {C2-Glossary},
   file   = {:C2-Glossary.pdf:PDF},
   groups = {Design Patterns and Software Arhitecture},
 }
 
 @InProceedings{aggregation?course,
-  author = {aggregation? and ?-? p utting ?objects and ?or? o ther and ?components and ?together and binding? and 1)?? and ? ?the and ? ?act and ?of? p rogramming and ?a? ?service and r? equester t o ?interact and w? ith ?a and ? ?service and p? rovider.? C and an and be and ?done? p rogrammatically o r and ?manually? ?by and ?using? ?the and ?WSDL and ?description. and binding ? ?(2) ?? ?-? i? n ? ?WSDL and ? ?the? b? indings ? ?section? ?gives? ?detail? ?about? t? he? p? rotocols? a? nd? ?standards ? ?that and are? ?mapped and t? o and ?the and ?interaction. and BPEL/WS-BPEL?? and ?a and ?design and ?language? ?for and c? omposing w eb ?services. and ?Stands and ?for? ?Business and P? rocess and Execution and ?Language. and Composing? ?Object and ?principle?? and ? ?a and f? orm ?of and ?aggregation? ?in and O? O and ? ?in and ?which? t he d esired b ehaviour i s and obtained? ?by and c? ombining o bjects and composition? and ?-? c reating and ?a? n ew s ervice b y and ?combining and ?other? s ervices and coordination?? and ? ?using and ?two? ?or and m? ore ?services and ?in? ?conjunction and DOCTYPE?? and ? ?is and t? he f irst ?line and ? ?in and ?any? ?HTML and ? ?file.It? i s and ?what? ?denotes and t? o and ?the and ?browser and ?that? t he f ile ?is and HTML and eXtensible? ?Markup and ?Language?? ?or and ??XML?? and ? ?is and ?a and ?markup? ?language and t? hat ?was and m? eant and ?to? ?store and a? nd and transport? ?data.},
+  author = {c3},
   title  = {C4-Glossary},
   file   = {:C4-Glossary.pdf:PDF},
   groups = {Design Patterns and Software Arhitecture},
@@ -2036,7 +2040,7 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   timestamp = {2018.07.13},
 }
 
-@InProceedings{Dong_2018_CVPR,
+@InProceedings{dong2018style,
   author    = {Dong, Xuanyi and Yan, Yan and Ouyang, Wanli and Yang, Yi},
   title     = {Style Aggregated Network for Facial Landmark Detection},
   booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
@@ -2175,13 +2179,14 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 }
 
 @TechReport{laakmann2005fourth,
-  author = {Gayle Laakmann},
-  title  = {FOURTH CRACKING THE EDITION},
-  year   = {2005},
-  number = {Questions},
-  doi    = {ng},
-  file   = {:laakmann2005fourth - FOURTH CRACKING THE EDITION.pdf:PDF},
-  groups = {Books},
+  author   = {Gayle Laakmann},
+  title    = {FOURTH CRACKING THE EDITION},
+  year     = {2005},
+  number   = {Questions},
+  doi      = {ng},
+  file     = {:laakmann2005fourth - FOURTH CRACKING THE EDITION.pdf:PDF},
+  groups   = {Books},
+  keywords = {ctci},
 }
 
 @Misc{xiangschaums,
@@ -2209,6 +2214,168 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   groups    = {Dynamic Gan},
   owner     = {shehabk},
   timestamp = {2018.07.26},
+}
+
+@Article{pumarola2018ganimation,
+  author      = {Albert Pumarola and Antonio Agudo and Aleix M. Martinez and Alberto Sanfeliu and Francesc Moreno-Noguer},
+  title       = {GANimation: Anatomically-aware Facial Animation from a Single Image},
+  abstract    = {Recent advances in Generative Adversarial Networks (GANs) have shown impressive results for task of facial expression synthesis. The most successful architecture is StarGAN, that conditions GANs generation process with images of a specific domain, namely a set of images of persons sharing the same expression. While effective, this approach can only generate a discrete number of expressions, determined by the content of the dataset. To address this limitation, in this paper, we introduce a novel GAN conditioning scheme based on Action Units (AU) annotations, which describes in a continuous manifold the anatomical facial movements defining a human expression. Our approach allows controlling the magnitude of activation of each AU and combine several of them. Additionally, we propose a fully unsupervised strategy to train the model, that only requires images annotated with their activated AUs, and exploit attention mechanisms that make our network robust to changing backgrounds and lighting conditions. Extensive evaluation show that our approach goes beyond competing conditional generators both in the capability to synthesize a much wider range of expressions ruled by anatomically feasible muscle movements, as in the capacity of dealing with images in the wild.},
+  date        = {2018-07-24},
+  eprint      = {1807.09251v1},
+  eprintclass = {cs.CV},
+  eprinttype  = {arXiv},
+  file        = {:pumarola2018ganimation - GANimation_ Anatomically-aware Facial Animation from a Single Image.pdf:PDF},
+  groups      = {Dynamic Gan},
+  keywords    = {cs.CV},
+  owner       = {shehabk},
+  timestamp   = {2018.07.26},
+}
+
+@Article{fan2018controllable,
+  author  = {Fan, Lijie and Huang, Wenbing and Gan, Chuang and Huang, Junzhou and Gong, Boqing},
+  title   = {Controllable Image-to-Video Translation: A Case Study on Facial Expression Generation},
+  journal = {arXiv preprint arXiv:1808.02992},
+  year    = {2018},
+  file    = {:fan2018controllable - Controllable Image-to-Video Translation_ A Case Study on Facial Expression Generation.pdf:PDF},
+  groups  = {Dynamic Gan},
+}
+
+@Article{du2014compound,
+  author    = {Du, Shichuan and Tao, Yong and Martinez, Aleix M},
+  title     = {Compound facial expressions of emotion},
+  journal   = {Proceedings of the National Academy of Sciences},
+  year      = {2014},
+  pages     = {201322355},
+  file      = {:du2014compound - Compound facial expressions of emotion.pdf:PDF},
+  groups    = {Expression},
+  publisher = {National Acad Sciences},
+}
+
+@InProceedings{fabian2016emotionet,
+  author    = {Fabian Benitez-Quiroz, C and Srinivasan, Ramprakash and Martinez, Aleix M},
+  title     = {Emotionet: An accurate, real-time algorithm for the automatic annotation of a million facial expressions in the wild},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year      = {2016},
+  pages     = {5562--5570},
+  file      = {:fabian2016emotionet - Emotionet_ An accurate, real-time algorithm for the automatic annotation of a million facial expressions in the wild.pdf:PDF},
+  groups    = {Expression},
+}
+
+@InProceedings{zhao2018learning,
+  author    = {Zhao, Kaili and Chu, Wen-Sheng and Martinez, Aleix M},
+  title     = {Learning Facial Action Units From Web Images With Scalable Weakly Supervised Clustering},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year      = {2018},
+  pages     = {2090--2099},
+  file      = {:zhao2018learning - Learning Facial Action Units From Web Images With Scalable Weakly Supervised Clustering.pdf:PDF},
+  groups    = {AU},
+}
+
+@InProceedings{benitez2017recognition,
+  author    = {Benitez-Quiroz, Carlos Fabian and Wang, Yan and Martinez, Aleix M},
+  title     = {Recognition of Action Units in the Wild with Deep Nets and a New Global-Local Loss.},
+  booktitle = {ICCV},
+  year      = {2017},
+  pages     = {3990--3999},
+  file      = {:benitez2017recognition - Recognition of Action Units in the Wild with Deep Nets and a New Global-Local Loss..pdf:PDF},
+  groups    = {AU},
+}
+
+@InProceedings{fabianbenitez-quiroz2016emotionet,
+  author    = {Fabian Benitez-Quiroz, C and Srinivasan, Ramprakash and Martinez, Aleix M},
+  title     = {Emotionet: An accurate, real-time algorithm for the automatic annotation of a million facial expressions in the wild},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year      = {2016},
+  pages     = {5562--5570},
+  file      = {:fabian2016emotionet - Emotionet_ An accurate, real-time algorithm for the automatic annotation of a million facial expressions in the wild.pdf:PDF},
+  groups    = {AU},
+}
+
+@Article{,
+  groups = {Mecha},
+}
+
+@Article{bansal2018recycle,
+  author  = {Bansal, Aayush and Ma, Shugao and Ramanan, Deva and Sheikh, Yaser},
+  title   = {Recycle-GAN: Unsupervised Video Retargeting},
+  journal = {arXiv preprint arXiv:1808.05174},
+  year    = {2018},
+  file    = {:bansal2018recycle - Recycle-GAN_ Unsupervised Video Retargeting.pdf:PDF},
+  groups  = {Dynamic Gan},
+}
+
+@Article{lee2018diverse,
+  author      = {Hsin-Ying Lee and Hung-Yu Tseng and Jia-Bin Huang and Maneesh Kumar Singh and Ming-Hsuan Yang},
+  title       = {Diverse Image-to-Image Translation via Disentangled Representations},
+  journal     = {ECCV18},
+  abstract    = {Image-to-image translation aims to learn the mapping between two visual domains. There are two main challenges for many applications: 1) the lack of aligned training pairs and 2) multiple possible outputs from a single input image. In this work, we present an approach based on disentangled representation for producing diverse outputs without paired training images. To achieve diversity, we propose to embed images onto two spaces: a domain-invariant content space capturing shared information across domains and a domain-specific attribute space. Our model takes the encoded content features extracted from a given input and the attribute vectors sampled from the attribute space to produce diverse outputs at test time. To handle unpaired training data, we introduce a novel cross-cycle consistency loss based on disentangled representations. Qualitative results show that our model can generate diverse and realistic images on a wide range of tasks without paired training data. For quantitative comparisons, we measure realism with user study and diversity with a perceptual distance metric. We apply the proposed model to domain adaptation and show competitive performance when compared to the state-of-the-art on the MNIST-M and the LineMod datasets.},
+  date        = {2018-08-02},
+  eprint      = {1808.00948v1},
+  eprintclass = {cs.CV},
+  eprinttype  = {arXiv},
+  file        = {online:http\://arxiv.org/pdf/1808.00948v1:PDF},
+  groups      = {Image Translation GAN},
+  keywords    = {cs.CV},
+}
+
+@Article{huang2018multimodal,
+  author      = {Xun Huang and Ming-Yu Liu and Serge Belongie and Jan Kautz},
+  title       = {Multimodal Unsupervised Image-to-Image Translation},
+  abstract    = {Unsupervised image-to-image translation is an important and challenging problem in computer vision. Given an image in the source domain, the goal is to learn the conditional distribution of corresponding images in the target domain, without seeing any pairs of corresponding images. While this conditional distribution is inherently multimodal, existing approaches make an overly simplified assumption, modeling it as a deterministic one-to-one mapping. As a result, they fail to generate diverse outputs from a given source domain image. To address this limitation, we propose a Multimodal Unsupervised Image-to-image Translation (MUNIT) framework. We assume that the image representation can be decomposed into a content code that is domain-invariant, and a style code that captures domain-specific properties. To translate an image to another domain, we recombine its content code with a random style code sampled from the style space of the target domain. We analyze the proposed framework and establish several theoretical results. Extensive experiments with comparisons to the state-of-the-art approaches further demonstrates the advantage of the proposed framework. Moreover, our framework allows users to control the style of translation outputs by providing an example style image. Code and pretrained models are available at https://github.com/nvlabs/MUNIT},
+  date        = {2018-04-12},
+  eprint      = {1804.04732v2},
+  eprintclass = {cs.CV},
+  eprinttype  = {arXiv},
+  file        = {online:http\://arxiv.org/pdf/1804.04732v2:PDF},
+  groups      = {Image Translation GAN},
+  keywords    = {cs.CV, cs.LG, stat.ML},
+}
+
+@Article{braley2018group,
+  author  = {Braley, Mckenzie and Murray, Gabriel},
+  title   = {The Group Affect and Performance (GAP) Corpus},
+  journal = {Proceedings of Group Interaction Frontiers in Technology (GIFT 2018). ACM},
+  year    = {2018},
+  file    = {:braley2018group - The Group Affect and Performance (GAP) Corpus.pdf:PDF},
+  groups  = {GroupInteraction},
+  review  = {https://sites.google.com/view/gap-corpus/home},
+}
+
+@Article{sanchez2012nonverbal,
+  author    = {Sanchez-Cortes, Dairazalia and Aran, Oya and Mast, Marianne Schmid and Gatica-Perez, Daniel},
+  title     = {A nonverbal behavior approach to identify emergent leaders in small groups},
+  journal   = {IEEE Transactions on Multimedia},
+  year      = {2012},
+  volume    = {14},
+  number    = {3},
+  pages     = {816--832},
+  file      = {:sanchez2012nonverbal - A nonverbal behavior approach to identify emergent leaders in small groups.pdf:PDF},
+  groups    = {GroupInteraction},
+  publisher = {IEEE},
+}
+
+@InProceedings{laakmanncracking,
+  author   = {Laakmann},
+  title    = {CRACKING the Coding Interview 6th Edition},
+  file     = {:laakmanncracking - CRACKING the Coding Interview 6th Edition.pdf:PDF},
+  groups   = {Books},
+  keywords = {ctci},
+}
+
+@InProceedings{strang8120introduction,
+  author = {Gilbert Strang},
+  title  = {Introduction to Linear Algebra Fifth Edition},
+  year   = {8120},
+  file   = {:strang8120introduction - Introduction to Linear Algebra Fifth Edition.pdf:PDF},
+  groups = {Books},
+}
+
+@InProceedings{to8120introduction,
+  author = {Gilbert Strang},
+  title  = {Introduction to Linear Algebra Fifth Edition Solution},
+  year   = {8120},
+  file   = {:Gilbert Strang - Solutions? Manual for Introduction to Linear Algebra, Fifth Edition-Wellesley-Cambridge Press (2016).pdf:PDF},
+  groups = {Books},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -2242,4 +2409,8 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 1 ExplicitGroup:opencv\;0\;;
 1 ExplicitGroup:conferences\;0\;;
 2 ExplicitGroup:cvpr18\;0\;;
+2 ExplicitGroup:icmi2018\;0\;;
+1 ExplicitGroup:Mecha\;0\;;
+1 ExplicitGroup:GroupInteraction\;0\;;
+1 ExplicitGroup:Interview\;0\;;
 }
