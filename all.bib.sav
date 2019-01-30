@@ -1249,6 +1249,7 @@ https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-cours
 
 @Standard{theory,
   title     = {Theory 551},
+  author    = {Fenner},
   file      = {:default.pdf:PDF},
   groups    = {Course Slides},
   keywords  = {class note},
@@ -1638,7 +1639,7 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 }
 
 @InProceedings{rosecsce587,
-  author = {rose},
+  author = {Rose},
   title  = {CSCE:587 Big Data},
   file   = {:rosecsce587 - CSCE_587 Big Data.pdf:PDF},
   groups = {Course Slides},
@@ -2166,17 +2167,19 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 }
 
 @Misc{gonzalezdigital,
-  author = {Gonzalez},
-  title  = {Digital Image Processing},
-  file   = {Digital_Image_Processing_GONZALEZ.pdf:gonzalezdigital - Digital Image Processing.pdf:PDF},
-  groups = {Books},
+  author   = {Gonzalez},
+  title    = {Digital Image Processing},
+  file     = {Digital_Image_Processing_GONZALEZ.pdf:gonzalezdigital - Digital Image Processing.pdf:PDF},
+  groups   = {Books},
+  keywords = {dip},
 }
 
 @Misc{dip3emanualmasterfiledvi,
-  author = {Gonzalez},
-  title  = {DIP_3E_Manual_Master_File.dvi},
-  file   = {DIP3E_Complete_Manual.pdf:/media/shehabk/D_DRIVE/study_at_usc/usc_materials/Books/DIP3E_Complete_Manual.pdf:PDF},
-  groups = {Books},
+  author   = {Gonzalez},
+  title    = {DIP_3E_Manual_Master_File.dvi},
+  file     = {DIP3E_Complete_Manual.pdf:/media/shehabk/D_DRIVE/study_at_usc/usc_materials/Books/DIP3E_Complete_Manual.pdf:PDF},
+  groups   = {Books},
+  keywords = {dip},
 }
 
 @TechReport{laakmann2005fourth,
@@ -2364,19 +2367,75 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 }
 
 @InProceedings{strang8120introduction,
-  author = {Gilbert Strang},
-  title  = {Introduction to Linear Algebra Fifth Edition},
-  year   = {8120},
-  file   = {:strang8120introduction - Introduction to Linear Algebra Fifth Edition.pdf:PDF},
-  groups = {Books},
+  author   = {Gilbert Strang},
+  title    = {Introduction to Linear Algebra Fifth Edition},
+  year     = {8120},
+  file     = {:strang8120introduction - Introduction to Linear Algebra Fifth Edition.pdf:PDF},
+  groups   = {Books},
+  keywords = {linear algebra, 18.06},
 }
 
 @InProceedings{to8120introduction,
   author = {Gilbert Strang},
   title  = {Introduction to Linear Algebra Fifth Edition Solution},
   year   = {8120},
-  file   = {:Gilbert Strang - Solutions? Manual for Introduction to Linear Algebra, Fifth Edition-Wellesley-Cambridge Press (2016).pdf:PDF},
+  file   = {:to8120introduction - Introduction to Linear Algebra Fifth Edition Solution.pdf:PDF},
   groups = {Books},
+}
+
+@InProceedings{zhao2018general,
+  author       = {Zhao, Zijian and Wu, Xingming and Chen, Peter CY and Chen, Weihai},
+  title        = {General Recurrent Attention Model for Jointly Multiple Object Recognition and Weakly Supervised Localization},
+  booktitle    = {2018 25th IEEE International Conference on Image Processing (ICIP)},
+  year         = {2018},
+  pages        = {341--345},
+  organization = {IEEE},
+  file         = {:zhao2018general - General Recurrent Attention Model for Jointly Multiple Object Recognition and Weakly Supervised Localization.pdf:PDF},
+  groups       = {Attention Mechanism},
+}
+
+@Article{ba2014multiple,
+  author  = {Ba, Jimmy and Mnih, Volodymyr and Kavukcuoglu, Koray},
+  title   = {Multiple object recognition with visual attention},
+  journal = {arXiv preprint arXiv:1412.7755},
+  year    = {2014},
+  file    = {:/home/shehabk/Downloads/zhao2018.pdf:PDF},
+  groups  = {Attention Mechanism},
+}
+
+@InProceedings{mnih2014recurrent,
+  author    = {Mnih, Volodymyr and Heess, Nicolas and Graves, Alex and others},
+  title     = {Recurrent models of visual attention},
+  booktitle = {Advances in neural information processing systems},
+  year      = {2014},
+  pages     = {2204--2212},
+  file      = {:mnih2014recurrent - Recurrent models of visual attention.pdf:PDF},
+  groups    = {Attention Mechanism},
+}
+
+@InProceedings{ablavatski2017enriched,
+  author       = {Ablavatski, Artsiom and Lu, Shijian and Cai, Jianfei},
+  title        = {Enriched deep recurrent visual attention model for multiple object recognition},
+  booktitle    = {Applications of Computer Vision (WACV), 2017 IEEE Winter Conference on},
+  year         = {2017},
+  pages        = {971--978},
+  organization = {IEEE},
+  file         = {:ablavatski2017enriched - Enriched deep recurrent visual attention model for multiple object recognition.pdf:PDF},
+  groups       = {Attention Mechanism},
+}
+
+@Article{jianjunpattern,
+  author = {Jianjun, Hu},
+  title  = {Pattern Recognition 768},
+  file   = {:jianjunpattern - Pattern Recognition 768.pdf:PDF},
+  groups = {Course Slides},
+}
+
+@Article{silbersatzoperating,
+  author = {Silbersatz},
+  title  = {Operating Systems},
+  file   = {:silbersatzoperating - Operating Systems.pdf:PDF},
+  groups = {Course Slides},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -2414,4 +2473,5 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 1 ExplicitGroup:Mecha\;0\;;
 1 ExplicitGroup:GroupInteraction\;0\;;
 1 ExplicitGroup:Interview\;0\;;
+1 ExplicitGroup:Attention Mechanism\;0\;;
 }

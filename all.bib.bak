@@ -2166,16 +2166,19 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 }
 
 @Misc{gonzalezdigital,
-  author = {Gonzalez},
-  title  = {Digital Image Processing},
-  file   = {Digital_Image_Processing_GONZALEZ.pdf:gonzalezdigital - Digital Image Processing.pdf:PDF},
-  groups = {Books},
+  author   = {Gonzalez},
+  title    = {Digital Image Processing},
+  file     = {Digital_Image_Processing_GONZALEZ.pdf:gonzalezdigital - Digital Image Processing.pdf:PDF},
+  groups   = {Books},
+  keywords = {dip},
 }
 
 @Misc{dip3emanualmasterfiledvi,
-  title  = {DIP_3E_Manual_Master_File.dvi},
-  file   = {DIP3E_Complete_Manual.pdf:/media/shehabk/D_DRIVE/study_at_usc/usc_materials/Books/DIP3E_Complete_Manual.pdf:PDF},
-  groups = {Books},
+  author   = {Gonzalez},
+  title    = {DIP_3E_Manual_Master_File.dvi},
+  file     = {DIP3E_Complete_Manual.pdf:/media/shehabk/D_DRIVE/study_at_usc/usc_materials/Books/DIP3E_Complete_Manual.pdf:PDF},
+  groups   = {Books},
+  keywords = {dip},
 }
 
 @TechReport{laakmann2005fourth,
@@ -2363,19 +2366,30 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 }
 
 @InProceedings{strang8120introduction,
-  author = {Gilbert Strang},
-  title  = {Introduction to Linear Algebra Fifth Edition},
-  year   = {8120},
-  file   = {:strang8120introduction - Introduction to Linear Algebra Fifth Edition.pdf:PDF},
-  groups = {Books},
+  author   = {Gilbert Strang},
+  title    = {Introduction to Linear Algebra Fifth Edition},
+  year     = {8120},
+  file     = {:strang8120introduction - Introduction to Linear Algebra Fifth Edition.pdf:PDF},
+  groups   = {Books},
+  keywords = {linear algebra, 18.06},
 }
 
 @InProceedings{to8120introduction,
   author = {Gilbert Strang},
   title  = {Introduction to Linear Algebra Fifth Edition Solution},
   year   = {8120},
-  file   = {:Gilbert Strang - Solutions? Manual for Introduction to Linear Algebra, Fifth Edition-Wellesley-Cambridge Press (2016).pdf:PDF},
+  file   = {:to8120introduction - Introduction to Linear Algebra Fifth Edition Solution.pdf:PDF},
   groups = {Books},
+}
+
+@InProceedings{zhao2018general,
+  author       = {Zhao, Zijian and Wu, Xingming and Chen, Peter CY and Chen, Weihai},
+  title        = {General Recurrent Attention Model for Jointly Multiple Object Recognition and Weakly Supervised Localization},
+  booktitle    = {2018 25th IEEE International Conference on Image Processing (ICIP)},
+  year         = {2018},
+  pages        = {341--345},
+  organization = {IEEE},
+  groups       = {Attention Mechanism},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -2413,4 +2427,5 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 1 ExplicitGroup:Mecha\;0\;;
 1 ExplicitGroup:GroupInteraction\;0\;;
 1 ExplicitGroup:Interview\;0\;;
+1 ExplicitGroup:Attention Mechanism\;0\;;
 }
