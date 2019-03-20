@@ -16,9 +16,9 @@
   title   = {{Island Loss for Learning Discriminative Features in Facial Expression Recognition}},
   journal = {arXiv preprint arXiv:1710.03144},
   year    = {2017},
+  comment = {ITBN},
   file    = {:cai2017island - Island Loss for Learning Discriminative Features in Facial Expression Recognition.pdf:PDF},
   groups  = {MyGroup},
-  review  = {ITBN},
 }
 
 @InProceedings{meng2017identity,
@@ -110,10 +110,10 @@
   title    = {Image-to-image translation with conditional adversarial networks},
   journal  = {arXiv preprint},
   year     = {2017},
+  comment  = {Pix2Pix},
   file     = {:isola2017image - Image to Image Translation with Conditional Adversarial Networks.pdf:PDF},
   groups   = {Image Translation GAN},
   keywords = {image translation,pix2pix,rank5},
-  review   = {Pix2Pix},
 }
 
 @Article{dolhansky2017eye,
@@ -202,10 +202,10 @@
   year         = {2017},
   pages        = {103--110},
   organization = {IEEE},
+  comment      = {This paper got recently got accepted in PAMI},
   file         = {:li2017eac - Eac-net_ A region-based deep enhancing and cropping approach for facial action unit detection.pdf:PDF},
   groups       = {AU},
   owner        = {shehabk},
-  review       = {This paper got recently got accepted in PAMI},
   timestamp    = {2018.02.10},
 }
 
@@ -316,10 +316,10 @@
   year         = {2017},
   pages        = {118--126},
   organization = {IEEE},
+  comment      = {person-independent},
   file         = {:ding2017facenet2expnet - Facenet2expnet_ Regularizing a deep face recognition net for expression recognition.pdf:PDF},
   groups       = {Expression},
   owner        = {shehabk},
-  review       = {person-independent},
   timestamp    = {2018.02.10},
 }
 
@@ -330,10 +330,10 @@
   year         = {2016},
   pages        = {425--442},
   organization = {Springer},
+  comment      = {person-independent, PPDN},
   file         = {:zhao2016peak - Peak-piloted deep network for facial expression recognition.pdf:PDF},
   groups       = {Expression},
   owner        = {shehabk},
-  review       = {person-independent, PPDN},
   timestamp    = {2018.02.10},
 }
 
@@ -345,11 +345,11 @@
   volume    = {29},
   number    = {6},
   pages     = {915--928},
+  comment   = {LBP-TOP},
   file      = {:zhao2007dynamic - Dynamic texture recognition using local binary patterns with an application to facial expressions.pdf:PDF},
   groups    = {Expression},
   owner     = {shehabk},
   publisher = {IEEE},
-  review    = {LBP-TOP},
   timestamp = {2018.02.10},
 }
 
@@ -360,10 +360,10 @@
   year         = {2008},
   pages        = {275--1},
   organization = {British Machine Vision Association},
+  comment      = {HOG-3D},
   file         = {:klaser2008spatio - A spatio-temporal descriptor based on 3d-gradients.pdf:PDF},
   groups       = {Expression},
   owner        = {shehabk},
-  review       = {HOG-3D},
   timestamp    = {2018.02.10},
 }
 
@@ -374,10 +374,10 @@
   year         = {2014},
   pages        = {143--157},
   organization = {Springer},
+  comment      = {3DCNN-DAP},
   file         = {:liu2014deeply - Deeply learning deformable facial action parts model for dynamic expression analysis.pdf:PDF},
   groups       = {Expression},
   owner        = {shehabk},
-  review       = {3DCNN-DAP},
   timestamp    = {2018.02.10},
 }
 
@@ -388,10 +388,10 @@
   year         = {2014},
   pages        = {1749--1756},
   organization = {IEEE},
+  comment      = {STM-Explet},
   file         = {:liu2014learning - Learning expressionlets on spatio-temporal manifold for dynamic facial expression recognition.pdf:PDF},
   groups       = {Expression},
   owner        = {shehabk},
-  review       = {STM-Explet},
   timestamp    = {2018.02.10},
 }
 
@@ -402,10 +402,10 @@
   year         = {2015},
   pages        = {2983--2991},
   organization = {IEEE},
+  comment      = {DTAGN},
   file         = {:jung2015joint - Joint fine-tuning in deep neural networks for facial expression recognition.pdf:PDF},
   groups       = {Expression},
   owner        = {shehabk},
-  review       = {DTAGN},
   timestamp    = {2018.02.10},
 }
 
@@ -430,11 +430,11 @@
   volume    = {26},
   number    = {4},
   pages     = {1965--1978},
+  comment   = {F-Bases},
   file      = {:sariyanidi2017learning - Learning bases of activity for facial expression recognition.pdf:PDF},
   groups    = {Expression},
   owner     = {shehabk},
   publisher = {IEEE},
-  review    = {F-Bases},
   timestamp = {2018.02.10},
 }
 
@@ -445,9 +445,9 @@
   year         = {2011},
   pages        = {2136--2143},
   organization = {IEEE},
+  comment      = {MSR},
   groups       = {Expression},
   owner        = {shehabk},
-  review       = {MSR},
   timestamp    = {2018.02.10},
 }
 
@@ -458,10 +458,10 @@
   year         = {2011},
   pages        = {1642--1649},
   organization = {IEEE},
+  comment      = {TMS},
   file         = {:jain2011facial - Facial expression recognition with temporal modeling of shapes.pdf:PDF},
   groups       = {Expression},
   owner        = {shehabk},
-  review       = {TMS},
   timestamp    = {2018.02.10},
 }
 
@@ -472,10 +472,10 @@
   year         = {2013},
   pages        = {103--110},
   organization = {IEEE},
+  comment      = {Cov3D},
   file         = {:sanin2013spatio - Spatio-temporal covariance descriptors for action and gesture recognition.pdf:PDF},
   groups       = {Expression},
   owner        = {shehabk},
-  review       = {Cov3D},
   timestamp    = {2018.02.10},
 }
 
@@ -486,10 +486,10 @@
   year         = {2016},
   pages        = {1--10},
   organization = {IEEE},
+  comment      = {Inception},
   file         = {:mollahosseini2016going - Going deeper in facial expression recognition using deep neural networks.pdf:PDF},
   groups       = {Expression},
   owner        = {shehabk},
-  review       = {Inception},
   timestamp    = {2018.02.10},
 }
 
@@ -499,10 +499,10 @@
   booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
   year      = {2016},
   pages     = {5580--5589},
+  comment   = {LOMO},
   file      = {:sikka2016lomo - Lomo_ Latent ordinal model for facial analysis in videos.pdf:PDF},
   groups    = {Expression},
   owner     = {shehabk},
-  review    = {LOMO},
   timestamp = {2018.02.10},
 }
 
@@ -513,10 +513,10 @@
   year         = {2017},
   pages        = {2584--2593},
   organization = {IEEE},
+  comment      = {DLP-CNN},
   file         = {:li2017reliable - Reliable crowdsourcing and deep locality-preserving learning for expression recognition in the wild.pdf:PDF},
   groups       = {Expression},
   owner        = {shehabk},
-  review       = {DLP-CNN},
   timestamp    = {2018.02.10},
 }
 
@@ -528,10 +528,10 @@
   volume    = {39},
   number    = {3},
   pages     = {529--545},
+  comment   = {STM},
   groups    = {Expression},
   owner     = {shehabk},
   publisher = {IEEE},
-  review    = {STM},
   timestamp = {2018.02.10},
 }
 
@@ -822,10 +822,10 @@
   title     = {How to Train a GAN},
   author    = {Soumith},
   url       = {https://github.com/soumith/ganhacks},
+  comment   = {12) If you have labels, use them (Say For example, Expression Classification.)},
   groups    = {Tutorials GAN},
   keywords  = {tutorial},
   owner     = {shehabk},
-  review    = {12) If you have labels, use them (Say For example, Expression Classification.)},
   timestamp = {2018.02.20},
 }
 
@@ -1152,13 +1152,13 @@
   booktitle = {Advances in Neural Information Processing Systems},
   year      = {2017},
   pages     = {3859--3869},
+  comment   = {Here are some good reads:
+1) https://medium.com/ai%C2%B3-theory-practice-business/understanding-hintons-capsule-networks-part-i-intuition-b4b559d1159b
+2) https://jhui.github.io/2017/11/03/Dynamic-Routing-Between-Capsules/},
   file      = {:sabour2017dynamic - Dynamic routing between capsules.pdf:PDF},
   groups    = {DL Advancement},
   keywords  = {CapsNet,nips17},
   owner     = {shehabk},
-  review    = {Here are some good reads:
-1) https://medium.com/ai%C2%B3-theory-practice-business/understanding-hintons-capsule-networks-part-i-intuition-b4b559d1159b
-2) https://jhui.github.io/2017/11/03/Dynamic-Routing-Between-Capsules/},
   timestamp = {2018.02.22},
 }
 
@@ -1166,11 +1166,11 @@
   author    = {Hinton, Geoffrey and Frosst, Nicholas and Sabour, Sara},
   title     = {Matrix capsules with EM routing},
   year      = {2018},
+  comment   = {Good Reading:
+1) https://jhui.github.io/2017/11/14/Matrix-Capsules-with-EM-routing-Capsule-Network/},
   file      = {:hinton2018matrix - Matrix capsules with EM routing.pdf:PDF},
   groups    = {DL Advancement},
   owner     = {shehabk},
-  review    = {Good Reading:
-1) https://jhui.github.io/2017/11/14/Matrix-Capsules-with-EM-routing-Capsule-Network/},
   timestamp = {2018.02.22},
 }
 
@@ -1231,13 +1231,13 @@
 }
 
 @InProceedings{li2017cs231,
-  author = {Fei-Fei Li and \& Justin and Johnson and Serena Yeung},
-  title  = {CS231: Spring17},
-  year   = {2017},
-  file   = {:li2017cs231 - CS231_ Spring17.pdf:PDF},
-  groups = {Course Slides},
-  review = {Good Reads:
+  author  = {Fei-Fei Li and \& Justin and Johnson and Serena Yeung},
+  title   = {CS231: Spring17},
+  year    = {2017},
+  comment = {Good Reads:
 https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng},
+  file    = {:li2017cs231 - CS231_ Spring17.pdf:PDF},
+  groups  = {Course Slides},
 }
 
 @InProceedings{rekleitisrobotics,
@@ -1249,6 +1249,7 @@ https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-cours
 
 @Standard{theory,
   title     = {Theory 551},
+  author    = {Fenner},
   file      = {:default.pdf:PDF},
   groups    = {Course Slides},
   keywords  = {class note},
@@ -1591,11 +1592,11 @@ https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-cours
 
 @Standard{explaining,
   title     = {Explaining AdaBoost},
+  comment   = {Others:
+http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   file      = {:explaining - Explaining AdaBoost.pdf:PDF},
   groups    = {Tutorials},
   owner     = {shehabk},
-  review    = {Others:
-http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   timestamp = {2018-02-26},
 }
 
@@ -1638,7 +1639,7 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 }
 
 @InProceedings{rosecsce587,
-  author = {rose},
+  author = {Rose},
   title  = {CSCE:587 Big Data},
   file   = {:rosecsce587 - CSCE_587 Big Data.pdf:PDF},
   groups = {Course Slides},
@@ -1687,10 +1688,10 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   title     = {Deep Adaptive Attention for Joint Facial Action Unit Detection and Face Alignment},
   journal   = {arXiv preprint arXiv:1803.05588},
   year      = {2018},
+  comment   = {This paper uses attention.},
   file      = {:shao2018deep - Deep Adaptive Attention for Joint Facial Action Unit Detection and Face Alignment.pdf:PDF},
   groups    = {AU},
   owner     = {shehabk},
-  review    = {This paper uses attention.},
   timestamp = {2018.05.08},
 }
 
@@ -1766,10 +1767,10 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   booktitle = {Advances in Neural Information Processing Systems},
   year      = {2015},
   pages     = {2863--2871},
+  comment   = {This one is not using Gan for generating images. Using Reinforcement Learning. But very similar in lstm modelling.},
   file      = {:oh2015action - Action-conditional video prediction using deep networks in atari games.pdf:PDF},
   groups    = {Dynamic Gan},
   owner     = {shehabk},
-  review    = {This one is not using Gan for generating images. Using Reinforcement Learning. But very similar in lstm modelling.},
   timestamp = {2018.06.18},
 }
 
@@ -1790,10 +1791,10 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   title     = {Deep multi-scale video prediction beyond mean square error},
   journal   = {arXiv preprint arXiv:1511.05440},
   year      = {2015},
+  comment   = {This paper do utilizes gan and a multiscale cnn. They introduces the gradient difference loss},
   file      = {:mathieu2015deep - Deep multi-scale video prediction beyond mean square error.pdf:PDF},
   groups    = {Dynamic Gan},
   owner     = {shehabk},
-  review    = {This paper do utilizes gan and a multiscale cnn. They introduces the gradient difference loss},
   timestamp = {2018.06.18},
 }
 
@@ -1802,10 +1803,10 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   title     = {Video pixel networks},
   journal   = {arXiv preprint arXiv:1610.00527},
   year      = {2016},
+  comment   = {Looks hard. Based on Pixel CNN},
   file      = {:kalchbrenner2016video - Video pixel networks.pdf:PDF},
   groups    = {Dynamic Gan},
   owner     = {shehabk},
-  review    = {Looks hard. Based on Pixel CNN},
   timestamp = {2018.06.18},
 }
 
@@ -1815,10 +1816,10 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   booktitle = {Advances in neural information processing systems},
   year      = {2016},
   pages     = {64--72},
+  comment   = {Has Good Fellow in it. It kind of uses convolutional lstm to model the dynamics in every layer.},
   file      = {:finn2016unsupervised - Unsupervised learning for physical interaction through video prediction.pdf:PDF},
   groups    = {Dynamic Gan},
   owner     = {shehabk},
-  review    = {Has Good Fellow in it. It kind of uses convolutional lstm to model the dynamics in every layer.},
   timestamp = {2018.06.18},
 }
 
@@ -1827,10 +1828,10 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   title     = {Transformation-based models of video sequences},
   journal   = {arXiv preprint arXiv:1701.08435},
   year      = {2017},
+  comment   = {This paper tries to find affine transformation for overlapping patches and then somehow combines them to form the frame.},
   file      = {:van2017transformation - Transformation-based models of video sequences.pdf:PDF},
   groups    = {Dynamic Gan},
   owner     = {shehabk},
-  review    = {This paper tries to find affine transformation for overlapping patches and then somehow combines them to form the frame.},
   timestamp = {2018.06.18},
 }
 
@@ -1839,10 +1840,10 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   title     = {Probabilistic modeling of future frames from a single image},
   booktitle = {NIPS},
   year      = {2016},
+  comment   = {This kind of models the distriibution of possible next frames in some probabilistic way.},
   file      = {:xue2016probabilistic - Probabilistic modeling of future frames from a single image.pdf:PDF},
   groups    = {Dynamic Gan},
   owner     = {shehabk},
-  review    = {This kind of models the distriibution of possible next frames in some probabilistic way.},
   timestamp = {2018.06.18},
 }
 
@@ -2141,10 +2142,10 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   title     = {Deep Video Generation, Prediction and Completion of Human Action Sequences},
   journal   = {arXiv preprint arXiv:1711.08682},
   year      = {2017},
+  comment   = {Used LSTM as discriminator. Very good paper to read.},
   file      = {:cai2017deep - Deep Video Generation, Prediction and Completion of Human Action Sequences.pdf:PDF},
   groups    = {Dynamic Gan},
   owner     = {shehabk},
-  review    = {Used LSTM as discriminator. Very good paper to read.},
   timestamp = {2018.07.16},
 }
 
@@ -2200,11 +2201,11 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 }
 
 @InProceedings{learningpython,
-  author = {Machine Learning and Deep Learning and with Python and scikit-learn and TensorFlow},
-  title  = {Python Machine Learning Second Edition},
-  file   = {:learningpython - Python Machine Learning Second Edition.pdf:PDF},
-  groups = {Python},
-  review = {code: https://github.com/rasbt/python-machine-learning-book-2nd-edition},
+  author  = {Machine Learning and Deep Learning and with Python and scikit-learn and TensorFlow},
+  title   = {Python Machine Learning Second Edition},
+  comment = {code: https://github.com/rasbt/python-machine-learning-book-2nd-edition},
+  file    = {:learningpython - Python Machine Learning Second Edition.pdf:PDF},
+  groups  = {Python},
 }
 
 @InProceedings{vondrick2016generating,
@@ -2339,19 +2340,15 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   title   = {The Group Affect and Performance (GAP) Corpus},
   journal = {Proceedings of Group Interaction Frontiers in Technology (GIFT 2018). ACM},
   year    = {2018},
+  comment = {https://sites.google.com/view/gap-corpus/home},
+  doi     = {10.1145/3279981.3279985},
   file    = {:braley2018group - The Group Affect and Performance (GAP) Corpus.pdf:PDF},
   groups  = {GroupInteraction},
-  review  = {https://sites.google.com/view/gap-corpus/home},
 }
 
 @Article{sanchez2012nonverbal,
-  author    = {Sanchez-Cortes, Dairazalia and Aran, Oya and Mast, Marianne Schmid and Gatica-Perez, Daniel},
   title     = {A nonverbal behavior approach to identify emergent leaders in small groups},
-  journal   = {IEEE Transactions on Multimedia},
-  year      = {2012},
-  volume    = {14},
-  number    = {3},
-  pages     = {816--832},
+  doi       = {10.1109/tmm.2011.2181941},
   file      = {:sanchez2012nonverbal - A nonverbal behavior approach to identify emergent leaders in small groups.pdf:PDF},
   groups    = {GroupInteraction},
   publisher = {IEEE},
@@ -2389,43 +2386,217 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   year         = {2018},
   pages        = {341--345},
   organization = {IEEE},
+  file         = {:zhao2018general - General Recurrent Attention Model for Jointly Multiple Object Recognition and Weakly Supervised Localization.pdf:PDF},
   groups       = {Attention Mechanism},
+}
+
+@Article{ba2014multiple,
+  author  = {Ba, Jimmy and Mnih, Volodymyr and Kavukcuoglu, Koray},
+  title   = {Multiple object recognition with visual attention},
+  journal = {arXiv preprint arXiv:1412.7755},
+  year    = {2014},
+  file    = {:/home/shehabk/Downloads/zhao2018.pdf:PDF},
+  groups  = {Attention Mechanism},
+}
+
+@InProceedings{mnih2014recurrent,
+  author    = {Mnih, Volodymyr and Heess, Nicolas and Graves, Alex and others},
+  title     = {Recurrent models of visual attention},
+  booktitle = {Advances in neural information processing systems},
+  year      = {2014},
+  pages     = {2204--2212},
+  file      = {:mnih2014recurrent - Recurrent models of visual attention.pdf:PDF},
+  groups    = {Attention Mechanism},
+}
+
+@InProceedings{ablavatski2017enriched,
+  author       = {Ablavatski, Artsiom and Lu, Shijian and Cai, Jianfei},
+  title        = {Enriched deep recurrent visual attention model for multiple object recognition},
+  booktitle    = {Applications of Computer Vision (WACV), 2017 IEEE Winter Conference on},
+  year         = {2017},
+  pages        = {971--978},
+  organization = {IEEE},
+  file         = {:ablavatski2017enriched - Enriched deep recurrent visual attention model for multiple object recognition.pdf:PDF},
+  groups       = {Attention Mechanism},
+}
+
+@Article{jianjunpattern,
+  author = {Jianjun, Hu},
+  title  = {Pattern Recognition 768},
+  file   = {:jianjunpattern - Pattern Recognition 768.pdf:PDF},
+  groups = {Course Slides},
+}
+
+@Article{silbersatzoperating,
+  author = {Silbersatz},
+  title  = {Operating Systems},
+  file   = {:silbersatzoperating - Operating Systems.pdf:PDF},
+  groups = {Course Slides},
+}
+
+@Book{burkovhundred,
+  title  = {Hundred Page Machine Learning},
+  author = {Andriy Burkov},
+  file   = {:burkovhundred - Hundred Page Machine Learning.pdf:PDF},
+  groups = {Course Slides},
+}
+
+@InProceedings{khan2018group,
+  author       = {Khan, Ahmed Shehab and Li, Zhiyuan and Cai, Jie and Meng, Zibo and O'Reilly, James and Tong, Yan},
+  title        = {Group-Level Emotion Recognition using Deep Models with A Four-stream Hybrid Network},
+  booktitle    = {Proceedings of the 2018 on International Conference on Multimodal Interaction},
+  year         = {2018},
+  pages        = {623--629},
+  organization = {ACM},
+  file         = {:khan2018group - Group-Level Emotion Recognition using Deep Models with A Four-stream Hybrid Network.pdf:PDF},
+  groups       = {MyGroup},
+}
+
+@Article{alam2016transient,
+  author    = {Alam, Tamanna and Khan, Ahmed Shehab and Li, Wenming and Yang, Fanghao and Tong, Yan and Khan, Jamil and Li, Chen},
+  title     = {Transient force analysis and bubble dynamics during flow boiling in silicon nanowire microchannels},
+  journal   = {International Journal of Heat and Mass Transfer},
+  year      = {2016},
+  volume    = {101},
+  pages     = {937--947},
+  file      = {:alam2016transient - Transient force analysis and bubble dynamics during flow boiling in silicon nanowire microchannels.pdf:PDF},
+  groups    = {MyGroup},
+  publisher = {Elsevier},
+}
+
+@Book{hennessy2011computer,
+  title     = {Computer Architecture, Fifth Edition: A Quantitative Approach},
+  publisher = {Morgan Kaufmann},
+  year      = {2011},
+  author    = {John L. Hennessy, David A. Patterson},
+  series    = {The Morgan Kaufmann Series in Computer Architecture and Design},
+  edition   = {5},
+  isbn      = {012383872X,9780123838728},
+  file      = {:hennessy2011computer - Computer Architecture, Fifth Edition_ A Quantitative Approach.pdf:PDF},
+  groups    = {Books},
+  url       = {http://gen.lib.rus.ec/book/index.php?md5=041F6D8FB8E6B6D1ED26A824775B5A0D},
+}
+
+@Article{mantoncomputer,
+  author = {Mathews Manton},
+  title  = {Computer Architecture},
+  file   = {:mantoncomputer - Computer Architecture.pdf:PDF},
+  groups = {Course Slides},
+}
+
+@Article{roseoperating,
+  author = {Rose},
+  title  = {Operating Systems},
+  file   = {:roseoperating - Operating Systems.pdf:PDF},
+  groups = {Course Slides},
+}
+
+@Book{silberschatzoperating,
+  title  = {Operating System Concepts},
+  author = {Silberschatz},
+  file   = {:silberschatzoperating - Operating System Concepts.pdf:PDF},
+  groups = {Books},
+}
+
+@TechReport{jetbrainspycharmkeymap,
+  author = {jetbrains},
+  title  = {pycharm_keymap},
+  file   = {:jetbrainspycharmkeymap - pycharm_keymap.pdf:PDF},
+  groups = {cheat_sheets},
+}
+
+@TechReport{microsoftvscodekeymap,
+  author = {microsoft},
+  title  = {vscode_keymap},
+  file   = {:microsoftvscodekeymap - vscode_keymap.pdf:PDF},
+  groups = {cheat_sheets},
+}
+
+@InProceedings{kosti2017emotion,
+  author    = {Kosti, Ronak and Alvarez, Jose M and Recasens, Adria and Lapedriza, Agata},
+  title     = {Emotion recognition in context},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year      = {2017},
+  pages     = {1667--1675},
+  file      = {:kosti2017emotion - Emotion recognition in context.pdf:PDF},
+  groups    = {Emotion_Group_Level},
+}
+
+@Conference{survey,
+  author = {Xiaoxu li},
+  title  = {A Survey: Human Emotion Recognition in Context},
+  file   = {:survey - A Survey_ Human Emotion Recognition in Context.pdf:PDF},
+  groups = {Emotion_Group_Level},
+}
+
+@Article{song2018boosting,
+  author    = {Song, Kaikai and Yao, Ting and Ling, Qiang and Mei, Tao},
+  title     = {Boosting image sentiment analysis with visual attention},
+  journal   = {Neurocomputing},
+  year      = {2018},
+  volume    = {312},
+  pages     = {218--228},
+  file      = {:song2018boosting - Boosting image sentiment analysis with visual attention.pdf:PDF},
+  groups    = {Emotion_Group_Level},
+  publisher = {Elsevier},
+}
+
+@Article{yang2018visual,
+  author    = {Yang, Jufeng and She, Dongyu and Sun, Ming and Cheng, Ming-Ming and Rosin, Paul L and Wang, Liang},
+  title     = {Visual sentiment prediction based on automatic discovery of affective regions},
+  journal   = {IEEE Transactions on Multimedia},
+  year      = {2018},
+  volume    = {20},
+  number    = {9},
+  pages     = {2513--2525},
+  file      = {:yang2018visual - Visual sentiment prediction based on automatic discovery of affective regions.pdf:PDF},
+  groups    = {Emotion_Group_Level},
+  publisher = {IEEE},
+}
+
+@Article{image,
+  title  = {Image Sentiment Analysis Using Deep Learning},
+  doi    = {10.1109/wi.2018.00-11},
+  groups = {Emotion_Group_Level},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
-@Comment{jabref-meta: groupstree:
+@Comment{jabref-meta: grouping:
 0 AllEntriesGroup:;
-1 ExplicitGroup:AU\;0\;;
-1 ExplicitGroup:MyGroup\;0\;;
-1 ExplicitGroup:Expression\;0\;;
-1 ExplicitGroup:Generative Models\;0\;;
-2 ExplicitGroup:Gan Papers\;0\;;
-3 ExplicitGroup:Image Translation GAN\;0\;;
-3 ExplicitGroup:Face Synthesis GAN\;0\;;
-3 ExplicitGroup:Tutorials GAN\;0\;;
-3 ExplicitGroup:Theory GAN\;0\;;
-3 ExplicitGroup:Conditional Adversarial\;0\;;
-3 ExplicitGroup:Inpainting\;0\;;
-3 ExplicitGroup:High Quality Image Generation\;0\;;
-3 ExplicitGroup:Unlclassified\;0\;;
-1 ExplicitGroup:Books\;0\;;
-1 ExplicitGroup:paper review\;0\;;
-1 ExplicitGroup:DL Advancement\;0\;;
-1 ExplicitGroup:CNN Classic\;0\;;
-1 ExplicitGroup:Course Slides\;0\;;
-1 ExplicitGroup:EmotiW\;0\;;
-1 ExplicitGroup:segmentation\;0\;;
-1 ExplicitGroup:Scene\;0\;;
-1 ExplicitGroup:Python\;0\;;
-1 ExplicitGroup:Design Patterns and Software Arhitecture\;0\;;
-1 ExplicitGroup:Dynamic Gan\;0\;;
-1 ExplicitGroup:opencv\;0\;;
-1 ExplicitGroup:conferences\;0\;;
-2 ExplicitGroup:cvpr18\;0\;;
-2 ExplicitGroup:icmi2018\;0\;;
-1 ExplicitGroup:Mecha\;0\;;
-1 ExplicitGroup:GroupInteraction\;0\;;
-1 ExplicitGroup:Interview\;0\;;
-1 ExplicitGroup:Attention Mechanism\;0\;;
+1 StaticGroup:AU\;0\;1\;\;\;\;;
+1 StaticGroup:MyGroup\;0\;1\;\;\;\;;
+1 StaticGroup:Emotion_Group_Level\;0\;1\;\;\;\;;
+1 StaticGroup:Expression\;0\;1\;\;\;\;;
+1 StaticGroup:Generative Models\;0\;0\;\;\;\;;
+2 StaticGroup:Gan Papers\;0\;1\;\;\;\;;
+3 StaticGroup:Image Translation GAN\;0\;1\;\;\;\;;
+3 StaticGroup:Face Synthesis GAN\;0\;1\;\;\;\;;
+3 StaticGroup:Tutorials GAN\;0\;1\;\;\;\;;
+3 StaticGroup:Theory GAN\;0\;1\;\;\;\;;
+3 StaticGroup:Conditional Adversarial\;0\;1\;\;\;\;;
+3 StaticGroup:Inpainting\;0\;1\;\;\;\;;
+3 StaticGroup:High Quality Image Generation\;0\;1\;\;\;\;;
+3 StaticGroup:Unlclassified\;0\;1\;\;\;\;;
+1 StaticGroup:Books\;0\;1\;\;\;\;;
+1 StaticGroup:paper review\;0\;1\;\;\;\;;
+1 StaticGroup:DL Advancement\;0\;1\;\;\;\;;
+1 StaticGroup:CNN Classic\;0\;1\;\;\;\;;
+1 StaticGroup:Course Slides\;0\;1\;\;\;\;;
+1 StaticGroup:EmotiW\;0\;1\;\;\;\;;
+1 StaticGroup:segmentation\;0\;1\;\;\;\;;
+1 StaticGroup:Scene\;0\;1\;\;\;\;;
+1 StaticGroup:Python\;0\;1\;\;\;\;;
+1 StaticGroup:Design Patterns and Software Arhitecture\;0\;1\;\;\;\;;
+1 StaticGroup:Dynamic Gan\;0\;1\;\;\;\;;
+1 StaticGroup:opencv\;0\;1\;\;\;\;;
+1 StaticGroup:conferences\;0\;1\;\;\;\;;
+2 StaticGroup:cvpr18\;0\;1\;\;\;\;;
+2 StaticGroup:icmi2018\;0\;1\;\;\;\;;
+1 StaticGroup:Mecha\;0\;1\;\;\;\;;
+1 StaticGroup:GroupInteraction\;0\;1\;\;\;\;;
+1 StaticGroup:Interview\;0\;1\;\;\;\;;
+1 StaticGroup:Attention Mechanism\;0\;1\;\;\;\;;
+1 StaticGroup:Human Interaction\;0\;1\;\;\;\;;
+1 StaticGroup:cheat_sheets\;0\;1\;\;\;\;;
 }
