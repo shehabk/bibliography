@@ -2519,14 +2519,14 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   year      = {2017},
   pages     = {1667--1675},
   file      = {:kosti2017emotion - Emotion recognition in context.pdf:PDF},
-  groups    = {Emotion_Group_Level},
+  groups    = {Emotion_in_context},
 }
 
 @Conference{survey,
   author = {Xiaoxu li},
   title  = {A Survey: Human Emotion Recognition in Context},
   file   = {:survey - A Survey_ Human Emotion Recognition in Context.pdf:PDF},
-  groups = {Emotion_Group_Level},
+  groups = {Emotion_in_context},
 }
 
 @Article{song2018boosting,
@@ -2537,7 +2537,7 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   volume    = {312},
   pages     = {218--228},
   file      = {:song2018boosting - Boosting image sentiment analysis with visual attention.pdf:PDF},
-  groups    = {Emotion_Group_Level},
+  groups    = {Emotion_in_context},
   publisher = {Elsevier},
 }
 
@@ -2550,14 +2550,195 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   number    = {9},
   pages     = {2513--2525},
   file      = {:yang2018visual - Visual sentiment prediction based on automatic discovery of affective regions.pdf:PDF},
-  groups    = {Emotion_Group_Level},
+  groups    = {Emotion_in_context},
   publisher = {IEEE},
 }
 
 @Article{image,
-  title  = {Image Sentiment Analysis Using Deep Learning},
-  doi    = {10.1109/wi.2018.00-11},
-  groups = {Emotion_Group_Level},
+  author    = {Namita Mittal and Divya Sharma and Manju Lata Joshi},
+  title     = {Image Sentiment Analysis Using Deep Learning},
+  year      = {2018},
+  month     = {dec},
+  booktitle = {2018 {IEEE}/{WIC}/{ACM} International Conference on Web Intelligence ({WI})},
+  doi       = {10.1109/wi.2018.00-11},
+  groups    = {Emotion_in_context},
+  publisher = {{IEEE}},
+}
+
+@InProceedings{emotion,
+  author    = {Chen Chen and Zuxuan Wu and Yu-Gang Jiang},
+  title     = {Emotion in context: Deep semantic feature fusion for video emotion recognition},
+  booktitle = {Proceedings of the 2016 {ACM} on Multimedia Conference - {MM} {\textquotesingle}16},
+  year      = {2016},
+  publisher = {{ACM} Press},
+  doi       = {10.1145/2964284.2967196},
+  file      = {:emotion - Emotion in context_ Deep semantic feature fusion for video emotion recognition.pdf:PDF},
+  groups    = {Emotion_in_context},
+}
+
+@Article{Brosch_2010,
+  author    = {Tobias Brosch and Gilles Pourtois and David Sander},
+  title     = {The perception and categorisation of emotional stimuli: A review},
+  journal   = {Cognition {\&} Emotion},
+  year      = {2010},
+  volume    = {24},
+  number    = {3},
+  pages     = {377--400},
+  month     = {apr},
+  doi       = {10.1080/02699930902975754},
+  file      = {:Brosch_2010 - The perception and categorisation of emotional stimuli_ A review.pdf:PDF},
+  groups    = {Emotion_in_context},
+  keywords  = {psychology},
+  publisher = {Informa {UK} Limited},
+}
+
+@Article{Compton_2003,
+  author    = {Rebecca J. Compton},
+  title     = {The interface between emotion and attention: a review of evidence from psychology and neuroscience.},
+  journal   = {Behavioral and Cognitive Neuroscience Reviews},
+  year      = {2003},
+  volume    = {2},
+  number    = {2},
+  pages     = {115--129},
+  month     = {jun},
+  doi       = {10.1177/1534582303002002003},
+  file      = {:Compton_2003 - The interface between emotion and attention_ a review of evidence from psychology and neuroscience..pdf:PDF},
+  groups    = {Emotion_in_context},
+  publisher = {{SAGE} Publications},
+}
+
+@Article{Campos_2017,
+  author    = {V{\'{\i}}ctor Campos and Brendan Jou and Xavier Gir{\'{o}}-i-Nieto},
+  title     = {From Pixels to Sentiment: Fine-tuning CNNs for Visual Sentiment Prediction},
+  journal   = {Image and Vision Computing},
+  year      = {2017},
+  volume    = {65},
+  pages     = {15--22},
+  month     = {sep},
+  comment   = {Simple CNN architecture based on caffenet.},
+  doi       = {10.1016/j.imavis.2017.01.011},
+  file      = {:Campos_2017 - From Pixels to Sentiment_ Fine-tuning CNNs for Visual Sentiment Prediction.pdf:PDF},
+  groups    = {Emotion_in_scene},
+  keywords  = {category},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{rao2016learning,
+  author      = {Tianrong Rao and Min Xu and Dong Xu},
+  title       = {Learning Multi-level Deep Representations for Image Emotion Classification},
+  abstract    = {In this paper, we propose a new deep network that learns multi-level deep representations for image emotion classification (MldrNet). Image emotion can be recognized through image semantics, image aesthetics and low-level visual features from both global and local views. Existing image emotion classification works using hand-crafted features or deep features mainly focus on either low-level visual features or semantic-level image representations without taking all factors into consideration. The proposed MldrNet combines deep representations of different levels, i.e. image semantics, image aesthetics, and low-level visual features to effectively classify the emotion types of different kinds of images, such as abstract paintings and web images. Extensive experiments on both Internet images and abstract paintings demonstrate the proposed method outperforms the state-of-the-art methods using deep features or hand-crafted features. The proposed approach also outperforms the state-of-the-art methods with at least 6% performance improvement in terms of overall classification accuracy.},
+  date        = {2016-11-22},
+  eprint      = {http://arxiv.org/abs/1611.07145v2},
+  eprintclass = {cs.CV},
+  eprinttype  = {arXiv},
+  file        = {:rao2016learning - Learning Multi-level Deep Representations for Image Emotion Classification.pdf:PDF},
+  groups      = {Emotion_in_scene},
+  keywords    = {cs.CV , category},
+}
+
+@Article{Yang_2018,
+  author    = {Jufeng Yang and Dongyu She and Ming Sun and Ming-Ming Cheng and Paul L. Rosin and Liang Wang},
+  title     = {Visual Sentiment Prediction Based on Automatic Discovery of Affective Regions},
+  journal   = {{IEEE} Transactions on Multimedia},
+  year      = {2018},
+  volume    = {20},
+  number    = {9},
+  pages     = {2513--2525},
+  month     = {sep},
+  doi       = {10.1109/tmm.2018.2803520},
+  file      = {:Yang_2018 - Visual Sentiment Prediction Based on Automatic Discovery of Affective Regions.pdf:PDF},
+  groups    = {Emotion_in_scene},
+  keywords  = {category},
+  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+}
+
+@Article{zhao2018discrete,
+  author    = {Sicheng Zhao and Guiguang Ding and Yue Gao and Xin Zhao and Youbao Tang and Jungong Han and Hongxun Yao and Qingming Huang},
+  title     = {Discrete Probability Distribution Prediction of Image Emotions With Shared Sparse Learning},
+  journal   = {{IEEE} Transactions on Affective Computing},
+  year      = {2018},
+  pages     = {1--1},
+  doi       = {10.1109/taffc.2018.2818685},
+  file      = {:zhao2018discrete - Discrete Probability Distribution Prediction of Image Emotions With Shared Sparse Learning.pdf:PDF},
+  groups    = {Emotion_in_scene},
+  keywords  = {multi-categorry},
+  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+}
+
+@Article{joint,
+  author    = {Jufeng Yang and Dongyu She and Ming Sun},
+  title     = {Joint Image Emotion Classification and Distribution Learning via Deep Convolutional Neural Network},
+  year      = {2017},
+  month     = {aug},
+  booktitle = {Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence},
+  comment   = {CNN Network with two outputs, one is single label, and the other is multi label.  Most likely the multilabel is trained by cross entropy loss.},
+  doi       = {10.24963/ijcai.2017/456},
+  file      = {:joint - Joint Image Emotion Classification and Distribution Learning via Deep Convolutional Neural Network.pdf:PDF},
+  groups    = {Emotion_in_scene},
+  keywords  = {multi-categorry},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+}
+
+@InProceedings{yang2017learning,
+  author    = {Yang, Jufeng and Sun, Ming and Sun, Xiaoxiao},
+  title     = {Learning visual sentiment distributions via augmented conditional probability neural network},
+  booktitle = {Thirty-First AAAI Conference on Artificial Intelligence},
+  year      = {2017},
+  file      = {:learning - Learning Visual Sentiment Distributions via Augmented Conditional Probability Neural Network.pdf:PDF},
+  groups    = {Emotion_in_scene},
+  keywords  = {multi-categorry},
+}
+
+@InProceedings{you2016building,
+  author    = {You, Quanzeng and Luo, Jiebo and Jin, Hailin and Yang, Jianchao},
+  title     = {Building a large scale dataset for image emotion recognition: The fine print and the benchmark},
+  booktitle = {Thirtieth AAAI Conference on Artificial Intelligence},
+  year      = {2016},
+  abstract  = {Psychological research results have confirmed that people can have different emotional reactions to different
+visual stimuli. Several papers have been published on
+the problem of visual emotion analysis. In particular, attempts have been made to analyze and predict people?s
+emotional reaction towards images. To this end, different kinds of hand-tuned features are proposed. The results reported on several carefully selected and labeled
+small image data sets have confirmed the promise of
+such features. While the recent successes of many computer vision related tasks are due to the adoption of
+Convolutional Neural Networks (CNNs), visual emotion analysis has not achieved the same level of success. This may be primarily due to the unavailability of
+confidently labeled and relatively large image data sets
+for visual emotion analysis. In this work, we introduce
+a new data set, which started from 3+ million weakly
+labeled images of different emotions and ended up 30
+times as large as the current largest publicly available
+visual emotion data set. We hope that this data set encourages further research on visual emotion analysis.
+We also perform extensive benchmarking analyses on
+this large data set using the state of the art methods including CNNs.},
+  comment   = {This paper created a dataset, and then finetuned some deep learning framework on top of it.},
+  file      = {:you2016building - Building a large scale dataset for image emotion recognition_ The fine print and the benchmark.pdf:PDF},
+  groups    = {Emotion_in_scene},
+  keywords  = {category},
+}
+
+@Proceedings{dependency,
+  title     = {Dependency exploitation: a unified cnn-rnn approach for visual emotion recognition,},
+  year      = {2017},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  month     = {aug},
+  author    = {Xinge Zhu and Liang Li and Weigang Zhang and Tianrong Rao and Min Xu and Qingming Huang and Dong Xu},
+  booktitle = {Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence},
+  doi       = {10.24963/ijcai.2017/503},
+  file      = {:dependency - Dependency exploitation_ a unified cnn-rnn approach for visual emotion recognition,.pdf:PDF},
+  groups    = {Emotion_in_scene},
+  keywords  = {category},
+}
+
+@InProceedings{emotional,
+  author    = {Shaojing Fan and Zhiqi Shen and Ming Jiang and Bryan L. Koenig and Juan Xu and Mohan S. Kankanhalli and Qi Zhao},
+  title     = {Emotional attention: A study of image sentiment and visual attention},
+  booktitle = {2018 {IEEE}/{CVF} Conference on Computer Vision and Pattern Recognition},
+  year      = {2018},
+  month     = {jun},
+  publisher = {{IEEE}},
+  doi       = {10.1109/cvpr.2018.00785},
+  file      = {:emotional - Emotional attention_ A study of image sentiment and visual attention.pdf:PDF},
+  groups    = {Emotion_in_scene},
+  keywords  = {EMOd},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -2566,7 +2747,8 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 0 AllEntriesGroup:;
 1 StaticGroup:AU\;0\;1\;\;\;\;;
 1 StaticGroup:MyGroup\;0\;1\;\;\;\;;
-1 StaticGroup:Emotion_Group_Level\;0\;1\;\;\;\;;
+1 StaticGroup:Emotion_in_context\;0\;1\;\;\;\;;
+1 StaticGroup:Emotion_in_scene\;0\;1\;\;\;\;;
 1 StaticGroup:Expression\;0\;1\;\;\;\;;
 1 StaticGroup:Generative Models\;0\;0\;\;\;\;;
 2 StaticGroup:Gan Papers\;0\;1\;\;\;\;;
