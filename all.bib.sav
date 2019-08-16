@@ -1040,17 +1040,16 @@
 }
 
 @InProceedings{zhu2017multimodal,
-  author        = {Zhu, Jun-Yan and Zhang, Richard and Pathak, Deepak and Darrell, Trevor and Efros, Alexei A and Wang, Oliver and Shechtman, Eli},
-  title         = {Toward multimodal image-to-image translation},
-  booktitle     = {Advances in Neural Information Processing Systems},
-  year          = {2017},
-  pages         = {465--476},
-  __markedentry = {[shehabk:]},
-  file          = {:zhu2017multimodal - Toward multimodal image-to-image translation.pdf:PDF},
-  groups        = {Image Translation GAN},
-  keywords      = {image translation,nips17,berkeley},
-  owner         = {shehabk},
-  timestamp     = {2018-02-20},
+  author    = {Zhu, Jun-Yan and Zhang, Richard and Pathak, Deepak and Darrell, Trevor and Efros, Alexei A and Wang, Oliver and Shechtman, Eli},
+  title     = {Toward multimodal image-to-image translation},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2017},
+  pages     = {465--476},
+  file      = {:zhu2017multimodal - Toward multimodal image-to-image translation.pdf:PDF},
+  groups    = {Image Translation GAN},
+  keywords  = {image translation,nips17,berkeley},
+  owner     = {shehabk},
+  timestamp = {2018-02-20},
 }
 
 @InProceedings{zhang2017stackgan,
@@ -2291,7 +2290,7 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
   year      = {2016},
   pages     = {5562--5570},
-  file      = {:fabian2016emotionet - Emotionet_ An accurate, real-time algorithm for the automatic annotation of a million facial expressions in the wild.pdf:PDF},
+  file      = {:fabianbenitez-quiroz2016emotionet - Emotionet_ An accurate, real-time algorithm for the automatic annotation of a million facial expressions in the wild.pdf:PDF},
   groups    = {AU},
 }
 
@@ -2548,6 +2547,7 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   month     = {dec},
   booktitle = {2018 {IEEE}/{WIC}/{ACM} International Conference on Web Intelligence ({WI})},
   doi       = {10.1109/wi.2018.00-11},
+  file      = {:image - Image Sentiment Analysis Using Deep Learning:},
   groups    = {Emotion_in_context},
   publisher = {{IEEE}},
 }
@@ -2715,12 +2715,117 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
   keywords  = {EMOd},
 }
 
+@Article{ain2017sentiment,
+  author  = {Ain, Qurat Tul and Ali, Mubashir and Riaz, Amna and Noureen, Amna and Kamran, Muhammad and Hayat, Babar and Rehman, A},
+  title   = {Sentiment analysis using deep learning techniques: a review},
+  journal = {Int J Adv Comput Sci Appl},
+  year    = {2017},
+  volume  = {8},
+  number  = {6},
+  pages   = {424},
+  file    = {:ain2017sentiment - Sentiment analysis using deep learning techniques_ a review.pdf:PDF},
+  groups  = {Emotion_in_scene},
+}
+
+@Article{Zhao_2018,
+  author    = {Sicheng Zhao and Hongxun Yao and Yue Gao and Guiguang Ding and Tat-Seng Chua},
+  title     = {Predicting Personalized Image Emotion Perceptions in Social Networks},
+  journal   = {{IEEE} Transactions on Affective Computing},
+  year      = {2018},
+  volume    = {9},
+  number    = {4},
+  pages     = {526--540},
+  month     = {oct},
+  doi       = {10.1109/taffc.2016.2628787},
+  file      = {:Zhao_2018 - Predicting Personalized Image Emotion Perceptions in Social Networks.pdf:PDF},
+  groups    = {Emotion_in_scene},
+  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+}
+
+@Article{emotiongan,
+  title  = {EmotionGAN: Unsupervised Domain Adaptation for Learning Discrete Probability Distributions of Image Emotions},
+  groups = {Emotion_in_scene},
+}
+
+@Article{li2012context,
+  author    = {Bing Li and Weihua Xiong and Weiming Hu and Xinmiao Ding},
+  title     = {Context-aware affective images classification based on bilayer sparse representation},
+  year      = {2012},
+  booktitle = {Proceedings of the 20th {ACM} international conference on Multimedia - {MM} {\textquotesingle}12},
+  doi       = {10.1145/2393347.2396296},
+  file      = {:li2012context - Context-aware affective images classification based on bilayer sparse representation.pdf:PDF},
+  groups    = {Emotion_in_scene},
+  publisher = {{ACM} Press},
+}
+
+@InProceedings{coelho1992alchemist,
+  author = {Paulo Coelho},
+  title  = {The Alchemist},
+  year   = {1992},
+  file   = {:coelho1992alchemist - The Alchemist.pdf:PDF},
+  groups = {Self_Help},
+}
+
+@Article{quach2018non,
+  author      = {Kha Gia Quach and Ngan Le and Khoa Luu and Chi Nhan Duong and Ibsa Jalata and Karl Ricanek},
+  title       = {Non-Volume Preserving-based Feature Fusion Approach to Group-Level Expression Recognition on Crowd Videos},
+  abstract    = {Group-level emotion recognition (ER) is a growing research area as the demands for assessing crowds of all sizes is becoming an interest in both the security arena and social media. This work investigates group-level expression recognition on crowd videos where information is not only aggregated across a variable length sequence of frames but also over the set of faces within each frame to produce aggregated recognition results. In this paper, we propose an effective deep feature level fusion mechanism to model the spatial-temporal information in the crowd videos. Furthermore, we extend our proposed NVP fusion mechanism to temporal NVP fussion appoarch to learn the temporal information between frames. In order to demonstrate the robustness and effectiveness of each component in the proposed approach, three experiments were conducted: (i) evaluation on the AffectNet database to benchmark the proposed emoNet for recognizing facial expression; (ii) evaluation on EmotiW2018 to benchmark the proposed deep feature level fusion mechanism NVPF; and, (iii) examine the proposed TNVPF on an innovative Group-level Emotion on Crowd Videos (GECV) dataset composed of 627 videos collected from social media. GECV dataset is a collection of videos ranging in duration from 10 to 20 seconds of crowds of twenty (20) or more subjects and each video is labeled as positive, negative, or neutral.},
+  date        = {2018-11-28},
+  eprint      = {http://arxiv.org/abs/1811.11849v1},
+  eprintclass = {cs.CV},
+  eprinttype  = {arXiv},
+  file        = {:http\://arxiv.org/pdf/1811.11849v1:PDF},
+  groups      = {Emotion_in_context},
+  keywords    = {cs.CV},
+}
+
+@Article{quach2018nona,
+  author        = {Kha Gia Quach and Ngan Le and Khoa Luu and Chi Nhan Duong and Ibsa Jalata and Karl Ricanek},
+  title         = {Non-Volume Preserving-based Feature Fusion Approach to Group-Level Expression Recognition on Crowd Videos},
+  __markedentry = {[shehabk:6]},
+  abstract      = {Group-level emotion recognition (ER) is a growing research area as the demands for assessing crowds of all sizes is becoming an interest in both the security arena and social media. This work investigates group-level expression recognition on crowd videos where information is not only aggregated across a variable length sequence of frames but also over the set of faces within each frame to produce aggregated recognition results. In this paper, we propose an effective deep feature level fusion mechanism to model the spatial-temporal information in the crowd videos. Furthermore, we extend our proposed NVP fusion mechanism to temporal NVP fussion appoarch to learn the temporal information between frames. In order to demonstrate the robustness and effectiveness of each component in the proposed approach, three experiments were conducted: (i) evaluation on the AffectNet database to benchmark the proposed emoNet for recognizing facial expression; (ii) evaluation on EmotiW2018 to benchmark the proposed deep feature level fusion mechanism NVPF; and, (iii) examine the proposed TNVPF on an innovative Group-level Emotion on Crowd Videos (GECV) dataset composed of 627 videos collected from social media. GECV dataset is a collection of videos ranging in duration from 10 to 20 seconds of crowds of twenty (20) or more subjects and each video is labeled as positive, negative, or neutral.},
+  date          = {2018-11-28},
+  eprint        = {http://arxiv.org/abs/1811.11849v1},
+  eprintclass   = {cs.CV},
+  eprinttype    = {arXiv},
+  file          = {:quach2018nona - Non-Volume Preserving-based Feature Fusion Approach to Group-Level Expression Recognition on Crowd Videos.pdf:PDF},
+  groups        = {Emotion_in_context},
+  keywords      = {cs.CV},
+}
+
+@Article{ghosh2018predicting,
+  author      = {Shreya Ghosh and Abhinav Dhall and Nicu Sebe and Tom Gedeon},
+  title       = {Predicting Group Cohesiveness in Images},
+  abstract    = {The cohesiveness of a group is an essential indicator of the emotional state, structure and success of a group of people. We study the factors that influence the perception of group-level cohesion and propose methods for estimating the human-perceived cohesion on the group cohesiveness scale. In order to identify the visual cues (attributes) for cohesion, we conducted a user survey. Image analysis is performed at a group-level via a multi-task convolutional neural network. For analyzing the contribution of facial expressions of the group members for predicting the Group Cohesion Score (GCS), a capsule network is explored. We add GCS to the Group Affect database and propose the `GAF-Cohesion database'. The proposed model performs well on the database and is able to achieve near human-level performance in predicting a group's cohesion score. It is interesting to note that group cohesion as an attribute, when jointly trained for group-level emotion prediction, helps in increasing the performance for the later task. This suggests that group-level emotion and cohesion are correlated.},
+  date        = {2018-12-31},
+  eprint      = {http://arxiv.org/abs/1812.11771v4},
+  eprintclass = {cs.CV},
+  eprinttype  = {arXiv},
+  file        = {:ghosh2018predicting - Predicting Group Cohesiveness in Images.pdf:PDF},
+  groups      = {EmotiW},
+  keywords    = {baseline 2019},
+}
+
+@Article{chen2019multi,
+  author      = {Zhao-Min Chen and Xiu-Shen Wei and Peng Wang and Yanwen Guo},
+  title       = {Multi-Label Image Recognition with Graph Convolutional Networks},
+  abstract    = {The task of multi-label image recognition is to predict a set of object labels that present in an image. As objects normally co-occur in an image, it is desirable to model the label dependencies to improve the recognition performance. To capture and explore such important dependencies, we propose a multi-label classification model based on Graph Convolutional Network (GCN). The model builds a directed graph over the object labels, where each node (label) is represented by word embeddings of a label, and GCN is learned to map this label graph into a set of inter-dependent object classifiers. These classifiers are applied to the image descriptors extracted by another sub-net, enabling the whole network to be end-to-end trainable. Furthermore, we propose a novel re-weighted scheme to create an effective label correlation matrix to guide information propagation among the nodes in GCN. Experiments on two multi-label image recognition datasets show that our approach obviously outperforms other existing state-of-the-art methods. In addition, visualization analyses reveal that the classifiers learned by our model maintain meaningful semantic topology.},
+  date        = {2019-04-07},
+  eprint      = {http://arxiv.org/abs/1904.03582v1},
+  eprintclass = {cs.CV},
+  eprinttype  = {arXiv},
+  file        = {:chen2019multi - Multi-Label Image Recognition with Graph Convolutional Networks.pdf:PDF},
+  groups      = {Graph CNN},
+  keywords    = {cs.CV, cs.LG},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
 0 AllEntriesGroup:;
 1 StaticGroup:AU\;0\;1\;\;\;\;;
 1 StaticGroup:MyGroup\;0\;1\;\;\;\;;
+1 StaticGroup:Graph CNN\;0\;1\;\;\;\;;
 1 StaticGroup:Emotion_in_context\;0\;1\;\;\;\;;
 1 StaticGroup:Emotion_in_scene\;0\;1\;\;\;\;;
 1 StaticGroup:Expression\;0\;1\;\;\;\;;
@@ -2755,4 +2860,5 @@ http://www.cs.man.ac.uk/~stapenr5/boosting.pdf (Seems very good)},
 1 StaticGroup:Attention Mechanism\;0\;1\;\;\;\;;
 1 StaticGroup:Human Interaction\;0\;1\;\;\;\;;
 1 StaticGroup:cheat_sheets\;0\;1\;\;\;\;;
+1 StaticGroup:Self_Help\;0\;1\;\;\;\;;
 }
